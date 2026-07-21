@@ -31,6 +31,17 @@ import albumScreen from './ui/screens/album.js';
 import journeyScreen from './ui/screens/journey.js';
 import galleryScreen from './ui/screens/gallery.js';
 import calmScreen from './ui/screens/calm.js';
+// Standalone mini-games (no wheel engine).
+import gameYogiSays from './ui/screens/game-yogi-says.js';
+import gameFreezeDance from './ui/screens/game-freeze-dance.js';
+import gamePoseMemory from './ui/screens/game-pose-memory.js';
+import gameBalanceStatue from './ui/screens/game-balance-statue.js';
+import gameBreathing from './ui/screens/game-breathing.js';
+import gameSunFlow from './ui/screens/game-sun-flow.js';
+import gameGuessPose from './ui/screens/game-guess-pose.js';
+import gamePoseDice from './ui/screens/game-pose-dice.js';
+import gamePoseMatch from './ui/screens/game-pose-match.js';
+import gameFeelings from './ui/screens/game-feelings.js';
 import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
@@ -42,6 +53,7 @@ import adminBackup from './ui/screens/admin-backup.js';
 const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
   achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen, journeyScreen, galleryScreen, calmScreen,
+  gameYogiSays, gameFreezeDance, gamePoseMemory, gameBalanceStatue, gameBreathing, gameSunFlow, gameGuessPose, gamePoseDice, gamePoseMatch, gameFeelings,
   adminDashboard, adminPlayers, adminPoses, adminWheels, adminGoals, adminSettings, adminBackup,
 ];
 
