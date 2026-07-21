@@ -15,6 +15,7 @@ export default {
       el('div.settings-list', {}, [
         toggleRow('sound', '🔊 Sounds', 'Fun sounds and music', settings.soundOn(), (v) => settings.setSetting('sound', v)),
         toggleRow('narration', '🗣️ Read Poses Aloud', speech.available() ? 'The app speaks pose names & steps' : 'Not supported on this device', settings.narrationOn(), (v) => { settings.setSetting('narration', v); if (v) speech.speak('Hi! I will read the poses out loud for you.', { force: true }); }, !speech.available()),
+        speech.available() ? voiceRow() : null,
         selectRow('descTiming', '📖 When to explain the pose', settings.getSetting('descTiming') || 'before', [
           ['before', 'Before the pose (get ready)'],
           ['after', 'After (once they try it)'],
@@ -29,6 +30,25 @@ export default {
     container.append(view);
   },
 };
+
+function voiceRow() {
+  const voices = speech.softVoices();
+  const current = settings.getSetting('voiceId') || '';
+  const sel = el('select.select-input', {},
+    (voices.length ? voices : [{ id: '', name: 'Default voice', lang: '' }]).map((v) =>
+      el('option', { value: v.id, selected: v.id === current }, v.name + (v.lang ? ` (${v.lang})` : ''))));
+  sel.addEventListener('change', () => {
+    audio.play('tap');
+    settings.setSetting('voiceId', sel.value);
+    speech.setVoice(sel.value);
+    speech.speak('Hello! This is my voice.', { force: true });
+  });
+  const test = el('button.btn.btn-secondary', { type: 'button', onClick: () => speech.speak('Ready, little yogi? Let\'s strike a pose!', { force: true }) }, '🔊 Test');
+  return el('div.setting-row.glass', {}, [
+    el('div.setting-text', {}, [el('span.setting-label', {}, '🎙️ Voice'), el('span.setting-sub', {}, voices.length ? 'Pick a soft, smooth voice' : 'Using the device default voice')]),
+    el('div.voice-controls', {}, [sel, test]),
+  ]);
+}
 
 function playersSection() {
   const wrap = el('div.stat-section.glass', {}, [el('h2', {}, '👧 Players (show in games)')]);

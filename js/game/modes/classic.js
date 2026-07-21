@@ -16,14 +16,18 @@ export default {
       difficulties: wheelConfig.difficulties,
       includeAdvanced: wheelConfig.includeAdvanced,
     });
-    let ids = eligible.map((p) => p.id);
-    if (!ids.length) ids = poseLoader.filterPoses({ includeAdvanced: false }).map((p) => p.id);
+    let baseIds = eligible.map((p) => p.id);
+    if (!baseIds.length) baseIds = poseLoader.filterPoses({ includeAdvanced: false }).map((p) => p.id);
     // Quantity selector: cap the wheel to N random poses when set.
-    if (wheelConfig.quantity && wheelConfig.quantity > 0 && ids.length > wheelConfig.quantity) {
-      ids = shuffle(ids).slice(0, wheelConfig.quantity);
+    if (wheelConfig.quantity && wheelConfig.quantity > 0 && baseIds.length > wheelConfig.quantity) {
+      baseIds = shuffle(baseIds).slice(0, wheelConfig.quantity);
     }
     const map = new Map();
-    for (const p of players) map.set(p.id, createPool(ids));
+    for (const p of players) {
+      // Per-kid focus asanas take priority — their wheel shows only these.
+      const focus = (p.focusPoses || []).filter((id) => poseLoader.byId(id));
+      map.set(p.id, createPool(focus.length ? focus : baseIds));
+    }
     return map;
   },
 

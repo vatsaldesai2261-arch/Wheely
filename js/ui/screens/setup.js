@@ -9,6 +9,7 @@ import engine from '../../game/engine.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
 import { requireUnlock } from '../../admin/gate.js';
+import { avatarEl } from '../components/avatar.js';
 import daily from '../../game/modes/daily.js';
 import storyMode from '../../game/modes/story.js';
 
@@ -21,7 +22,9 @@ export default {
   id: 'setup',
   needsLandscape: true,
   mount(container) {
-    chosenMode = 'classic'; chosenPlayers = []; chosenWheel = null; chosenStory = null;
+    chosenMode = 'classic'; chosenWheel = null; chosenStory = null;
+    // Pre-select the players toggled "active" so grown-ups can just hit Play.
+    chosenPlayers = store.get('players').filter((p) => p.active !== false).map((p) => p.id);
     const view = el('div.setup', {}, [
       el('header.setup-head', {}, [
         el('button.btn.btn-ghost', { type: 'button', onClick: () => { audio.play('tap'); router.go('home'); } }, '← Home'),
@@ -97,7 +100,7 @@ function refreshPlayers() {
       type: 'button', dataset: { id: p.id },
       onClick: () => togglePlayer(p.id, btn),
     }, [
-      el('span.pp-avatar', {}, p.avatar || '🧘'),
+      avatarEl(p.avatar, { size: 40, className: 'pp-avatar' }),
       el('span.pp-name', {}, p.name),
       el('span.pp-belt', {}, p.belt || 'White Belt'),
     ]);

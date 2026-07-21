@@ -4,6 +4,8 @@ import { el } from '../../core/dom.js';
 import { artElement } from '../../data/pose-art.js';
 import speech from '../../core/speech.js';
 import audio from '../../core/audio.js';
+import media from '../../core/media.js';
+import { modal } from './modal.js';
 
 const DIFF_LABEL = { easy: 'Easy', medium: 'Medium', hard: 'Hard', advanced: 'Advanced' };
 
@@ -14,6 +16,19 @@ export function poseCard(pose, { showBack = true, compact = false, hideDesc = fa
   const front = el('div.pose-card-face.pose-card-front');
   const art = artElement(pose);
   front.append(art);
+
+  // Video "watch" button when a pose has an attached clip.
+  if (media.isRef(pose.videoRef)) {
+    const watch = el('button.watch-btn', { type: 'button', 'aria-label': 'Watch the pose video' }, '▶');
+    watch.addEventListener('click', async () => {
+      audio.play('tap');
+      const url = await media.getURL(pose.videoRef);
+      if (!url) return;
+      const video = el('video', { src: url, controls: true, autoplay: true, playsinline: true, class: 'pose-video' });
+      modal({ title: `🎬 ${pose.english}`, body: video, actions: [{ label: 'Close', variant: 'btn-primary' }] });
+    });
+    art.append(watch);
+  }
 
   const info = el('div.pose-info');
   const titleRow = el('div.pose-title-row', {}, [

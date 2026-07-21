@@ -30,13 +30,14 @@ import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
 import adminWheels from './ui/screens/admin-wheels.js';
+import adminGoals from './ui/screens/admin-goals.js';
 import adminSettings from './ui/screens/admin-settings.js';
 import adminBackup from './ui/screens/admin-backup.js';
 
 const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
   achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen,
-  adminDashboard, adminPlayers, adminPoses, adminWheels, adminSettings, adminBackup,
+  adminDashboard, adminPlayers, adminPoses, adminWheels, adminGoals, adminSettings, adminBackup,
 ];
 
 async function boot() {
@@ -82,10 +83,10 @@ async function boot() {
   on('shop:bought', ({ item }) => burst({ count: 40, origin: { x: 0.5, y: 0.5 } }));
   on('quest:claimed', ({ quest }) => burst({ count: 50, origin: { x: 0.5, y: 0.3 } }));
 
-  // Custom per-kid goal reached → mystery box with the grown-up's reward.
-  on('goal:reached', ({ player, reward }) => {
-    mysteryBox({ reward: { emoji: '🏆', text: reward ? `${player.name}, you earned: ${reward}!` : `${player.name} reached their goal!` } });
-    toast(`${player.name} reached their goal! 🏆`, { icon: '🏆', duration: 4000 });
+  // Custom goal reached → mystery box with the grown-up's reward.
+  on('goal:reached', ({ player, reward, goalName }) => {
+    mysteryBox({ reward: { emoji: '🏆', text: reward ? `${player.name}, you earned: ${reward}!` : `${player.name} reached ${goalName || 'their goal'}!` } });
+    toast(`${player.name} reached ${goalName || 'a goal'}! 🏆`, { icon: '🏆', duration: 4000 });
   });
 
   // Load poses in the background; splash waits on it.

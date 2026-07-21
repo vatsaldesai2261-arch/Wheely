@@ -51,6 +51,23 @@ function rebuild() {
 function ensure() { if (!effective) throw new Error('pose-loader.load() not awaited'); }
 
 export function all() { ensure(); return [...effective.values()]; }
+
+/** All poses including hidden ones (each tagged with _hidden). For admin. */
+export function allIncludingHidden() {
+  ensure();
+  const ov = overlay();
+  const hidden = new Set(ov.hidden || []);
+  const out = [];
+  for (const [id, pose] of builtinMap) {
+    const edits = ov.edited?.[id];
+    const merged = edits ? { ...pose, ...edits, id, source: 'edited' } : pose;
+    out.push({ ...merged, _hidden: hidden.has(id) });
+  }
+  for (const [id, pose] of Object.entries(ov.added || {})) {
+    out.push({ ...pose, id, source: 'custom', _hidden: hidden.has(id) });
+  }
+  return out;
+}
 export function byId(id) { ensure(); return effective.get(id) || null; }
 export function byCategory(cat) { ensure(); return all().filter((p) => p.category === cat); }
 export function getCategories() { return categories; }
@@ -121,6 +138,6 @@ export function isBuiltin(id) { return builtinMap?.has(id); }
 export function refresh() { rebuild(); }
 
 export default {
-  load, all, byId, byCategory, getCategories, count, search, filterPoses,
+  load, all, allIncludingHidden, byId, byCategory, getCategories, count, search, filterPoses,
   upsertOverride, resetOverride, hidePose, isBuiltin, refresh,
 };

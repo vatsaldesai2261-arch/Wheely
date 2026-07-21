@@ -21,6 +21,9 @@ export default {
   buildPools(players, wheelConfig) {
     const map = new Map();
     for (const p of players) {
+      // Focus asanas win outright.
+      const focus = (p.focusPoses || []).filter((id) => poseLoader.byId(id));
+      if (focus.length) { map.set(p.id, createPool(focus)); continue; }
       const diffs = PRESET_DIFF[p.goalPreset] || wheelConfig.difficulties || ['easy', 'medium'];
       const includeAdvanced = wheelConfig.includeAdvanced && diffs.includes('advanced');
       // Per-kid asana set: use the child's own categories if assigned, else the wheel's.

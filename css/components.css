@@ -148,3 +148,11 @@ textarea.text-input { min-height: 60px; resize: vertical; }
 .avatar-cell.is-selected { background: var(--mint); outline: 3px solid var(--forest); }
 
 .empty-hint { text-align: center; color: var(--ink-soft); padding: var(--sp-5); }
+
+/* Avatar (emoji or photo) */
+.avatar { display: inline-flex; align-items: center; justify-content: center; font-size: calc(var(--avatar-size, 40px) * 0.8); line-height: 1; width: var(--avatar-size, 40px); height: var(--avatar-size, 40px); }
+.avatar-photo { border-radius: 50%; overflow: hidden; background: var(--mint-soft); box-shadow: var(--shadow-sm); }
+.avatar-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-btn-row { display: flex; gap: var(--sp-2); flex-wrap: wrap; align-items: center; margin-bottom: var(--sp-3); }
+.photo-preview { width: 64px; height: 64px; border-radius: 50%; overflow: hidden; background: var(--mint-soft); display: inline-flex; align-items: center; justify-content: center; font-size: 34px; }
+.photo-preview img { width: 100%; height: 100%; object-fit: cover; }

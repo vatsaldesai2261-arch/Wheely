@@ -5,8 +5,15 @@
 .splash-wheel { width: 160px; height: 160px; border-radius: 50%; position: relative; background: conic-gradient(var(--mint) 0 60deg, var(--sun) 60deg 120deg, var(--sky) 120deg 180deg, var(--coral) 180deg 240deg, var(--cream-warm) 240deg 300deg, #f4a261 300deg 360deg); box-shadow: var(--shadow-lg); display: flex; align-items: center; justify-content: center; animation: gentle-spin 18s linear infinite; }
 .splash-yogi { font-size: 56px; background: var(--cream); width: 84px; height: 84px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
 .splash-title { font-size: clamp(32px, 6vw, 56px); margin: 0; }
+.splash-mark { width: clamp(90px, 16vw, 140px); height: auto; margin-bottom: var(--sp-2); }
+.splash-word { width: clamp(220px, 40vw, 360px); height: auto; }
+.splash-product { font-family: var(--font-display); font-weight: 600; color: var(--brand-olive); font-size: clamp(16px, 2.4vw, 22px); margin: var(--sp-1) 0 0; letter-spacing: 0.5px; }
 .splash-tagline { font-size: 20px; color: var(--ink-soft); }
 .splash-hint { color: var(--ink-soft); }
+/* Brand logo on Home */
+.home-logo { flex-direction: column; gap: 4px; }
+.logo-mark { width: 46px; height: auto; }
+.logo-word { width: 150px; height: auto; }
 
 /* ---- Home ---- */
 .home { flex: 1; display: flex; flex-direction: column; }
@@ -157,6 +164,25 @@
 .par-info { flex: 1; display: flex; flex-direction: column; }
 .par-meta { font-size: 12px; color: var(--ink-soft); }
 .list-count { color: var(--ink-soft); font-size: 14px; }
+.load-more { margin: var(--sp-3) auto; display: block; }
+.is-hidden-pose { opacity: 0.55; }
+.media-status { color: var(--forest); font-weight: 600; font-size: 14px; }
+.watch-btn { position: absolute; bottom: var(--sp-2); left: var(--sp-2); width: 48px; height: 48px; border-radius: 50%; background: rgba(27,67,50,0.72); color: #fff; font-size: 20px; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-md); }
+.watch-btn:active { transform: scale(0.9); }
+.pose-video { width: 100%; max-height: 60vh; border-radius: var(--radius-md); background: #000; }
+.voice-controls { display: flex; gap: var(--sp-2); align-items: center; flex-wrap: wrap; }
+.voice-controls .select-input { margin-bottom: 0; max-width: 200px; }
+
+/* Pose picker (focus asanas / routines) */
+.pose-picker { border: 2px solid var(--mint); border-radius: var(--radius-md); padding: var(--sp-3); }
+.picked-chips { display: flex; flex-wrap: wrap; gap: var(--sp-2); margin: var(--sp-2) 0; }
+.pose-results { display: flex; flex-direction: column; gap: 4px; max-height: 240px; overflow-y: auto; }
+.pose-result-row { display: flex; align-items: center; gap: var(--sp-2); padding: var(--sp-2); border-radius: var(--radius-sm); background: var(--white); text-align: left; }
+.pose-result-row.is-added { background: var(--mint-soft); }
+.prr-emoji { font-size: 20px; }
+.prr-name { flex: 1; }
+.prr-add { font-family: var(--font-display); font-weight: 700; color: var(--forest); }
+.goal-assign-head { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-2); flex-wrap: wrap; }
 
 /* Settings rows */
 .settings-list { display: flex; flex-direction: column; gap: var(--sp-2); }

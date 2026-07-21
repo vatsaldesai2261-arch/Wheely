@@ -9,6 +9,7 @@ import { burst } from '../components/confetti.js';
 import shop from '../../rewards/shop.js';
 import goals from '../../rewards/goals.js';
 import store from '../../core/store.js';
+import { avatarEl } from '../components/avatar.js';
 import { t } from '../../core/strings.js';
 
 export default {
@@ -50,7 +51,7 @@ function stars(n) {
 function avatarStack(playerId, avatar) {
   const cos = shop.equippedItems ? shop.equippedItems(playerId) : {};
   return el('span.avatar-stack.rc-avatar', {}, [
-    el('span', {}, avatar || '🧘'),
+    avatarEl(avatar, { size: 48 }),
     cos.hat ? el('span.avatar-hat', {}, cos.hat.emoji) : null,
     cos.pet ? el('span.avatar-pet', {}, cos.pet.emoji) : null,
   ]);

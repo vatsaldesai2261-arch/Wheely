@@ -25,6 +25,7 @@ export default {
         card('👧', 'Players', `${players.length} players`, 'admin-players'),
         card('🧘', 'Pose Library', `${poseLoader.count()} poses`, 'admin-poses'),
         card('🎡', 'Wheel Builder', `${store.get('wheels').length} custom wheels`, 'admin-wheels'),
+        card('🏆', 'Goals', `${store.get('goalTemplates').length} goals`, 'admin-goals'),
         card('⏱️', 'Timers & Rules', 'Pose & game timers', 'admin-settings'),
         card('💾', 'Backup & Restore', 'Save or load data', 'admin-backup'),
       ]),

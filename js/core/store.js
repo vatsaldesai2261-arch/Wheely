@@ -4,7 +4,7 @@
 import { emit } from './bus.js';
 
 const PREFIX = 'wheely.v1.';
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 
 const DOMAINS = {
   settings:     { poseTimer: 10, gameTimer: 15, sound: true, narration: false, theme: 'forest', includeAdvanced: false, tutorialSeen: false, reducedMotion: 'auto', descTiming: 'before' },
@@ -19,6 +19,9 @@ const DOMAINS = {
   stickers:     {},   // playerId -> [stickerId]
   quests:       {},   // weekKey -> { ids:[], progress:{}, claimed:[] }
   mystery:      {},   // playerId -> [claimed trigger ids]
+  goalTemplates:[],   // [{id,name,metric,target,reward}] reusable, assign to kids
+  routines:     [],   // [{id,name,emoji,poseIds:[]}] named pose sets
+  gallery:      [],   // [{id, ref, playerId?, caption?, at}] photo memories (ref in IDB)
   meta:         { schemaVersion: SCHEMA_VERSION },
 };
 

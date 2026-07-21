@@ -1,7 +1,8 @@
 // Central UI string table. English only for now; structured so a second
 // language can be dropped in later without touching screen code.
 const en = {
-  appName: 'Yoga Adventure Wheel',
+  appName: 'kaya haus',
+  productName: 'Yoga Adventure Wheel',
   tagline: 'Spin the wheel, strike a pose!',
   tapToBegin: 'Tap to begin',
   play: 'Play',

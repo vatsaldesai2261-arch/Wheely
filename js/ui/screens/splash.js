@@ -10,11 +10,9 @@ export default {
   id: 'splash',
   async mount(container) {
     const view = el('div.splash', {}, [
-      el('div.splash-wheel', { 'aria-hidden': 'true' }, [
-        el('div.splash-wheel-inner'),
-        el('div.splash-yogi', {}, '🧘'),
-      ]),
-      el('h1.splash-title', {}, t('appName')),
+      el('img.splash-mark', { src: './assets/brand/kaya-haus-mark.png', alt: '', 'aria-hidden': 'true' }),
+      el('img.splash-word', { src: './assets/brand/kaya-haus-word.png', alt: t('appName') }),
+      el('p.splash-product', {}, t('productName')),
       el('p.splash-tagline', {}, t('tagline')),
       el('button.btn.btn-primary.btn-xl.splash-begin', { type: 'button' }, t('tapToBegin')),
       el('p.splash-hint', {}, 'Best on an iPad, sideways 📱'),

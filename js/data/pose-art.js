@@ -4,6 +4,7 @@
 //   3. built-in illustrated cartoon YOGI posed for this asana (js/data/yogi.js)
 import { el } from '../core/dom.js';
 import { yogiSVG } from './yogi.js';
+import media from '../core/media.js';
 
 const imgBase = new URL('../../images/poses/', import.meta.url);
 const probeCache = new Map();
@@ -67,6 +68,15 @@ export function miniSilhouette(pose) {
 export function artElement(pose) {
   const wrap = el('div.pose-art');
 
+  // 1. Admin photo in IndexedDB
+  if (media.isRef(pose.imageRef)) {
+    wrap.innerHTML = svgSceneFor(pose); // placeholder while loading
+    media.getURL(pose.imageRef).then((url) => {
+      if (url) { wrap.innerHTML = ''; wrap.append(el('img', { src: url, alt: pose.english, class: 'pose-art-img' })); }
+    });
+    return wrap;
+  }
+  // 1b. Legacy inline data-URI
   if (pose.imageDataUri) {
     wrap.append(el('img', { src: pose.imageDataUri, alt: pose.english, class: 'pose-art-img' }));
     return wrap;

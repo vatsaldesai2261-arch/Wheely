@@ -2,25 +2,29 @@
    Contrast-checked pairs (AA, normal text): ink on cream/mint/sun/sky ≥ 7:1;
    white on forest/coral ≥ 4.6:1. Yellow & mint are backgrounds only, never text. */
 :root {
-  /* Palette */
-  --forest: #2d6a4f;
-  --forest-deep: #1b4332;
-  --mint: #95d5b2;
-  --mint-soft: #d8f3dc;
-  --cream: #fff8e7;
-  --cream-warm: #fdf0d5;
+  /* Brand — kaya haus olive */
+  --brand-olive: #6e7a4e;      /* the logo green (large marks) */
+  --brand-olive-deep: #4c5533;
+
+  /* Palette (primary chrome uses the AA-safe olive) */
+  --forest: #5f6b43;           /* primary olive — AA with white text */
+  --forest-deep: #3f4a2a;
+  --mint: #a9c48a;             /* olive-leaning mint to sit with the brand */
+  --mint-soft: #e3ecd4;
+  --cream: #fbf6e9;
+  --cream-warm: #f4ecd6;
   --sky: #89c2d9;
   --sky-soft: #cae9f5;
   --sun: #ffd166;
   --sun-soft: #ffe8b3;
-  --coral: #e85d75;
-  --coral-soft: #ffccd5;
+  --coral: #e07a5f;            /* warm terracotta accent, complements olive */
+  --coral-soft: #f6d3c4;
   --white: #ffffff;
-  --ink: #1b4332;
-  --ink-soft: #40604f;
+  --ink: #3a4227;              /* olive-tinted dark text */
+  --ink-soft: #5f6a45;
 
   /* Difficulty colors */
-  --diff-easy: #2d6a4f;
+  --diff-easy: #5f6b43;
   --diff-medium: #1d6f9e;
   --diff-hard: #b4530a;
   --diff-advanced: #ac2f4d;

@@ -1,7 +1,7 @@
 // Yoga Adventure Wheel — offline service worker.
 // Cache-first for the app shell + data; navigation falls back to cached index.
 // RELEASE CHECKLIST: bump CACHE_VERSION whenever any precached file changes.
-const CACHE_VERSION = 'wheely-v2';
+const CACHE_VERSION = 'wheely-v3';
 
 const PRECACHE_URLS = [
   './',
@@ -12,6 +12,8 @@ const PRECACHE_URLS = [
   './icons/icon-512.png',
   './icons/icon-maskable-512.png',
   './icons/apple-touch-icon.png',
+  './assets/brand/kaya-haus-mark.png',
+  './assets/brand/kaya-haus-word.png',
   // CSS
   './css/tokens.css',
   './css/base.css',
@@ -32,6 +34,7 @@ const PRECACHE_URLS = [
   './js/core/audio.js',
   './js/core/speech.js',
   './js/core/strings.js',
+  './js/core/media.js',
   // Data
   './js/data/pose-loader.js',
   './js/data/pose-art.js',
@@ -57,6 +60,8 @@ const PRECACHE_URLS = [
   './js/rewards/quests.js',
   './js/rewards/stickers.js',
   './js/stats/stats.js',
+  './js/ui/components/avatar.js',
+  './js/ui/components/pose-picker.js',
   // Admin
   './js/admin/auth.js',
   './js/admin/backup.js',
@@ -85,6 +90,7 @@ const PRECACHE_URLS = [
   './js/ui/screens/shop.js',
   './js/ui/screens/album.js',
   './js/ui/screens/admin-dashboard.js',
+  './js/ui/screens/admin-goals.js',
   './js/ui/screens/admin-players.js',
   './js/ui/screens/admin-poses.js',
   './js/ui/screens/admin-wheels.js',

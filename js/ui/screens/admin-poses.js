@@ -3,26 +3,34 @@
 import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import poseLoader from '../../data/pose-loader.js';
+import media from '../../core/media.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
 import { adminHeader } from './admin-players.js';
 
 let query = '';
+let shown = 60; // pagination: how many rows currently rendered
 let catFilter = '';
+
+let showHidden = false;
 
 export default {
   id: 'admin-poses',
   mount(container) {
-    query = ''; catFilter = '';
-    const search = el('input.text-input', { type: 'search', placeholder: '🔎 Search poses…' });
-    search.addEventListener('input', () => { query = search.value; paint(); });
+    query = ''; catFilter = ''; shown = 60; showHidden = false;
+    const search = el('input.text-input', { type: 'search', placeholder: '🔎 Search all poses…' });
+    search.addEventListener('input', () => { query = search.value; shown = 60; paint(); });
     const cats = poseLoader.getCategories();
     const catSel = el('select.select-input', {}, [el('option', { value: '' }, 'All groups'), ...cats.map((c) => el('option', { value: c.id }, `${c.emoji} ${c.name}`))]);
-    catSel.addEventListener('change', () => { catFilter = catSel.value; paint(); });
+    catSel.addEventListener('change', () => { catFilter = catSel.value; shown = 60; paint(); });
+    const hiddenToggle = el('label.chip', {}, [
+      el('input', { type: 'checkbox', onchange: (e) => { showHidden = e.target.checked; shown = 60; paint(); } }),
+      el('span', {}, ' Show hidden'),
+    ]);
 
     const view = el('div.subscreen', {}, [
       adminHeader(`🧘 Pose Library (${poseLoader.count()})`),
-      el('div.pose-toolbar', {}, [search, catSel, el('button.btn.btn-primary', { type: 'button', onClick: () => editPose(null) }, '➕ Custom')]),
+      el('div.pose-toolbar', {}, [search, catSel, hiddenToggle, el('button.btn.btn-primary', { type: 'button', onClick: () => editPose(null) }, '➕ Custom')]),
       el('div.pose-admin-list', { id: 'pose-admin-list' }),
     ]);
     container.append(view);
@@ -30,26 +38,42 @@ export default {
   },
 };
 
+function fullList() {
+  // include hidden entries when the toggle is on (search()/all() exclude them)
+  let list = showHidden ? poseLoader.allIncludingHidden() : poseLoader.search(query);
+  if (showHidden && query) {
+    const q = query.trim().toLowerCase();
+    list = list.filter((p) => p.english.toLowerCase().includes(q) || (p.sanskrit || '').toLowerCase().includes(q) || p.category.includes(q));
+  }
+  if (catFilter) list = list.filter((p) => p.category === catFilter);
+  return list;
+}
+
 function paint() {
   const wrap = document.getElementById('pose-admin-list');
   clear(wrap);
-  let list = poseLoader.search(query);
-  if (catFilter) list = list.filter((p) => p.category === catFilter);
-  list = list.slice(0, 120); // cap render for perf
-  wrap.append(el('p.list-count', {}, `${list.length} shown`));
-  list.forEach((p) => {
-    wrap.append(el('div.pose-admin-row.glass', {}, [
+  const list = fullList();
+  const page = list.slice(0, shown);
+  wrap.append(el('p.list-count', {}, `Showing ${page.length} of ${list.length}`));
+  page.forEach((p) => {
+    const hidden = p._hidden;
+    wrap.append(el('div.pose-admin-row.glass', { class: `pose-admin-row glass ${hidden ? 'is-hidden-pose' : ''}` }, [
       el('span.par-emoji', {}, p.emoji || '🧘'),
       el('div.par-info', {}, [
         el('span.par-name', {}, p.english),
-        el('span.par-meta', {}, `${p.sanskrit || '—'} · ${p.difficulty} · ${p.category}${p.source === 'custom' ? ' · custom' : p.source === 'edited' ? ' · edited' : ''}`),
+        el('span.par-meta', {}, `${p.sanskrit || '—'} · ${p.difficulty} · ${p.category}${p.source === 'custom' ? ' · custom' : p.source === 'edited' ? ' · edited' : ''}${hidden ? ' · hidden' : ''}${p.videoRef ? ' · 🎬' : ''}`),
       ]),
       el('div.par-actions', {}, [
         el('button.icon-btn', { type: 'button', 'aria-label': 'Edit', onClick: () => editPose(p) }, '✏️'),
-        el('button.icon-btn', { type: 'button', 'aria-label': 'Hide', onClick: () => { poseLoader.hidePose(p.id, true); audio.play('tap'); toast(`${p.english} hidden`, { icon: '🙈' }); paint(); } }, '🙈'),
+        hidden
+          ? el('button.icon-btn', { type: 'button', 'aria-label': 'Show pose', title: 'Show', onClick: () => { poseLoader.hidePose(p.id, false); audio.play('tap'); toast(`${p.english} is back!`, { icon: '👀' }); paint(); } }, '👁️')
+          : el('button.icon-btn', { type: 'button', 'aria-label': 'Hide pose', title: 'Hide', onClick: () => { poseLoader.hidePose(p.id, true); audio.play('tap'); toast(`${p.english} hidden`, { icon: '🙈' }); paint(); } }, '🙈'),
       ]),
     ]));
   });
+  if (shown < list.length) {
+    wrap.append(el('button.btn.btn-secondary.load-more', { type: 'button', onClick: () => { shown += 60; paint(); } }, `Load more (${list.length - shown} left)`));
+  }
 }
 
 function editPose(existing) {
@@ -66,8 +90,35 @@ function editPose(existing) {
   f.category = catSel; f.difficulty = diffSel;
 
   const photo = el('input', { type: 'file', accept: 'image/*' });
-  let imageDataUri = existing?.imageDataUri || null;
-  photo.addEventListener('change', async () => { if (photo.files[0]) { imageDataUri = await downscale(photo.files[0]); toast('Photo attached', { icon: '📷' }); } });
+  let imageRef = existing?.imageRef || null;
+  let imageDataUri = existing?.imageDataUri || null; // legacy support
+  const photoStatus = el('span.media-status', {}, imageRef || imageDataUri ? '✓ photo set' : '');
+  photo.addEventListener('change', async () => {
+    if (!photo.files[0]) return;
+    try {
+      const blob = await media.downscaleImage(photo.files[0], 720, 0.82);
+      if (imageRef) media.del(imageRef);
+      imageRef = await media.put(blob, { kind: 'pose-image' });
+      imageDataUri = null;
+      photoStatus.textContent = '✓ photo set';
+      toast('Photo attached', { icon: '📷' });
+    } catch { toast('Could not read that photo.', { tone: 'warn' }); }
+  });
+
+  const video = el('input', { type: 'file', accept: 'video/*' });
+  let videoRef = existing?.videoRef || null;
+  const videoStatus = el('span.media-status', {}, videoRef ? '✓ video set' : '');
+  video.addEventListener('change', async () => {
+    if (!video.files[0]) return;
+    const chk = media.checkVideo(video.files[0]);
+    if (!chk.ok) { toast(chk.error, { tone: 'warn', duration: 4000 }); video.value = ''; return; }
+    try {
+      if (videoRef) media.del(videoRef);
+      videoRef = await media.put(video.files[0], { kind: 'pose-video' });
+      videoStatus.textContent = '✓ video set';
+      toast('Video attached', { icon: '🎬' });
+    } catch { toast('Could not save that video.', { tone: 'warn' }); }
+  });
 
   const body = el('div', {}, [
     field('english', 'Name', existing?.english),
@@ -82,7 +133,8 @@ function editPose(existing) {
     field('story', 'Story', existing?.story, 'textarea'),
     field('safetyNote', 'Safety note (hard/advanced)', existing?.safetyNote),
     field('duration', 'Hold seconds', existing?.duration || 10, 'number'),
-    el('label.field-label', {}, 'Photo (optional, overrides art)'), photo,
+    el('label.field-label', {}, 'Photo (optional, overrides art)'), el('div.photo-btn-row', {}, [photo, photoStatus]),
+    el('label.field-label', {}, 'Video (optional, ≤ 6 MB short clip)'), el('div.photo-btn-row', {}, [video, videoStatus]),
   ]);
 
   const ctrl = modal({
@@ -113,7 +165,9 @@ function editPose(existing) {
         };
         const safety = f.safetyNote.value.trim();
         if (safety) pose.safetyNote = safety;
-        if (imageDataUri) pose.imageDataUri = imageDataUri;
+        if (imageRef) pose.imageRef = imageRef;
+        else if (imageDataUri) pose.imageDataUri = imageDataUri;
+        if (videoRef) pose.videoRef = videoRef;
         poseLoader.upsertOverride(pose);
         audio.play('ding'); ctrl.close(); paint();
         return true;

@@ -37,9 +37,9 @@ export default {
   id: 'home',
   mount(container) {
     const players = store.get('players');
-    const logo = el('button.home-logo', { type: 'button', 'aria-label': t('appName'), onClick: handleLogoTap }, [
-      el('span.logo-wheel', { 'aria-hidden': 'true' }, '🎡'),
-      el('span.logo-text', {}, 'Yoga Wheel'),
+    const logo = el('button.home-logo', { type: 'button', 'aria-label': `${t('appName')} — grown-up menu`, onClick: handleLogoTap }, [
+      el('img.logo-mark', { src: './assets/brand/kaya-haus-mark.png', alt: '', 'aria-hidden': 'true' }),
+      el('img.logo-word', { src: './assets/brand/kaya-haus-word.png', alt: t('appName') }),
     ]);
 
     const view = el('div.home', {}, [
@@ -59,7 +59,7 @@ export default {
         tile('📊', t('statistics'), 'statistics'),
         tile('⚙️', t('settings'), 'settings'),
       ]),
-      el('p.home-parent-hint', {}, '🔒 Grown-ups: tap the Yoga Wheel logo 5 times to open Setup.'),
+      el('p.home-parent-hint', {}, '🔒 Grown-ups: tap the kaya haus logo 5 times to open Setup.'),
     ]);
     container.append(view);
   },
