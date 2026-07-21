@@ -30,6 +30,7 @@ import shopScreen from './ui/screens/shop.js';
 import albumScreen from './ui/screens/album.js';
 import journeyScreen from './ui/screens/journey.js';
 import galleryScreen from './ui/screens/gallery.js';
+import calmScreen from './ui/screens/calm.js';
 import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
@@ -40,7 +41,7 @@ import adminBackup from './ui/screens/admin-backup.js';
 
 const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
-  achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen, journeyScreen, galleryScreen,
+  achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen, journeyScreen, galleryScreen, calmScreen,
   adminDashboard, adminPlayers, adminPoses, adminWheels, adminGoals, adminSettings, adminBackup,
 ];
 

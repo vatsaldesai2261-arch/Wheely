@@ -27,7 +27,7 @@ export default {
     const total = totalPoses();
     const nextIdx = STOPS.findIndex((s) => total < s.need);
     const view = el('div.subscreen', {}, [
-      backHeader('🗺️ Adventure Map'),
+      backHeader('🗺️ Adventure Map', { text: 'This is your family\'s big yoga journey! Every pose everyone does moves you along the map. New places — meadows, mountains, castles — unlock as you practice more together. There\'s nothing to tap here; just play games and watch new stops light up. 🌟' }),
       el('p.journey-total', {}, `Your family has struck ${total} poses together!`),
       el('div.journey-path', {}, STOPS.map((s, i) => {
         const unlocked = total >= s.need;

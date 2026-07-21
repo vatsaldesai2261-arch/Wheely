@@ -17,7 +17,7 @@ export default {
     const players = store.get('players');
     currentPlayerId = (players.find((p) => p.id === currentPlayerId) ? currentPlayerId : players[0]?.id) || null;
     const view = el('div.subscreen', {}, [
-      backHeader('📔 Sticker Album'),
+      backHeader('📔 Sticker Album', { text: 'Collect stickers by trying new pose groups and hitting milestones! Locked stickers show ❔ with a hint on how to earn them. Up top are this week\'s Quests — finish them for bonus coins. Pick a kid to see their collection.' }),
       questSection(),
       players.length > 1 ? el('div.player-tabs', { id: 'album-tabs' }, players.map((p) =>
         el('button.chip', { type: 'button', class: p.id === currentPlayerId ? 'chip is-active' : 'chip', dataset: { id: p.id }, onClick: () => { currentPlayerId = p.id; audio.play('tap'); paintStickers(); } }, `${p.avatar} ${p.name}`)

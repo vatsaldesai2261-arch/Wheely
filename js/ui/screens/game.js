@@ -12,6 +12,9 @@ import { poseCard } from '../components/pose-card.js';
 import { countdown } from '../components/countdown.js';
 import { breathe } from '../components/breathing.js';
 import { burst } from '../components/confetti.js';
+import store from '../../core/store.js';
+import media from '../../core/media.js';
+import { toast } from '../components/toast.js';
 import { t } from '../../core/strings.js';
 
 let unsub = [];
@@ -194,8 +197,26 @@ function renderCelebration({ player, pose, awarded, streak }) {
       el('span.reward-xp', {}, `+${awarded.xp} XP`),
       awarded.coins ? el('span.reward-coin', {}, `+${awarded.coins} 🪙`) : null,
     ]),
-    nextButton(),
+    el('div.celebrate-actions', {}, [snapButton(player, pose), nextButton()]),
   ]));
+}
+
+// Optional "Snap it!" — capture a photo of the pose into the gallery.
+function snapButton(player, pose) {
+  if (!media.available()) return null;
+  const input = el('input', { type: 'file', accept: 'image/*', capture: 'environment', style: 'display:none' });
+  input.addEventListener('change', async () => {
+    if (!input.files[0]) return;
+    try {
+      const blob = await media.downscaleImage(input.files[0], 900, 0.82);
+      const ref = await media.put(blob, { kind: 'gallery' });
+      store.update('gallery', (list) => [{ id: 'ph-' + Math.random().toString(36).slice(2, 9), ref, playerId: player.id, poseId: pose.id, poseName: pose.english, at: Date.now() }, ...list]);
+      audio.play('pop'); toast('Saved to Photo Memories! 📸', { icon: '📸' });
+    } catch { toast('Could not save that photo.', { tone: 'warn' }); }
+  });
+  const btn = el('button.btn.btn-secondary.snap-btn', { type: 'button', onClick: () => input.click() }, '📸 Snap it!');
+  btn.append(input);
+  return btn;
 }
 
 function renderEncouragement({ player, pose }) {

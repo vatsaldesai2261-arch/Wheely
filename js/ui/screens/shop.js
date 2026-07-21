@@ -15,7 +15,7 @@ export default {
     const players = store.get('players');
     currentPlayerId = (players.find((p) => p.id === currentPlayerId) ? currentPlayerId : players[0]?.id) || null;
     const view = el('div.subscreen', {}, [
-      backHeader('🛍️ Coin Shop'),
+      backHeader('🛍️ Coin Shop', { text: 'Spend the coins you earn from doing poses! Pick a kid at the top, then buy fun hats, pets and picture frames. Tap "Wear" to put an item on — it shows on your avatar. Earn more coins by playing games and passing poses.' }),
       players.length ? el('div.player-tabs', { id: 'shop-tabs' }, players.map((p) =>
         el('button.chip', { type: 'button', class: p.id === currentPlayerId ? 'chip is-active' : 'chip', dataset: { id: p.id }, onClick: () => { currentPlayerId = p.id; audio.play('tap'); paint(); } }, `${p.avatar} ${p.name}`)
       )) : el('p.empty-hint', {}, 'Add a player in the Grown-Up Zone to start shopping!'),

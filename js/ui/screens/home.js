@@ -77,6 +77,7 @@ export default {
       potdCard(),
       el('nav.home-tiles', { 'aria-label': 'Menu' }, [
         tile('📖', t('howToPlay'), 'tutorial'),
+        tile('😌', 'Calm Down', 'calm'),
         tile('🗺️', 'Adventure Map', 'journey'),
         tile('🏆', t('leaderboard'), 'leaderboard'),
         tile('🎖️', t('achievements'), 'achievements'),
@@ -86,7 +87,6 @@ export default {
         tile('📊', t('statistics'), 'statistics'),
         tile('⚙️', t('settings'), 'settings'),
       ]),
-      el('p.home-parent-hint', {}, '🔒 Grown-ups: tap the kaya haus logo 5 times to open Setup.'),
     ]);
     container.append(view);
   },

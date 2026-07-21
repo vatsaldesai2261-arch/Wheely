@@ -24,7 +24,7 @@ export default {
     });
 
     const view = el('div.subscreen', {}, [
-      backHeader('🖼️ Photo Memories'),
+      backHeader('🖼️ Photo Memories', { text: 'A scrapbook of your yoga fun! Tap "Add a Photo" to snap or upload a picture of a child doing a pose. Photos are saved safely on this device only. Tap the 🗑️ on any photo to remove it.' }),
       el('button.btn.btn-primary', { type: 'button', onClick: () => fileInput.click() }, '📸 Add a Photo'),
       fileInput,
       el('div.gallery-grid', { id: 'gallery-grid' }),
@@ -42,6 +42,7 @@ function paint() {
   items.forEach((it) => {
     const cell = el('div.gallery-cell.glass', {}, [
       el('div.gallery-img', {}, '⏳'),
+      it.poseName ? el('span.gallery-caption', {}, it.poseName) : null,
       el('button.gallery-del', { type: 'button', 'aria-label': 'Delete photo', onClick: () => { media.del(it.ref); store.update('gallery', (l) => l.filter((x) => x.id !== it.id)); audio.play('tap'); paint(); } }, '🗑️'),
     ]);
     media.getURL(it.ref).then((url) => { if (url) cell.querySelector('.gallery-img').innerHTML = `<img src="${url}" alt="">`; });

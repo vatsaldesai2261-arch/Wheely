@@ -9,8 +9,10 @@ let chosenVoice = null;
 
 export function available() { return !!synth; }
 
-// Names that tend to sound soft/smooth across platforms.
-const SOFT_RE = /(samantha|karen|moira|tessa|serena|allison|ava|susan|zoe|fiona|google uk english female|google us english|female|libby|aria|jenny|sonia)/i;
+// Indian-English voice names across platforms (soft, clear, simple).
+const INDIAN_RE = /(indian|india|rishi|veena|neel|priya|ravi|aditi|heera|kavya|isha|madhur|kalpana|hemant|swara|prabhat|google हिन्दी|google.*india)/i;
+// Softer general English voices as a fallback pool.
+const SOFT_RE = /(samantha|karen|moira|tessa|serena|allison|ava|susan|zoe|fiona|female|libby|aria|jenny|sonia|nova)/i;
 
 function refreshVoices() {
   if (!synth) return;
@@ -18,17 +20,17 @@ function refreshVoices() {
   applyChoice();
 }
 
-/** Up to ~6 soft English voices for the Settings picker. */
+/** Prefer Indian-English voices for the Settings picker (~5), then other soft English. */
 export function softVoices() {
-  const en = allVoices.filter((v) => /^en/i.test(v.lang));
-  const soft = en.filter((v) => SOFT_RE.test(v.name));
-  const rest = en.filter((v) => !SOFT_RE.test(v.name));
-  const ordered = [...soft, ...rest];
-  // de-dup by name, cap to keep the picker simple
+  const enIN = allVoices.filter((v) => /^en[-_]?in/i.test(v.lang) || INDIAN_RE.test(v.name));
+  const otherEn = allVoices.filter((v) => /^en/i.test(v.lang) && !enIN.includes(v));
+  const soft = otherEn.filter((v) => SOFT_RE.test(v.name));
+  const rest = otherEn.filter((v) => !SOFT_RE.test(v.name));
+  const ordered = [...enIN, ...soft, ...rest];
   const seen = new Set();
   const out = [];
   for (const v of ordered) { if (!seen.has(v.name)) { seen.add(v.name); out.push(v); } if (out.length >= 6) break; }
-  return out.map((v) => ({ id: v.voiceURI || v.name, name: friendlyName(v), lang: v.lang }));
+  return out.map((v) => ({ id: v.voiceURI || v.name, name: friendlyName(v) + (/^en[-_]?in/i.test(v.lang) || INDIAN_RE.test(v.name) ? ' 🇮🇳' : ''), lang: v.lang }));
 }
 
 function friendlyName(v) {
@@ -38,6 +40,7 @@ function friendlyName(v) {
 function applyChoice() {
   const wanted = getSetting('voiceId');
   chosenVoice = (wanted && allVoices.find((v) => (v.voiceURI || v.name) === wanted))
+    || allVoices.find((v) => /^en[-_]?in/i.test(v.lang) || INDIAN_RE.test(v.name)) // prefer Indian English
     || allVoices.find((v) => /^en/i.test(v.lang) && SOFT_RE.test(v.name))
     || allVoices.find((v) => /^en/i.test(v.lang))
     || allVoices[0] || null;

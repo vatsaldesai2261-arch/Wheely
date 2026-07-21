@@ -35,6 +35,7 @@ export default {
       renderExtras(summary.extras),
       el('div.results-actions', {}, [
         el('button.btn.btn-secondary', { type: 'button', onClick: () => { audio.play('tap'); router.go('home'); } }, t('home')),
+        el('button.btn.btn-secondary', { type: 'button', onClick: () => { audio.play('tap'); router.go('calm'); } }, '😌 Calm Down'),
         el('button.btn.btn-primary.btn-xl', { type: 'button', onClick: () => { audio.play('select'); router.go('setup'); } }, t('playAgain')),
       ]),
     ]);

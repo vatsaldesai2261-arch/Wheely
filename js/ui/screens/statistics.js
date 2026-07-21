@@ -4,6 +4,7 @@ import audio from '../../core/audio.js';
 import store from '../../core/store.js';
 import stats from '../../stats/stats.js';
 import poseLoader from '../../data/pose-loader.js';
+import { printReportCard } from '../components/report-card.js';
 import { backHeader } from './leaderboard.js';
 
 let currentPlayerId = null;
@@ -14,7 +15,7 @@ export default {
     const players = store.get('players');
     currentPlayerId = currentPlayerId || players[0]?.id || 'guest';
     const view = el('div.subscreen', {}, [
-      backHeader('📊 Statistics'),
+      backHeader('📊 Statistics', { text: 'See how each kid is growing! Pick a child at the top to view their XP, poses done, best streak, minutes practiced and which pose groups they love most. Use "Report Card" to print a nice summary for parents.' }),
       players.length > 1 ? el('div.player-tabs', {}, players.map((p) =>
         el('button.chip', { type: 'button', class: p.id === currentPlayerId ? 'chip is-active' : 'chip', dataset: { id: p.id }, onClick: () => { currentPlayerId = p.id; audio.play('tap'); paint(); } }, `${p.avatar} ${p.name}`)
       )) : null,
@@ -34,6 +35,7 @@ function paint() {
   const total = s.posesCompleted + s.posesMissed;
   const rate = total ? Math.round((s.posesCompleted / total) * 100) : 0;
 
+  if (player) body.append(el('button.btn.btn-secondary.report-btn', { type: 'button', onClick: () => printReportCard(player) }, '🖨️ Print Report Card'));
   body.append(el('div.stat-tiles', {}, [
     tile('✨', player?.xp || 0, 'XP'),
     tile('🤸', s.posesCompleted, 'Poses done'),
