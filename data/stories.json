@@ -1,0 +1,39 @@
+[
+  {
+    "id": "brave-little-explorer",
+    "title": "The Brave Little Explorer",
+    "emoji": "🗺️",
+    "cover": "Once upon a time, a little explorer set out to find the Golden Sunflower at the top of Giggle Mountain...",
+    "chapters": [
+      { "id": "wake-up",      "title": "Waking Up",           "narration": "The sun peeks over the hills. Our explorer stretches tall and yawns. Time to warm up those sleepy muscles!", "categories": ["warmup-fun"],              "count": 3 },
+      { "id": "the-forest",   "title": "Into the Forest",     "narration": "Into the whispering forest we go, past friendly animals who show us how they move.",                       "categories": ["animal-play", "standing"],  "count": 4 },
+      { "id": "the-river",    "title": "Crossing the River",  "narration": "A wobbly log bridge crosses the river. Steady now — balance is the secret to getting across!",              "categories": ["balance"],                   "count": 3 },
+      { "id": "the-mountain", "title": "Climbing the Mountain","narration": "Up, up, up the mountain! Bend and twist around the giant rainbow rocks.",                                  "categories": ["backbend", "twist"],         "count": 4 },
+      { "id": "the-summit",   "title": "The Golden Sunflower","narration": "We made it to the top! Time for a calm, happy rest beside the Golden Sunflower. You did it, explorer!",     "categories": ["restorative"],               "count": 3 }
+    ]
+  },
+  {
+    "id": "under-the-sea-quest",
+    "title": "Under the Sea Quest",
+    "emoji": "🐠",
+    "cover": "Splash! Dive down to the coral castle and help the Sea King find his lost pearl crown...",
+    "chapters": [
+      { "id": "the-dive",     "title": "The Big Dive",        "narration": "Take a giant breath and dive under the shimmering waves. Wiggle like a fish!",                            "categories": ["warmup-fun", "animal-play"], "count": 3 },
+      { "id": "coral-garden", "title": "The Coral Garden",    "narration": "Swim through the swaying coral. Stretch long and fold like the ocean plants.",                            "categories": ["forward-fold", "seated"],    "count": 4 },
+      { "id": "the-current",  "title": "The Swirly Current",  "narration": "A twisty current spins you round and round. Twist with it and stay strong!",                              "categories": ["twist", "core"],             "count": 4 },
+      { "id": "the-crown",    "title": "The Pearl Crown",     "narration": "You found the pearl crown in the coral castle! Float gently and rest, brave sea hero.",                   "categories": ["restorative"],               "count": 3 }
+    ]
+  },
+  {
+    "id": "space-blast-off",
+    "title": "Space Blast-Off",
+    "emoji": "🚀",
+    "cover": "3... 2... 1... BLAST OFF! Journey past the moon and stars to plant a flag on Planet Wobble...",
+    "chapters": [
+      { "id": "countdown",    "title": "Countdown",           "narration": "The rocket is ready! Shake out the wiggles and power up your engines.",                                  "categories": ["warmup-fun"],                "count": 3 },
+      { "id": "zero-gravity", "title": "Zero Gravity",        "narration": "In space you float and tumble! Find your balance among the floating stars.",                              "categories": ["balance", "core"],           "count": 4 },
+      { "id": "moon-walk",    "title": "Moon Walk",           "narration": "Bounce across the moon in giant, strong steps. Stand mighty like a space hero!",                          "categories": ["standing"],                  "count": 4 },
+      { "id": "planet-wobble","title": "Planet Wobble",       "narration": "You planted your flag on Planet Wobble! Drift home and rest among the twinkling stars.",                  "categories": ["restorative"],               "count": 3 }
+    ]
+  }
+]

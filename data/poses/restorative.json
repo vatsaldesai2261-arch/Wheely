@@ -1,0 +1,803 @@
+[
+  {
+    "id": "starfish-sleep",
+    "english": "Starfish Sleep",
+    "sanskrit": "Shavasana",
+    "sanskritDevanagari": "शवासन",
+    "animalName": "Starfish",
+    "emoji": "⭐",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Calms the whole body",
+      "Slows the breath",
+      "Helps you feel peaceful"
+    ],
+    "funFact": "Real starfish can regrow an arm — your body does its best repair work when you rest, too!",
+    "story": "At the bottom of a quiet lagoon, a little starfish spread out on the soft sand and let the gentle waves rock it to sleep.",
+    "description": "Lie on your back and spread out like a big starfish! ⭐ Arms wide, legs wide, eyes softly closed. Let the floor hold you like warm sand. Shhh... melt a little more with every breath.",
+    "duration": 20
+  },
+  {
+    "id": "reclined-butterfly",
+    "english": "Reclined Butterfly",
+    "sanskrit": "Supta Baddha Konasana",
+    "sanskritDevanagari": "सुप्त बद्ध कोणासन",
+    "animalName": "Butterfly",
+    "emoji": "🦋",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the hips gently",
+      "Relaxes the belly",
+      "Helps you feel calm"
+    ],
+    "funFact": "Butterflies rest with their wings open to soak up warm sunshine — just like you in this pose!",
+    "story": "A sleepy butterfly landed on a sunny leaf, let its wings fall open, and took the coziest nap in the garden.",
+    "description": "Lie on your back, press the bottoms of your feet together, and let your knees fall open like butterfly wings. 🦋 Rest your hands on your belly. Feel it rise... and fall... as you breathe slow and soft.",
+    "duration": 20
+  },
+  {
+    "id": "reclined-hero",
+    "english": "Reclined Hero",
+    "sanskrit": "Supta Virasana",
+    "sanskritDevanagari": "सुप्त वीरासन",
+    "animalName": "",
+    "emoji": "🦸",
+    "category": "restorative",
+    "difficulty": "hard",
+    "benefits": [
+      "Stretches the front of the legs",
+      "Opens the chest",
+      "Deepens slow breathing"
+    ],
+    "funFact": "Even the bravest heroes rest — this pose is how yoga heroes recharge their superpowers.",
+    "story": "After saving the day, a young hero leaned back onto a mountain of cushions, took a giant breath, and let every muscle rest.",
+    "description": "Kneel and sit between your heels, then slowly lean back onto a big stack of pillows. 🦸 Ease back only as far as feels comfy — pillows are your hero headquarters! Breathe slow and feel the front of your legs stretch.",
+    "duration": 15,
+    "safetyNote": "Only with a grown-up nearby and a tall pillow stack. Come up right away if knees or back complain — sit-up hero is just as strong."
+  },
+  {
+    "id": "happy-baby",
+    "english": "Happy Baby",
+    "sanskrit": "Ananda Balasana",
+    "sanskritDevanagari": "आनन्द बालासन",
+    "animalName": "",
+    "emoji": "👶",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases the hips",
+      "Massages the back",
+      "Brings out giggles"
+    ],
+    "funFact": "Babies really do grab their feet like this — it keeps their hips happy and healthy!",
+    "story": "A giggly baby discovered its own feet for the very first time and rocked side to side with joy.",
+    "description": "Lie on your back and hug your knees in. Now grab the outsides of your feet and let your knees drop wide. 👶 Rock gently side to side like a happy baby — wheee! Keep breathing and smiling.",
+    "duration": 15
+  },
+  {
+    "id": "knees-to-chest",
+    "english": "Knees-to-Chest Hug",
+    "sanskrit": "Apanasana",
+    "sanskritDevanagari": "अपानासन",
+    "animalName": "",
+    "emoji": "🤗",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Soothes the low back",
+      "Calms the tummy",
+      "Feels like a hug"
+    ],
+    "funFact": "Gently squeezing your knees to your chest gives your low back a tiny massage from the floor.",
+    "story": "A little koala missed its mama tree, so it gave itself the biggest, warmest hug — and felt cozy all over.",
+    "description": "Lie on your back and pull both knees in toward your chest. Wrap your arms around them — biggest self-hug ever! 🤗 Rock gently side to side and whisper a slow breath out... ahhh.",
+    "duration": 15
+  },
+  {
+    "id": "reclined-big-toe",
+    "english": "Reclined Big Toe",
+    "sanskrit": "Supta Padangusthasana",
+    "sanskritDevanagari": "सुप्त पादाङ्गुष्ठासन",
+    "animalName": "",
+    "emoji": "🦶",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches the back of the leg",
+      "Keeps the spine relaxed",
+      "Builds gentle patience"
+    ],
+    "funFact": "The muscles behind your leg are called hamstrings — they love slow, easy stretches like this one.",
+    "story": "A tiny explorer sent one leg up like a flagpole to say hello to the sky, then switched flags to be fair.",
+    "description": "Lie on your back and hug one knee in. Hold your big toe (or your leg!) and slowly stretch that foot up to the sky. 🦶 Keep the other leg long and lazy on the floor. Breathe... then switch sides!",
+    "duration": 15
+  },
+  {
+    "id": "reclined-big-toe-strap",
+    "english": "Reclined Big Toe with Strap",
+    "sanskrit": "Supta Padangusthasana",
+    "sanskritDevanagari": "सुप्त पादाङ्गुष्ठासन",
+    "animalName": "",
+    "emoji": "🪢",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Easy leg stretch",
+      "Relaxes the shoulders",
+      "Great for growing legs"
+    ],
+    "funFact": "Yogis use straps like lassos — the strap does the reaching so your body can just relax.",
+    "story": "A gentle cowpoke lassoed the moon with a soft rope, then lay back and let the moon hold the rope steady.",
+    "description": "Lie on your back and loop a soft strap or towel around one foot. Send that foot up to the sky and hold the strap like reins — the strap does the work! 🪢 Shoulders melt into the floor. Slow breaths, then switch legs.",
+    "duration": 15
+  },
+  {
+    "id": "crocodile-rest",
+    "english": "Crocodile Rest",
+    "sanskrit": "Makarasana",
+    "sanskritDevanagari": "मकरासन",
+    "animalName": "Crocodile",
+    "emoji": "🐊",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes the whole back",
+      "Teaches belly breathing",
+      "Very calming"
+    ],
+    "funFact": "Crocodiles can lie still for hours — they are the champion resters of the river!",
+    "story": "A sleepy crocodile floated in the warm shallows, resting its chin on a log and breathing slow, bubbly breaths.",
+    "description": "Lie on your tummy and stack your hands under your forehead like a pillow. 🐊 Let your legs go long and floppy. Feel your belly press into the floor with every slow breath — you're a resting river croc!",
+    "duration": 20
+  },
+  {
+    "id": "quiet-mouse-rest",
+    "english": "Quiet Mouse",
+    "sanskrit": "Balasana",
+    "sanskritDevanagari": "बालासन",
+    "animalName": "Mouse",
+    "emoji": "🐭",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Calms the mind",
+      "Rests the back",
+      "Feels safe and cozy"
+    ],
+    "funFact": "Mice curl into tiny balls to stay warm — curling up helps people feel calm and safe too.",
+    "story": "A little mouse tiptoed into its cozy burrow, curled up small as a cotton ball, and listened to the quiet.",
+    "description": "Kneel down, sit back on your heels, and fold forward until your forehead rests on the floor. 🐭 Tuck your arms alongside you like tiny mouse paws. Be squeak-quiet and breathe soft, slow breaths.",
+    "duration": 20
+  },
+  {
+    "id": "sleepy-turtle-shell",
+    "english": "Sleepy Turtle Shell",
+    "sanskrit": "Balasana",
+    "sanskritDevanagari": "बालासन",
+    "animalName": "Turtle",
+    "emoji": "🐢",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Rounds and rests the back",
+      "Relaxes the shoulders",
+      "Quiets busy thoughts"
+    ],
+    "funFact": "A turtle's shell is part of its skeleton — it carries its cozy bedroom everywhere it goes!",
+    "story": "A tired turtle tucked its head into its shell, sighed a happy sigh, and dreamed of slow adventures.",
+    "description": "Start in a kneeling fold with your forehead down. Now reach your arms back beside your legs, palms up, and imagine your rounded back is a turtle shell. 🐢 Snuggle in and breathe slowwwly inside your shell.",
+    "duration": 20
+  },
+  {
+    "id": "pillow-nest",
+    "english": "Pillow Nest",
+    "sanskrit": "Balasana",
+    "sanskritDevanagari": "बालासन",
+    "animalName": "",
+    "emoji": "🪺",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Deep cozy rest",
+      "Softens the hips and back",
+      "Perfect before sleep"
+    ],
+    "funFact": "Birds line their nests with the softest things they can find — feathers, moss, even fluff!",
+    "story": "A baby bird built the fluffiest nest in the forest and sank into it, safe and warm, as the stars came out.",
+    "description": "Put a big pillow between your knees, then fold forward and hug it like a cloud. 🪺 Turn one cheek onto the pillow and let your whole body go soft. Switch cheeks halfway. Coziest nest ever!",
+    "duration": 20
+  },
+  {
+    "id": "supported-fish-rest",
+    "english": "Supported Fish",
+    "sanskrit": "Matsyasana",
+    "sanskritDevanagari": "मत्स्यासन",
+    "animalName": "Fish",
+    "emoji": "🐟",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Opens the chest",
+      "Helps big, easy breaths",
+      "Undoes slouchy shoulders"
+    ],
+    "funFact": "Fish breathe with gills, but this pose helps YOUR lungs open up like big balloons.",
+    "story": "A shiny fish floated up to the sunny surface, opened its fins wide, and let the warm light fill its chest.",
+    "description": "Place a folded blanket or pillow behind you and lie back so it props up your upper back. 🐟 Let your arms flop open, chest floating up like a fish in sunshine. Big slow breaths — feel your chest open wiiiide.",
+    "duration": 20,
+    "safetyNote": "Keep head and neck resting comfortably on support. Skip if your neck feels achy today."
+  },
+  {
+    "id": "cat-nap-curl",
+    "english": "Cat Nap Curl",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Cat",
+    "emoji": "🐱",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Full-body rest",
+      "Feels safe and snug",
+      "Slows the heartbeat"
+    ],
+    "funFact": "Cats sleep up to 16 hours a day — they are the world's best nappers!",
+    "story": "A fluffy cat found a sunbeam on the rug, curled into a perfect circle, and purred itself to sleep.",
+    "description": "Lie on your side and curl up like a napping kitty. 🐱 Bend your knees toward your chest and rest your head on your arm or a pillow. Purr a soft breath out... purrrr... and let your whole body get heavy.",
+    "duration": 20
+  },
+  {
+    "id": "melting-snowman",
+    "english": "Melting Snowman",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛄",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases muscle squeeze",
+      "Teaches tense-and-relax",
+      "Very calming"
+    ],
+    "funFact": "When you squeeze your muscles and then let go, they relax even more than before — scientists use this trick too!",
+    "story": "A jolly snowman stood stiff in the winter sun, then slowly, happily melted into a peaceful puddle of snow.",
+    "description": "Stand or kneel tall and freeze stiff like a snowman — squeeze everything! ⛄ Now the sun comes out... slooowly melt down, down, down until you're a puddle lying on the floor. Let every last snowflake go soft.",
+    "duration": 15
+  },
+  {
+    "id": "cloud-watching",
+    "english": "Cloud Watching",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "☁️",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes the eyes and mind",
+      "Sparks imagination",
+      "Slows busy thoughts"
+    ],
+    "funFact": "Clouds can weigh as much as a hundred elephants, yet they float — because they're spread so softly thin.",
+    "story": "Two friends lay in a meadow finding dragon shapes and ice-cream castles in the drifting clouds above.",
+    "description": "Lie on your back with your hands behind your head, elbows wide. ☁️ Close your eyes and imagine puffy clouds drifting by. What shapes do you see? Breathe as slow as a cloud floats.",
+    "duration": 20
+  },
+  {
+    "id": "mountain-of-blankets",
+    "english": "Mountain of Blankets",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏔️",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Deep supported rest",
+      "Opens the chest gently",
+      "Wonderfully cozy"
+    ],
+    "funFact": "Yoga teachers call pillows and blankets 'props' — they let your body rest without working at all.",
+    "story": "A sleepy mountaineer climbed a mountain made entirely of blankets and decided the summit was the perfect spot for a snooze.",
+    "description": "Stack blankets or pillows into a soft mountain, then lean back on it so your head is highest. 🏔️ Arms melt to your sides, legs go long. You climbed it — now rest on the tippy-top and breathe.",
+    "duration": 20
+  },
+  {
+    "id": "balloon-breath-belly",
+    "english": "Balloon Breath Belly",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎈",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches belly breathing",
+      "Calms big feelings",
+      "Slows the heart"
+    ],
+    "funFact": "Belly breathing tells your brain 'all is well' — it's like a secret calm button in your tummy.",
+    "story": "A little balloon dreamed of flying, so every breath it puffed itself rounder and rounder until it floated over the fair.",
+    "description": "Lie on your back and put both hands (or a stuffy!) on your belly. 🎈 Breathe in through your nose and blow your belly up like a balloon... then let it sloooowly deflate. Fill it up again — big, round, gentle.",
+    "duration": 20
+  },
+  {
+    "id": "humming-rest",
+    "english": "Bumblebee Hum",
+    "sanskrit": "Bhramari",
+    "sanskritDevanagari": "भ्रामरी",
+    "animalName": "Bee",
+    "emoji": "🐝",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Soothes with sound",
+      "Calms the mind",
+      "Makes long, slow exhales"
+    ],
+    "funFact": "Bhramari is named after a black Indian bee — humming really can help your body relax!",
+    "story": "A fuzzy bumblebee hummed its favorite one-note song all the way home, and the whole garden felt sleepy and safe.",
+    "description": "Sit comfy and gently cover your ears with your fingers. Breathe in through your nose... and hum out looong like a bee: mmmmmm! 🐝 Feel the buzz tickle inside your head. Hum again, soft and slow.",
+    "duration": 20
+  },
+  {
+    "id": "ocean-breath-listen",
+    "english": "Ocean Breath Listen",
+    "sanskrit": "Ujjayi",
+    "sanskritDevanagari": "उज्जायी",
+    "animalName": "",
+    "emoji": "🌊",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Slows the breath",
+      "Focuses the mind",
+      "Deeply calming"
+    ],
+    "funFact": "If you cup a seashell over your ear, you hear an ocean sound — your ujjayi breath makes the same waves!",
+    "story": "A child held a seashell to one ear and discovered the ocean lived inside their own breath all along.",
+    "description": "Sit tall and breathe in through your nose. Now breathe out through your nose while gently squeezing the back of your throat — hear that soft ocean sound? 🌊 Shhhh-ahhh, like waves rolling in and out. Listen to your own sea.",
+    "duration": 20
+  },
+  {
+    "id": "candle-breath",
+    "english": "Candle Breath",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🕯️",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Makes long exhales",
+      "Releases worries",
+      "Settles the body"
+    ],
+    "funFact": "Long, slow breaths out are the fastest way to tell your whole body it's time to relax.",
+    "story": "On a birthday made of quiet wishes, one gentle candle flickered — and a soft, slow breath made the wish come true.",
+    "description": "Sit comfy and hold up one finger — that's your candle. 🕯️ Breathe in through your nose, then blow out slooowly, so gently the flame only flickers. Try again: can you make the world's longest, softest blow?",
+    "duration": 15
+  },
+  {
+    "id": "flower-smell-breath",
+    "english": "Flower-Smell Breath",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌸",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches slow nose breathing",
+      "Lifts your mood",
+      "Easy anywhere"
+    ],
+    "funFact": "Smelling something nice and slow naturally makes your breath deep — your nose is a calm-down helper!",
+    "story": "In a garden of a thousand flowers, a small explorer stopped at every single one for a long, happy sniff.",
+    "description": "Cup your hands like they're holding a beautiful flower. 🌸 Breathe in through your nose — mmm, smell that! Then sigh the breath out through your mouth — ahhh. Pick a new imaginary flower and sniff again.",
+    "duration": 15
+  },
+  {
+    "id": "snake-hiss-breath",
+    "english": "Snake Hiss Breath",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Snake",
+    "emoji": "🐍",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the exhale",
+      "Releases wiggles",
+      "Calms the body"
+    ],
+    "funFact": "Snakes hiss by pushing air through a special little tube — your hiss uses your teeth!",
+    "story": "A friendly garden snake warmed itself on a rock, letting out long happy hisses that sounded just like the breeze.",
+    "description": "Lie on your tummy and prop up on your forearms like a resting snake. 🐍 Breathe in through your nose... then hiss it out long and soft: ssssssss! How long can your gentle hiss go? Try three slow hisses.",
+    "duration": 15
+  },
+  {
+    "id": "counting-star-breath",
+    "english": "Counting Star Breath",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "✨",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds breath focus",
+      "Quiets the mind",
+      "Great for bedtime"
+    ],
+    "funFact": "On a clear dark night you can see about two thousand stars — that's a lot of slow breaths!",
+    "story": "A drowsy astronomer counted stars instead of sheep: one twinkle, one breath... and drifted into dreams by star number ten.",
+    "description": "Lie back and close your eyes under your imaginary night sky. ✨ Breathe in and picture one star lighting up... breathe out and whisper 'one'. Next breath, 'two'. Count your stars all the way to ten, slow as moonlight.",
+    "duration": 20
+  },
+  {
+    "id": "robot-power-down",
+    "english": "Robot Power-Down",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🤖",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches body scanning",
+      "Relaxes one part at a time",
+      "Fun way to be still"
+    ],
+    "funFact": "Noticing each body part one by one is called a body scan — it's a real relaxation superpower.",
+    "story": "After a big day of beeping and building, a helpful robot pressed its own sleep button and powered down piece by piece.",
+    "description": "Lie on your back — you're a robot at bedtime! 🤖 Beep! Power down your feet... they go still. Beep! Legs off... belly off... arms off... Last one: beep, face soft, systems resting. Zzzz-whirrr.",
+    "duration": 20
+  },
+  {
+    "id": "rag-doll-flop-sit",
+    "english": "Rag Doll Flop-Sit",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪆",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases neck and shoulders",
+      "Relaxes the back",
+      "Lets tension flop away"
+    ],
+    "funFact": "When your muscles go floppy on purpose, your brain gets the message to relax too.",
+    "story": "A well-loved rag doll flopped onto its toy-shelf seat after a day of adventures, soft and smiling and completely relaxed.",
+    "description": "Sit criss-cross and let your whole top half go floppy — head heavy, arms dangly, back softly rounded. 🪆 You're a cozy rag doll! Sway a teeny bit side to side. Then slowly roll back up, one floppy bit at a time.",
+    "duration": 15
+  },
+  {
+    "id": "sleeping-butterfly",
+    "english": "Sleeping Butterfly",
+    "sanskrit": "Baddha Konasana",
+    "sanskritDevanagari": "बद्ध कोणासन",
+    "animalName": "Butterfly",
+    "emoji": "🦋",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Gently opens hips",
+      "Rounds and rests the back",
+      "Quiets the mind"
+    ],
+    "funFact": "Butterflies fold their wings up when they sleep — folding forward helps you feel sleepy-calm too.",
+    "story": "As the moon rose over the meadow, a butterfly folded its wings, bowed its head to a petal pillow, and fell fast asleep.",
+    "description": "Sit with the soles of your feet together, knees out like wings. 🦋 Now let your butterfly fall asleep: fold slowly forward and let your head hang heavy. Rest there, breathing soft nighttime breaths.",
+    "duration": 20
+  },
+  {
+    "id": "cozy-cocoon",
+    "english": "Cozy Cocoon",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Caterpillar",
+    "emoji": "🐛",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Feels safe and snug",
+      "Full-body calm",
+      "Great transition to rest"
+    ],
+    "funFact": "Inside a real cocoon, a caterpillar rests and transforms into a butterfly — rest helps you grow too!",
+    "story": "A tired caterpillar wrapped itself in the softest silk blanket, whispering, 'When I wake up, I'll have wings.'",
+    "description": "Lie on your side and hug your knees in snug. Wrap a blanket around you if you have one — you're a caterpillar in a cocoon! 🐛 Close your eyes and rest. Imagine growing beautiful wings while you breathe.",
+    "duration": 20
+  },
+  {
+    "id": "rock-pose-rest",
+    "english": "Rock Pose Rest",
+    "sanskrit": "Vajrasana",
+    "sanskritDevanagari": "वज्रासन",
+    "animalName": "",
+    "emoji": "🪨",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds calm stillness",
+      "Settles the tummy",
+      "Steadies the breath"
+    ],
+    "funFact": "Some rocks have sat perfectly still for millions of years — talk about champion stillness!",
+    "story": "A smooth river rock watched clouds, storms, and seasons drift past, staying peaceful and still through it all.",
+    "description": "Kneel and sit back on your heels with a tall, quiet back. 🪨 Rest your hands on your legs and be still as a mountain rock. Can you feel your breath moving while everything else stays steady? So strong, so calm.",
+    "duration": 15
+  },
+  {
+    "id": "sleepy-neck-circles",
+    "english": "Sleepy Neck Circles",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🙆",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases neck tension",
+      "Relaxes the shoulders",
+      "Feels soothing"
+    ],
+    "funFact": "Your head weighs about as much as a bowling ball — your neck deserves gentle thank-you circles!",
+    "story": "A drowsy owl drew slow, lazy circles with its beak, saying goodnight to every corner of the forest.",
+    "description": "Sit tall and let your chin drop softly toward your chest. 🙆 Now roll your head slooowly to one shoulder, back to the middle, then to the other shoulder — like drawing a smile with your chin. Gentle and dreamy, no rush.",
+    "duration": 15
+  },
+  {
+    "id": "giraffe-neck-tilt",
+    "english": "Giraffe Neck Tilt",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Giraffe",
+    "emoji": "🦒",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the side of the neck",
+      "Eases shoulder tightness",
+      "Calming and gentle"
+    ],
+    "funFact": "A giraffe's neck is six feet long but has the same number of neck bones as yours — seven!",
+    "story": "A gentle giraffe leaned its long neck against a warm acacia tree, sighing happily as the sunset painted the sky.",
+    "description": "Sit tall like a graceful giraffe. 🦒 Let your right ear float down toward your right shoulder — feel the soft stretch on the other side. Breathe there... then float your head up and tilt to the left. Long, happy giraffe neck!",
+    "duration": 15
+  },
+  {
+    "id": "shoulder-roll-wheel",
+    "english": "Ferris Wheel Shoulder Rolls",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎡",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Melts shoulder tension",
+      "Warms the upper back",
+      "Easy anywhere"
+    ],
+    "funFact": "Shoulders often creep up toward your ears when you're busy — rolling them tells them to take a vacation.",
+    "story": "At the sleepy evening fair, the ferris wheel turned slower and slower, giving every rider one last dreamy loop.",
+    "description": "Sit or kneel tall. Lift your shoulders up to your ears... roll them back... and melt them down. 🎡 Slow, round circles like a ferris wheel at closing time. Three loops back, then three loops forward. Ahh, floaty shoulders!",
+    "duration": 15
+  },
+  {
+    "id": "gentle-eagle-arms",
+    "english": "Gentle Eagle Arms",
+    "sanskrit": "Garudasana",
+    "sanskritDevanagari": "गरुडासन",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches between the shoulder blades",
+      "Releases upper-back tightness",
+      "Builds gentle focus"
+    ],
+    "funFact": "Eagles wrap their wings tight around themselves to stay warm on windy cliff tops.",
+    "story": "A young eagle folded its great wings snugly around itself and watched the stars twinkle over the mountains.",
+    "description": "Sit comfy and give yourself a hug — now wiggle your arms so they wrap around each other, palms reaching toward each other. 🦅 Lift your elbows a little and feel the stretch between your shoulder blades. Breathe... unwrap... and swap which arm is on top!",
+    "duration": 15
+  },
+  {
+    "id": "cozy-cow-face-arms",
+    "english": "Cozy Cow-Face Arms",
+    "sanskrit": "Gomukhasana",
+    "sanskritDevanagari": "गोमुखासन",
+    "animalName": "Cow",
+    "emoji": "🐮",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Opens the shoulders",
+      "Stretches the arms",
+      "Improves cozy posture"
+    ],
+    "funFact": "This pose's name comes from how the crossed legs look like a cow's face — moo-velous!",
+    "story": "A patient cow in a starlit barn reached back to scratch between her shoulders and let out the happiest 'moooo.'",
+    "description": "Sit tall. Reach one arm up and drop the hand behind your head. Reach the other arm low and sneak its hand up your back. 🐮 Try to have your fingers wave hello — or hold a sock between them! Breathe, then switch sides. Moo!",
+    "duration": 15
+  },
+  {
+    "id": "legs-up-the-wall-rest",
+    "english": "Legs Up the Wall",
+    "sanskrit": "Viparita Karani",
+    "sanskritDevanagari": "विपरीत करणी",
+    "animalName": "",
+    "emoji": "🦵",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Rests tired legs",
+      "Calms the whole body",
+      "Helps you unwind"
+    ],
+    "funFact": "Putting your legs up helps the blood in your feet slide back toward your heart — like a lazy river ride.",
+    "story": "After a day of hopping everywhere, a tired bunny flipped upside-down against a tree and let its feet finally rest.",
+    "description": "Scoot your bottom close to a wall, then swing your legs up so they rest against it. 🦵 Lie back, arms relaxed, legs tall and lazy. Let your feet take a vacation while you breathe slow, cozy breaths.",
+    "duration": 20
+  },
+  {
+    "id": "reclined-twist-rest",
+    "english": "Reclined Twist",
+    "sanskrit": "Supta Matsyendrasana",
+    "sanskritDevanagari": "सुप्त मत्स्येन्द्रासन",
+    "animalName": "",
+    "emoji": "🌀",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Gently wrings out the back",
+      "Relaxes the spine",
+      "Soothes the tummy"
+    ],
+    "funFact": "Twists give your spine a gentle squeeze-and-release, like wringing out a soft sponge.",
+    "story": "A lazy river turned one slow bend to the left, then one slow bend to the right, carrying little boats to dreamland.",
+    "description": "Lie on your back and hug your knees in. Let both knees fall to one side while your arms stretch wide like a T. 🌀 Look the other way if it feels nice. Breathe... then float your knees over to the other side.",
+    "duration": 15
+  },
+  {
+    "id": "reclined-eagle-leg-twist",
+    "english": "Reclined Eagle-Leg Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Deeper back release",
+      "Stretches outer hips",
+      "Builds body awareness"
+    ],
+    "funFact": "Crossing your legs in a twist reaches muscles on the side of your hips that regular twists miss.",
+    "story": "An eagle crossed its talons, tucked its wings, and rocked gently in its nest as the wind sang a lullaby.",
+    "description": "Lie on your back and cross one leg over the other like cozy pretzel legs. 🦅 Now let both knees drift slowly to one side and stretch your arms wide. Breathe into your back... then switch your leg-cross and twist the other way.",
+    "duration": 15
+  },
+  {
+    "id": "supported-bridge-rest",
+    "english": "Supported Bridge",
+    "sanskrit": "Setu Bandha Sarvangasana",
+    "sanskritDevanagari": "सेतु बन्ध सर्वाङ्गासन",
+    "animalName": "",
+    "emoji": "🌉",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Rests the low back",
+      "Opens the front of the body",
+      "Deeply relaxing"
+    ],
+    "funFact": "Real bridges rest on strong supports — in this pose, a pillow is the support and YOU are the bridge!",
+    "story": "A little bridge over a quiet stream leaned on its favorite stone pillow and listened to the water gurgle by all night.",
+    "description": "Lie on your back with knees bent, feet flat. Press into your feet, lift your hips, and slide a pillow or cushion under your bottom. 🌉 Now rest ON the pillow — you're a floating bridge! Arms soft, breath slow.",
+    "duration": 20,
+    "safetyNote": "Keep the support under your hips, not your low back, and slide it out before rolling to your side to get up."
+  },
+  {
+    "id": "sleeping-swan",
+    "english": "Sleeping Swan",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Swan",
+    "emoji": "🦢",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Releases the hips",
+      "Calms the mind",
+      "Stretches the seat muscles"
+    ],
+    "funFact": "Swans really do sleep with their heads tucked down into their soft feathers.",
+    "story": "On a silver lake at dusk, a graceful swan folded forward over one wing and drifted to sleep on the still water.",
+    "description": "From hands and knees, slide one knee forward behind your wrist and stretch the other leg long behind you. 🦢 Now fold forward and rest your head on your hands or a pillow — a sleeping swan! Breathe softly, then switch legs.",
+    "duration": 20
+  },
+  {
+    "id": "resting-puppy-stretch",
+    "english": "Resting Puppy Stretch",
+    "sanskrit": "Uttana Shishosana",
+    "sanskritDevanagari": "उत्तान शिशोसन",
+    "animalName": "Puppy",
+    "emoji": "🐶",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Melts the shoulders",
+      "Stretches the spine",
+      "Cozy and calming"
+    ],
+    "funFact": "Puppies do this exact stretch when they wake up from naps — it's called a play-bow!",
+    "story": "A floppy-eared puppy woke from a nap, stretched its paws way out front, and wagged a slow, happy tail.",
+    "description": "Start on hands and knees, then walk your paws way forward and melt your chest toward the floor, tail up! 🐶 Rest your forehead down and let your heart sink low. Sigh out a big puppy sigh... woof, that feels good.",
+    "duration": 15
+  },
+  {
+    "id": "pillow-forward-fold",
+    "english": "Pillow Forward Fold",
+    "sanskrit": "Paschimottanasana",
+    "sanskritDevanagari": "पश्चिमोत्तानासन",
+    "animalName": "",
+    "emoji": "🛏️",
+    "category": "restorative",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches the whole back body",
+      "Quiets the mind",
+      "Prepares for sleep"
+    ],
+    "funFact": "Folding forward over support lets gravity do the stretching while you just relax and breathe.",
+    "story": "A sleepy elf leaned forward onto a marshmallow pillow at the end of toy-making day and dreamed of jingling bells.",
+    "description": "Sit with your legs long and place a big pillow on top of them. 🛏️ Take a breath in, sit tall... then fold forward and hug the pillow, resting your head on it. Knees can bend — comfy beats far! Breathe and melt.",
+    "duration": 20
+  },
+  {
+    "id": "snuggly-snail-curl",
+    "english": "Snuggly Snail Curl",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Snail",
+    "emoji": "🐌",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Rounds and rests the spine",
+      "Feels safe and calm",
+      "Slows everything down"
+    ],
+    "funFact": "Snails carry their cozy spiral homes everywhere and tuck inside whenever they want quiet time.",
+    "story": "A small snail finished its slow garden journey, curled into its shiny spiral shell, and whispered, 'Home sweet home.'",
+    "description": "Sit criss-cross and slowly curl forward, rounding your back into a snail shell shape. 🐌 Let your head bow down and your arms rest wherever they're comfy. Hide in your quiet shell and take five slow snail breaths.",
+    "duration": 20
+  },
+  {
+    "id": "lazy-lizard-lounge",
+    "english": "Lazy Lizard Lounge",
+    "sanskrit": "Salamba Bhujangasana",
+    "sanskritDevanagari": "सालम्ब भुजङ्गासन",
+    "animalName": "Lizard",
+    "emoji": "🦎",
+    "category": "restorative",
+    "difficulty": "easy",
+    "benefits": [
+      "Gently opens the chest",
+      "Supports a happy spine",
+      "Warm and restful"
+    ],
+    "funFact": "Lizards lounge on sunny rocks to warm up their bodies — this pose is your sunny rock!",
+    "story": "A laid-back lizard found the warmest, flattest rock in the canyon and lounged there all afternoon, blinking slowly at the sky.",
+    "description": "Lie on your tummy and prop up on your forearms, elbows under your shoulders. 🦎 Let your back relax and your head float tall — you're a lizard sunbathing on a warm rock. Slow blink... slow breath... soak up the sunshine.",
+    "duration": 20
+  }
+]

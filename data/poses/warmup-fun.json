@@ -1,0 +1,954 @@
+[
+  {
+    "id": "reach-for-the-sun",
+    "english": "Reach for the Sun",
+    "sanskrit": "Urdhva Hastasana",
+    "sanskritDevanagari": "ऊर्ध्वहस्तासन",
+    "animalName": "",
+    "emoji": "🌞",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up the whole body",
+      "Stretches arms and back",
+      "Builds tall posture"
+    ],
+    "funFact": "The sun is so big that more than one million Earths could fit inside it!",
+    "story": "Every morning the sun peeks over the mountains, and the yoga explorers stretch up high to give it the very first hello.",
+    "description": "Stand tall with your feet together. 🌞 Take a big breath in and sweep your arms way up to the sky. Stretch your fingertips like you're tickling the sun. Look up gently and shine!",
+    "duration": 10
+  },
+  {
+    "id": "swan-dive",
+    "english": "Swan Dive Fold",
+    "sanskrit": "Uttanasana",
+    "sanskritDevanagari": "उत्तानासन",
+    "animalName": "Swan",
+    "emoji": "🦢",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the back of the legs",
+      "Relaxes the neck",
+      "Feels calming"
+    ],
+    "funFact": "Swans can sleep while floating on the water like feathery boats.",
+    "story": "A graceful swan spread her wide white wings, then dove down toward the sparkling lake to say hi to her reflection.",
+    "description": "Stand tall and spread your swan wings wide. 🦢 Breathe out and swoooop down slowly, folding over your legs. Let your head and arms dangle like soft feathers. Bend your knees as much as you like!",
+    "duration": 10
+  },
+  {
+    "id": "monkey-lift",
+    "english": "Halfway Lift",
+    "sanskrit": "Ardha Uttanasana",
+    "sanskritDevanagari": "अर्ध उत्तानासन",
+    "animalName": "Monkey",
+    "emoji": "🐒",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens the back",
+      "Teaches a flat, long spine",
+      "Stretches leg muscles"
+    ],
+    "funFact": "This halfway-up shape is nicknamed Monkey Pose because monkeys peek forward just like this before they leap.",
+    "story": "A curious monkey folded down to grab a banana, then lifted halfway up to peek and make sure no one was watching.",
+    "description": "From your forward fold, slide your hands to your shins. 🐒 Breathe in and lift your chest halfway up, making your back looong and flat like a table. Peek forward like a sneaky monkey... then fold back down. Ooh-ooh-ah-ah!",
+    "duration": 10
+  },
+  {
+    "id": "jumping-jack-freeze",
+    "english": "Jumping Jack Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⭐",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Gets the heart pumping",
+      "Warms up arms and legs",
+      "Builds body control"
+    ],
+    "funFact": "Jumping jacks are over 100 years old — soldiers used them to warm up long ago!",
+    "story": "The star kids bounced across the sky all night, and when morning came they froze in one giant twinkle.",
+    "description": "Jump your feet wide and clap your hands overhead — jumping jacks! ⭐ Do three big ones: jump, clap, jump, clap, jump, clap... and FREEZE like a star! Hold super still with arms and legs wide. Can you sparkle without moving?",
+    "duration": 8
+  },
+  {
+    "id": "twist-and-shout",
+    "english": "Twist and Shout",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎶",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up the spine",
+      "Loosens the waist",
+      "Boosts happy energy"
+    ],
+    "funFact": "Your spine has 33 little bones that all work together every time you twist.",
+    "story": "The dance party started, and everyone twisted left and right so fast their giggles flew around the room.",
+    "description": "Stand with your feet apart and let your arms hang loose like noodles. 🎶 Gently twist your belly side to side so your arms swing and flop around you. Keep it soft and easy — no forcing! Add a happy 'woo-hoo!' with each twist.",
+    "duration": 8
+  },
+  {
+    "id": "windmill",
+    "english": "Windmill",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌬️",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the sides and legs",
+      "Warms up shoulders",
+      "Builds coordination"
+    ],
+    "funFact": "Real windmills use wind power to grind grain and even make electricity.",
+    "story": "On a breezy hill stood a friendly windmill whose big arms turned round and round, waving at every cloud that passed.",
+    "description": "Stand with your feet wide and stretch your arms out like windmill blades. 🌬️ Bend down and reach one hand toward your opposite foot — whoosh! Come up tall and swoosh to the other side. Slow and steady spins, like a gentle breeze is turning you.",
+    "duration": 10
+  },
+  {
+    "id": "toy-soldier",
+    "english": "Toy Soldier",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥁",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the backs of the legs",
+      "Builds balance",
+      "Warms up the core"
+    ],
+    "funFact": "Marching with straight legs like this is sometimes called the tin-soldier walk.",
+    "story": "At midnight the toy soldiers came alive and marched around the toy box with the straightest, silliest legs in the world.",
+    "description": "Stand tall like a brave toy soldier. 🥁 Kick one straight leg up and reach your opposite hand toward your toes — boom! Lower it down and kick the other leg. March in place, stiff and straight and proud.",
+    "duration": 8
+  },
+  {
+    "id": "rocket-launch-squat",
+    "english": "Rocket Launch Squat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚀",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds explosive energy",
+      "Practices crouching low"
+    ],
+    "funFact": "Real rockets zoom faster than 28,000 kilometers per hour to reach space.",
+    "story": "The little rocket crouched on the launch pad, engines rumbling, waiting for the countdown to blast off to the moon.",
+    "description": "Crouch down low in a squat and press your palms together over your head — you're a rocket on the launch pad! 🚀 Count down with me: 3... 2... 1... BLAST OFF! Jump up tall and stretch to the stars. Land soft and crouch for the next launch.",
+    "duration": 8
+  },
+  {
+    "id": "volcano-erupt",
+    "english": "Volcano Erupt",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌋",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Releases wiggly energy",
+      "Connects breath and movement"
+    ],
+    "funFact": "Some volcanoes sleep for hundreds of years before they wake up and erupt.",
+    "story": "Deep under the mountain, the lava bubbled and grumbled and rumbled... until one day it burst up in a giant sparkly fountain.",
+    "description": "Squat down low and hug your knees — you're a quiet, sleeping volcano. 🌋 Feel the rumble growing... breathe in deep... now ERUPT! Jump up and throw your arms high like splashing lava, with a big 'whooosh!' Then melt slowly back down.",
+    "duration": 8
+  },
+  {
+    "id": "shake-it-out-freeze",
+    "english": "Shake-It-Out Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪇",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases wiggles",
+      "Warms every muscle",
+      "Practices stopping and stillness"
+    ],
+    "funFact": "Shaking your body is a real trick athletes use to loosen up before big games.",
+    "story": "The wiggle fairies sprinkled giggle dust on everyone, and the only cure was to shake, shake, shake it all out!",
+    "description": "Shake your right hand, shake your left hand! 🪇 Now shake your legs, your hips, your whole body — wiggle everything like a maraca! Ready... aaand FREEZE! Hold statue-still and quiet. Can you freeze without even a giggle?",
+    "duration": 8
+  },
+  {
+    "id": "silly-scarecrow",
+    "english": "Silly Scarecrow",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌾",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the chest and arms",
+      "Builds standing balance",
+      "Sparks imagination"
+    ],
+    "funFact": "Farmers have used scarecrows to protect their corn for more than 3,000 years.",
+    "story": "The silliest scarecrow in the field made such funny shapes that the crows stayed just to watch the show.",
+    "description": "Stand tall in the cornfield with your feet apart. 🌾 Stick your arms out to the sides and let your hands flop down, all floppy and silly. Tilt your head, make a goofy face, and hold your wobbly shape. What's your silliest scarecrow look?",
+    "duration": 10
+  },
+  {
+    "id": "wobbly-jelly",
+    "english": "Wobbly Jelly",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍮",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes tight muscles",
+      "Releases silly energy",
+      "Teaches soft, loose movement"
+    ],
+    "funFact": "Jelly wobbles because it is mostly water held together in a squishy net.",
+    "story": "A giant jelly sat on a plate at the party, and every time someone walked by it went wibble-wobble, wibble-wobble.",
+    "description": "Stand with soft, bendy knees. 🍮 Let your whole body go loosey-goosey and wobble side to side like jelly on a plate. Wibble your arms, wobble your legs, jiggle your cheeks! Soft and squishy, no stiff bones allowed.",
+    "duration": 8
+  },
+  {
+    "id": "robot-walk-freeze",
+    "english": "Robot Walk-Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🤖",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds body control",
+      "Warms up arms and legs",
+      "Practices stopping on cue"
+    ],
+    "funFact": "The word robot comes from an old word that means 'work' — robots are little workers!",
+    "story": "Beep boop! The friendly robot marched around the room doing its chores, but whenever its battery blinked, it froze mid-step.",
+    "description": "Beep boop — robot mode ON! 🤖 March in place with stiff arms and boxy moves: beep, boop, beep, boop. When you hear 'battery low'... FREEZE exactly where you are, even mid-step! Hold your robot shape till your battery recharges.",
+    "duration": 8
+  },
+  {
+    "id": "tiptoe-walk-freeze",
+    "english": "Tightrope Tiptoe",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎪",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Strengthens feet and ankles",
+      "Sharpens focus"
+    ],
+    "funFact": "Circus tightrope walkers hold a long pole to help them balance way up high.",
+    "story": "High above the circus ring, the brave performer tiptoed across the rope, one careful step at a time, while the crowd held its breath.",
+    "description": "Imagine a tightrope line on the floor. 🎪 Rise up on your tiptoes and walk the line, one foot right in front of the other, heel to toe. Stretch your arms wide to balance... and freeze on your toes! Wobbling is part of the fun!",
+    "duration": 10
+  },
+  {
+    "id": "invisible-hula-hoop",
+    "english": "Invisible Hula Hoop",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌀",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Loosens the hips",
+      "Warms up the belly",
+      "Builds rhythm"
+    ],
+    "funFact": "The world record for spinning hula hoops at once is more than 200 hoops!",
+    "story": "The magic hoop was invisible, but it still loved to spin — round and round the yogi's waist without ever falling down.",
+    "description": "Grab your invisible hula hoop and step inside. 🌀 Circle your hips round and round to keep it spinning — whoosh, whoosh! Now spin your hips the other way. Big smooth circles, and don't let that magic hoop drop!",
+    "duration": 10
+  },
+  {
+    "id": "paint-the-rainbow",
+    "english": "Paint the Rainbow",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌈",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the sides",
+      "Warms up shoulders",
+      "Encourages big breathing"
+    ],
+    "funFact": "A rainbow is really a full circle — from an airplane you can see the whole ring!",
+    "story": "The sky was plain gray until a little artist dipped a giant brush in sunshine and painted a rainbow from one hill to the other.",
+    "description": "Hold your giant paintbrush with both hands. 🌈 Reach way down to one side, then sweep your arms up and over your head in a huge arc — swishhh! Paint red, then orange, then yellow... one big rainbow stripe with every breath.",
+    "duration": 10
+  },
+  {
+    "id": "climb-the-ladder",
+    "english": "Climb the Ladder",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪜",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the sides and arms",
+      "Wakes up the shoulders",
+      "Builds reach and focus"
+    ],
+    "funFact": "Firefighter ladders can stretch taller than a ten-story building.",
+    "story": "A ladder made of clouds appeared in the sky, and whoever climbed it could pick a star right off the top shelf of the night.",
+    "description": "Stand tall — there's a magic ladder above you! 🪜 Reach one hand way up and grab a rung, then reach the other hand even higher. Climb, climb, climb, stretching your sides tall. What treasure is at the top?",
+    "duration": 10
+  },
+  {
+    "id": "swimming-on-land",
+    "english": "Swimming on Land",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏊",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up shoulders",
+      "Opens the chest",
+      "Builds arm coordination"
+    ],
+    "funFact": "Swimming uses almost every muscle in your body — even your toes help!",
+    "story": "The floor turned into a sparkling ocean, so everyone dove in and swam right across the living room sea.",
+    "description": "Stand tall and dive into the pretend ocean! 🏊 Circle your arms one at a time in big front-crawl strokes — splish, splash! Now try backstroke, circling your arms backward. Don't forget to blow silly bubbles!",
+    "duration": 8
+  },
+  {
+    "id": "bicycle-in-the-air",
+    "english": "Bicycle in the Air",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚴",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy muscles",
+      "Warms up the legs",
+      "Builds coordination"
+    ],
+    "funFact": "Riding a bike upside down in the air works your belly muscles more than your legs!",
+    "story": "The dreamy cyclist pedaled so fast that the bike lifted right off the ground and rode a loop around the clouds.",
+    "description": "Lie on your back and lift your legs up high. 🚴 Pedal them in big circles like you're riding an invisible bike — ring, ring! Pedal fast up a pretend hill, then slow and easy down the other side. Keep your back cozy on the floor.",
+    "duration": 8
+  },
+  {
+    "id": "marching-band-knees",
+    "english": "Marching Band Knees",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎺",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Gets the heart pumping",
+      "Strengthens legs",
+      "Builds rhythm"
+    ],
+    "funFact": "Marching bands step exactly together — some take 8 perfect steps every 5 yards!",
+    "story": "The parade rolled down Main Street, and the marching band lifted their knees so high they nearly bonked their trumpets.",
+    "description": "You're leading the parade! 🎺 March in place and lift those knees up high — left, right, left, right! Pump your arms or play your pretend trumpet: doot doot doo! Keep marching proud and tall.",
+    "duration": 8
+  },
+  {
+    "id": "disco-point-and-hold",
+    "english": "Disco Point-and-Hold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🕺",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the sides",
+      "Builds balance",
+      "Boosts happy energy"
+    ],
+    "funFact": "The famous disco point-up dance move comes from the 1970s, when dance floors lit up in squares.",
+    "story": "When the disco ball started to spin, the coolest dancer struck a pointing pose so sharp that everyone froze to admire it.",
+    "description": "Disco time! 🕺 Put one hand on your hip and point your other hand up to the corner of the sky. Now swoosh it down and point to the floor — and HOLD that groovy pose! Switch arms and strike it again. Stay frozen like the coolest statue at the party.",
+    "duration": 8
+  },
+  {
+    "id": "superhero-cape-flex",
+    "english": "Superhero Cape Flex",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦸",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the chest",
+      "Builds strong posture",
+      "Grows confidence"
+    ],
+    "funFact": "Standing in a strong hero pose for a few breaths can really help you feel braver.",
+    "story": "The young hero stood on the rooftop, cape flapping in the wind, ready to zoom off and save the day with kindness.",
+    "description": "Stand strong with your feet apart, hero! 🦸 Put your fists on your hips and puff your chest up proud. Feel your invisible cape flapping behind you — whoosh! Now flex your super muscles and say your hero name out loud!",
+    "duration": 10
+  },
+  {
+    "id": "knead-the-dough",
+    "english": "Knead the Dough",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍕",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the back and legs",
+      "Warms up hands and arms",
+      "Feels calming"
+    ],
+    "funFact": "Pizza makers knead dough to wake up the stretchy stuff inside called gluten.",
+    "story": "In the coziest pizza shop in town, the little chef pressed and squished the dough until it was soft as a pillow.",
+    "description": "Time to make pizza, chef! 🍕 Fold forward with bendy knees and press your hands into the pretend dough on the floor. Squish it, push it, knead it — press press press! Feel your back and legs stretch while you work that dough.",
+    "duration": 10
+  },
+  {
+    "id": "toss-the-pizza",
+    "english": "Toss the Pizza",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "👨‍🍳",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches arms and sides",
+      "Builds balance on tiptoes",
+      "Sparks imagination"
+    ],
+    "funFact": "Some pizza chefs can spin dough on one finger like a flying saucer!",
+    "story": "The dough was ready, so the chef flung it high above the oven, where it spun round and round like a doughy full moon.",
+    "description": "Your dough is ready — time for the big toss! 👨‍🍳 Rise up on your tiptoes and throw your arms way up high, launching the pretend pizza into the air. Wheee! Reach up, up, up to catch it as it spins. Toss it again, even higher!",
+    "duration": 10
+  },
+  {
+    "id": "thunder-stomp-freeze",
+    "english": "Thunder Stomp-Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛈️",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases big energy",
+      "Strengthens legs",
+      "Practices calm after excitement"
+    ],
+    "funFact": "Thunder is the sound of air jumping apart super fast when lightning heats it up.",
+    "story": "The storm rolled over the hills going BOOM, BOOM, BOOM — then suddenly went quiet as the clouds tiptoed away.",
+    "description": "You're a big thunderstorm! ⛈️ Stomp your feet on the ground — BOOM, BOOM, BOOM! Stomp faster like rolling thunder... then FREEZE! The storm is passing. Stand still and quiet like the calm sky after rain.",
+    "duration": 8
+  },
+  {
+    "id": "raindrop-fingers",
+    "english": "Raindrop Fingers",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌧️",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes shoulders",
+      "Wakes up fingers and hands",
+      "Feels calming"
+    ],
+    "funFact": "Raindrops aren't teardrop-shaped — they fall looking like tiny round hamburger buns!",
+    "story": "Soft rain began to fall on the garden, and every flower opened its petals to catch the tiny silver drops.",
+    "description": "Reach your arms up into the clouds. 🌧️ Wiggle your fingers as you float your hands slowly down — pitter-patter, pitter-patter, gentle rain! Sprinkle raindrops all the way to your toes. Now reach up and let it rain again.",
+    "duration": 10
+  },
+  {
+    "id": "snowflake-spin-freeze",
+    "english": "Snowflake Spin-Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "❄️",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Practices gentle spinning",
+      "Teaches stillness"
+    ],
+    "funFact": "Every snowflake has six sides, and no two snowflakes are exactly alike.",
+    "story": "One tiny snowflake twirled all the way down from the clouds, then landed on a mitten and held perfectly still to show off its shape.",
+    "description": "You're a one-of-a-kind snowflake! ❄️ Stretch your arms out and spin slooowly in a circle as you drift down from the sky. Turn once, turn twice... and FREEZE in your own special snowflake shape! Hold it icy-still.",
+    "duration": 10
+  },
+  {
+    "id": "sunshine-arms",
+    "english": "Sunshine Arms",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "☀️",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the chest",
+      "Connects breath and movement",
+      "Boosts happy energy"
+    ],
+    "funFact": "Sunlight takes about eight minutes to travel from the sun all the way to you.",
+    "story": "Each morning the sun stretches its golden rays wider and wider until the whole world is wrapped in a warm hug.",
+    "description": "Be the morning sun! ☀️ Breathe in and sweep your arms up and out in a giant circle, spreading warm sunshine rays everywhere. Breathe out and float them down. Shine your rays on your toes, your friends, the whole world!",
+    "duration": 10
+  },
+  {
+    "id": "growing-seed",
+    "english": "Growing Seed",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌱",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs",
+      "Connects breath and movement",
+      "Practices moving slowly"
+    ],
+    "funFact": "Some bamboo plants can grow taller than you in just one week!",
+    "story": "A tiny seed slept under the soil all winter, and when spring knocked, it stretched up, up, up into the sunshine.",
+    "description": "Curl down into a tiny seed — squat low and hug your knees. 🌱 Feel the rain... feel the sun... now grow! Rise up slooowly, taller and taller, until you stretch your leafy arms to the sky. Hold your tall plant shape and sway!",
+    "duration": 10
+  },
+  {
+    "id": "blooming-flower",
+    "english": "Blooming Flower",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌸",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the chest and arms",
+      "Encourages deep breaths",
+      "Feels joyful"
+    ],
+    "funFact": "Some flowers close their petals every night and open them again at sunrise.",
+    "story": "The shy pink flower kept her petals closed all morning, then blooooomed wide open when the butterflies came to visit.",
+    "description": "Stand tall with your hands squeezed together at your heart — you're a flower bud. 🌸 Take a big breath in and BLOOM! Open your arms wide like petals stretching to the sun. Close back into a bud and bloom again, even bigger!",
+    "duration": 10
+  },
+  {
+    "id": "falling-leaf-sway",
+    "english": "Falling Leaf Sway",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍂",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the sides",
+      "Feels calming",
+      "Practices slow, gentle movement"
+    ],
+    "funFact": "Leaves turn red and gold in autumn when their hidden colors finally get to show off.",
+    "story": "One golden leaf let go of its branch and swayed side to side, side to side, taking the slowest, dreamiest ride to the ground.",
+    "description": "Reach your arms up — you're a leaf on a tall autumn tree. 🍂 A breeze comes... let go! Sway gently side to side as you drift down, bending your body left and right like a floating leaf. Land softly and rest.",
+    "duration": 10
+  },
+  {
+    "id": "race-car-driver",
+    "english": "Race Car Driver",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏎️",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds a strong core",
+      "Sharpens focus"
+    ],
+    "funFact": "Race car drivers squeeze the wheel through corners so hard it's a real arm workout.",
+    "story": "The green flag waved, and the littlest driver gripped the wheel, zooming around every curve of the great mountain track.",
+    "description": "Hop into your race car! 🏎️ Bend your knees and sit back into an invisible seat, holding your pretend steering wheel out front. Vroom vroom! Steer left around a curve, steer right past the finish line — all while your strong legs hold you steady!",
+    "duration": 10
+  },
+  {
+    "id": "jet-wings",
+    "english": "Airplane Wings",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "✈️",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs and back",
+      "Sharpens focus"
+    ],
+    "funFact": "Airplane wings are curved on top, which helps scoop the plane up into the sky.",
+    "story": "The little jet rolled down the runway, spread its shiny wings, and tilted gently as it soared over the sea of clouds.",
+    "description": "Ready for takeoff, pilot? ✈️ Stand on one leg and stretch your arms out wide like jet wings. Lean your chest forward a little and let your back leg float behind you. Neeeoooow! Wobbling is part of the fun — then switch legs and fly again!",
+    "duration": 10
+  },
+  {
+    "id": "rowboat",
+    "english": "Rowboat",
+    "sanskrit": "Navasana",
+    "sanskritDevanagari": "नावासन",
+    "animalName": "",
+    "emoji": "🚣",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy muscles",
+      "Builds balance",
+      "Warms up arms"
+    ],
+    "funFact": "In Sanskrit this shape is called Navasana, which means Boat Pose.",
+    "story": "Two explorers pushed their little boat onto the lake and rowed together — heave, ho! — all the way to Treasure Island.",
+    "description": "Sit down and lean back a little, lifting your feet off the floor — you're a boat! 🚣 Grab your invisible oars and row: reach forward, pull baaack! Heave, ho! Keep your chest proud and row across the lake.",
+    "duration": 10
+  },
+  {
+    "id": "train-chug-freeze",
+    "english": "Train Chug-Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚂",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up arms and legs",
+      "Builds rhythm",
+      "Practices stopping on cue"
+    ],
+    "funFact": "The fastest trains in the world zoom quicker than 300 miles per hour!",
+    "story": "The happy little engine chugged up the tall mountain — chugga chugga, chugga chugga — and stopped right on time at every station.",
+    "description": "All aboard! 🚂 March in place and pump your arms in circles like train wheels — chugga chugga, chugga chugga! Speed up... WOO WOO! Now the station is coming... slow down... and FREEZE at the platform! Hold still while the passengers hop on.",
+    "duration": 8
+  },
+  {
+    "id": "popcorn-pop-squat",
+    "english": "Popcorn Pop",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍿",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs",
+      "Gets the heart pumping",
+      "Releases wiggly energy"
+    ],
+    "funFact": "Popcorn pops because a tiny drop of water inside each kernel turns to steam and bursts.",
+    "story": "The kernels sat quietly in the warm pot until — POP! — one jumped, then another, until the whole pot was a popcorn party.",
+    "description": "Curl down small like a tiny popcorn kernel. 🍿 The pot is getting warm... warmer... POP! Jump up with your arms out! Then curl back down and wait... POP again! Every pop can be a different silly shape.",
+    "duration": 8
+  },
+  {
+    "id": "balloon-blow-up",
+    "english": "Balloon Blow-Up",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎈",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches big belly breaths",
+      "Stretches the whole body",
+      "Feels calming"
+    ],
+    "funFact": "Your lungs are like two balloons that fill up about 20,000 times every day.",
+    "story": "At the birthday party, one magic balloon grew bigger and bigger and bigger... then let go and zoomed around the room — pbbbbt!",
+    "description": "Crouch down small — you're an empty balloon. 🎈 Take a big breath in and grow rounder and taller, arms curving wide. Breathe in again... even BIGGER! Now let the air out — pbbbbt! — and flop back down all floppy and giggly.",
+    "duration": 10
+  },
+  {
+    "id": "frog-hop-freeze",
+    "english": "Frog Hop Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Frog",
+    "emoji": "🐸",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs and hips",
+      "Gets the heart pumping",
+      "Practices soft landings"
+    ],
+    "funFact": "Some frogs can hop 20 times their own body length in a single jump.",
+    "story": "The little green frog hopped from lily pad to lily pad, freezing perfectly still whenever a dragonfly buzzed past.",
+    "description": "Squat down low with your hands on the floor between your feet — froggy style! 🐸 Ribbit! Hop forward and land soft on your froggy feet. Hop, hop... then FREEZE on your lily pad! Hold your squat super still until the coast is clear.",
+    "duration": 8
+  },
+  {
+    "id": "kangaroo-bounce-freeze",
+    "english": "Kangaroo Bounce Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Kangaroo",
+    "emoji": "🦘",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds bouncing balance",
+      "Gets the heart pumping"
+    ],
+    "funFact": "Kangaroos can't walk backward — their big tails and feet only let them bounce forward!",
+    "story": "The kangaroo kid bounced across the sunny outback with her joey in her pouch, stopping tall and still to listen to the wind.",
+    "description": "Make little kangaroo paws at your chest and bend your knees. 🦘 Boing! Bounce in place with both feet together — boing, boing, boing! Now freeze tall and still, ears listening like a kangaroo. Then bounce again across the outback!",
+    "duration": 8
+  },
+  {
+    "id": "penguin-waddle-freeze-warm",
+    "english": "Penguin Waddle Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Penguin",
+    "emoji": "🐧",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up legs and ankles",
+      "Builds balance",
+      "Releases silly energy"
+    ],
+    "funFact": "Penguins can't fly in the sky, but they fly underwater at up to 20 miles per hour.",
+    "story": "The penguin parade waddled across the ice, and whenever the icy wind whooshed by, they froze together like fluffy statues.",
+    "description": "Stand with your heels together and toes pointed out. 🐧 Press your arms flat to your sides like flippers and waddle in place — wibble, wobble, wibble, wobble! Brrr, icy wind! FREEZE like a penguin statue... then waddle on!",
+    "duration": 8
+  },
+  {
+    "id": "washing-machine-twist",
+    "english": "Washing Machine Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🧺",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up the spine",
+      "Loosens the waist",
+      "Feels playful"
+    ],
+    "funFact": "Washing machines spin clothes around hundreds of times a minute to squeeze the water out.",
+    "story": "The socks and shirts tumbled round and round in the sudsy machine, giggling on every spin until they came out sparkling clean.",
+    "description": "Sit criss-cross and put your hands on your shoulders. 🧺 You're a washing machine — twist gently side to side, swish swish swish! Add soap bubbles... now spin cycle! Twist a little quicker, then sloooow down. Ding! Laundry's done!",
+    "duration": 8
+  },
+  {
+    "id": "cross-crawl-march",
+    "english": "Criss-Cross March",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🧠",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds coordination",
+      "Wakes up the brain",
+      "Warms the whole body"
+    ],
+    "funFact": "Touching your elbow to your opposite knee makes both sides of your brain talk to each other.",
+    "story": "The explorer marched through the jungle with a special secret step that kept her brain sharp and her path true.",
+    "description": "March in place, nice and tall. 🧠 Now the tricky part: touch your right elbow to your left knee, then your left elbow to your right knee! Criss-cross, criss-cross! Slow and steady first, then a little faster. Your brain is doing yoga too!",
+    "duration": 8
+  },
+  {
+    "id": "speed-skater-lunge",
+    "english": "Speed Skater",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛸️",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds side-to-side balance",
+      "Gets the heart pumping"
+    ],
+    "funFact": "Speed skaters lean forward and swing their arms to zoom faster than cars drive in town.",
+    "story": "On the frozen lake, the speed skater glided side to side, whooshing past snowmen and leaving sparkly trails in the ice.",
+    "description": "Bend your knees and lean forward a little, skater! ⛸️ Step wide to one side and swing your arms across — swoosh! Now glide to the other side — swoosh! Push side to side like you're skating on smooth ice. Feel those strong skater legs!",
+    "duration": 8
+  },
+  {
+    "id": "surfer-stance",
+    "english": "Surfer Stance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏄",
+    "category": "warmup-fun",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds steady balance",
+      "Sharpens focus"
+    ],
+    "funFact": "Surfers bend their knees low to stay glued to the board when waves get bumpy.",
+    "story": "A big friendly wave rolled in, and the little surfer hopped up on the board, riding it all the way to the sandy shore.",
+    "description": "Hop onto your surfboard — feet wide, one foot forward! 🏄 Bend your knees low and stretch your arms out for balance. Here comes a wave... whoa! Wobble, lean, and ride it out! Hold your surfer stance till you reach the beach.",
+    "duration": 10
+  },
+  {
+    "id": "drum-solo-tap",
+    "english": "Drum Solo",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥁",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up hands and arms",
+      "Builds rhythm",
+      "Releases wiggly energy"
+    ],
+    "funFact": "Drumming on your legs really does warm up your muscles and your brain's sense of rhythm.",
+    "story": "The band needed a drummer, so the newest rock star turned knees, tummy, and even the floor into the greatest drum set ever.",
+    "description": "Sit criss-cross — your knees are drums! 🥁 Tap them gently: tap-tap-tap. Now faster: tappity-tappity-tap! Drum on the floor, drum on your tummy, big finish on your knees — ba-dum-TSS! Then hands in your lap, quiet as a resting drum.",
+    "duration": 8
+  },
+  {
+    "id": "firework-burst",
+    "english": "Firework Burst",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎆",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Releases big energy",
+      "Strengthens legs",
+      "Connects breath and movement"
+    ],
+    "funFact": "Fireworks get their colors from different metals — copper makes blue and iron makes gold sparks.",
+    "story": "On festival night, one little firework whooshed up into the dark sky and burst into a thousand giggling sparkles.",
+    "description": "Crouch down low and get quiet — you're a firework waiting on the ground. 🎆 Breathe in... whooooosh, rise up tall! Then BURST! Jump and fling your arms wide with a great big 'BOOM!' Float your sparkle fingers slowly back down.",
+    "duration": 8
+  },
+  {
+    "id": "bubble-pop-reach",
+    "english": "Bubble Pop Reach",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🫧",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches arms and sides",
+      "Builds reach and balance",
+      "Feels playful"
+    ],
+    "funFact": "Bubbles are always round because air pushes on the soapy skin evenly from every side.",
+    "story": "Hundreds of shimmery bubbles floated through the garden, and one giggly kid set out to pop every single one.",
+    "description": "Look — bubbles floating everywhere! 🫧 Reach way up high and pop one... POP! Reach to the side... POP! Way down low... POP! Stretch on your tiptoes for the highest bubble of all. How many can you pop?",
+    "duration": 8
+  },
+  {
+    "id": "floppy-noodle-arms",
+    "english": "Floppy Noodle Arms",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍝",
+    "category": "warmup-fun",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes shoulders and arms",
+      "Releases silly energy",
+      "Teaches loose, soft movement"
+    ],
+    "funFact": "Spaghetti starts out stiff as sticks and turns floppy after just ten minutes in hot water.",
+    "story": "The stiff spaghetti sticks hopped into the warm pot, and one by one they turned into the wiggliest, floppiest noodles in Italy.",
+    "description": "Stand tall and stiff like dry spaghetti. 🍝 Now hop into the warm pot — let your arms go floppy! Swing them, wiggle them, flop them all around like cooked noodles. Even your head goes soft and wobbly. Mamma mia, what a noodle!",
+    "duration": 8
+  },
+  {
+    "id": "mountain-climber-freeze",
+    "english": "Mountain Climber Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏔️",
+    "category": "warmup-fun",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens arms and tummy",
+      "Gets the heart pumping",
+      "Builds full-body power"
+    ],
+    "funFact": "Climbers on giant mountains take one slow step at a time — steady wins the summit.",
+    "story": "The brave climber scrambled up the snowy mountain, pausing perfectly still whenever the wind picked up, then climbing on to the top.",
+    "description": "Start in a strong plank — hands under your shoulders, body long like a mountain trail. 🏔️ Now climb! Pull one knee toward your chest, then switch — climb, climb, climb! And FREEZE in your plank, strong and still. You reached the summit!",
+    "duration": 8,
+    "safetyNote": "Keep hands flat and shoulders over wrists. Rest your knees on the floor whenever your arms feel tired."
+  },
+  {
+    "id": "crab-dance-kick",
+    "english": "Crab Dance Kick",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Crab",
+    "emoji": "🦀",
+    "category": "warmup-fun",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens arms and legs",
+      "Builds a strong core",
+      "Boosts coordination"
+    ],
+    "funFact": "Crabs really do scuttle sideways — their leg joints bend the perfect way for sideways dancing.",
+    "story": "Down at the beach disco, the coolest crab flipped over, lifted his claws, and kicked his legs to the rhythm of the waves.",
+    "description": "Sit down, put your hands behind you and feet flat, then lift your bottom up — crab position! 🦀 Now dance, crab, dance! Kick one leg up to the sky, then the other — kick, kick, kick! Keep those crab hips lifted high while you boogie.",
+    "duration": 8,
+    "safetyNote": "Point your fingers toward your feet to keep wrists happy, and lower your bottom down to rest whenever you need."
+  }
+]

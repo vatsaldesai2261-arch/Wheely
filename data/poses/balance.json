@@ -1,0 +1,874 @@
+[
+  {
+    "id": "flamingo-stand",
+    "english": "Flamingo Stand",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Flamingo",
+    "emoji": "🦩",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs",
+      "Boosts focus"
+    ],
+    "funFact": "Real flamingos can sleep while standing on just one leg!",
+    "story": "A pink flamingo stood in a sparkly lagoon, holding so still that the fish thought she was a beautiful pink statue.",
+    "description": "Stand tall, little flamingo! 🦩 Lift one foot behind you and hold it up. Stretch your neck long and proud. Can you stay pink-and-still while you count to five?",
+    "duration": 10
+  },
+  {
+    "id": "balancing-table",
+    "english": "Balancing Table (Bird Dog)",
+    "sanskrit": "Dandayamana Bharmanasana",
+    "sanskritDevanagari": "दण्डायमान भर्मणासन",
+    "animalName": "Dog",
+    "emoji": "🐶",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens tummy and back",
+      "Builds balance",
+      "Helps focus"
+    ],
+    "funFact": "Hunting dogs point with one paw up and their tail out straight, just like this pose!",
+    "story": "A clever pup smelled a hidden treasure and froze like a statue, pointing one paw and one tail-leg right at it.",
+    "description": "Get on your hands and knees like a puppy! 🐶 Stretch one arm forward and the opposite leg back. Make your body a long, steady table. Woof — hold it super still!",
+    "duration": 10
+  },
+  {
+    "id": "tightrope-walker",
+    "english": "Tightrope Walker",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎪",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Improves focus",
+      "Strengthens feet"
+    ],
+    "funFact": "Real tightrope walkers carry a long pole because it helps them balance better!",
+    "story": "High above the circus crowd, a brave walker stepped along the rope, arms out wide, while everyone below held their breath.",
+    "description": "Pretend a rope is on the floor! 🎪 Stretch your arms out wide like a pole. Walk heel-to-toe, one careful step at a time. Wobbling is part of the fun — the crowd cheers either way!",
+    "duration": 10
+  },
+  {
+    "id": "statue-freeze",
+    "english": "Statue Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🗽",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds stillness",
+      "Improves balance",
+      "Calms the body"
+    ],
+    "funFact": "Your inner ear has tiny tubes of liquid that tell your brain how to balance!",
+    "story": "In the museum at midnight, the statues play a secret game: whoever stays frozen longest wins the golden pedestal.",
+    "description": "Freeze! 🗽 Stand on one foot and strike your most amazing statue shape. Arms up, out, or silly — you choose. Now hold sooo still that even a pigeon might land on you!",
+    "duration": 10
+  },
+  {
+    "id": "ninja-freeze",
+    "english": "Ninja Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥷",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Improves body control",
+      "Boosts focus"
+    ],
+    "funFact": "Ninjas trained to move so quietly they could sneak across squeaky floors without a sound.",
+    "story": "A little ninja crept through the castle. When the guard turned around — freeze! — the ninja became invisible by staying perfectly still.",
+    "description": "Sneaky ninja time! 🥷 Tiptoe quietly... then FREEZE on one leg with your arms in a cool ninja shape. Breathe silently like a shadow. Hold it until the guard walks by!",
+    "duration": 8
+  },
+  {
+    "id": "surf-balance",
+    "english": "Surfer Balance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏄",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs",
+      "Builds balance",
+      "Sparks imagination"
+    ],
+    "funFact": "Surfers bend their knees to stay steady — bent knees are a secret balance trick!",
+    "story": "A big sparkly wave rolled in, and one brave surfer rode it all the way to the beach, knees bent and arms surfing the wind.",
+    "description": "Hop on your surfboard! 🏄 Stand with feet wide, one foot in front. Bend your knees and stretch your arms out to ride the wave. Whoa — lean gently side to side and stay on your board!",
+    "duration": 10
+  },
+  {
+    "id": "baby-airplane",
+    "english": "Baby Airplane",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "✈️",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs",
+      "Improves focus"
+    ],
+    "funFact": "Airplane wings are tilted just a tiny bit — that little tilt is what lifts the whole plane!",
+    "story": "A little plane practiced on the runway, tipping its wings just a bit, getting ready for its very first big flight.",
+    "description": "Spread your wings wide! ✈️ Slide one foot back and let just your toes touch the floor. Tip forward a teeny bit, wings out. Vrooom — you're getting ready for takeoff!",
+    "duration": 10
+  },
+  {
+    "id": "see-saw",
+    "english": "See-Saw",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⚖️",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds teamwork",
+      "Makes balance fun"
+    ],
+    "funFact": "A see-saw is a giant lever — one of the oldest machines humans ever invented!",
+    "story": "Two friends sat on a magic see-saw. Up went one, down went the other, and their giggles made it rock even better.",
+    "description": "Sit facing a partner and hold hands! ⚖️ Press the bottoms of your feet together and lift them up. Now gently rock — you lean back, they come forward. Wheee, up and down like a playground see-saw!",
+    "duration": 15
+  },
+  {
+    "id": "little-boat",
+    "english": "Little Boat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛵",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds balance",
+      "Improves posture"
+    ],
+    "funFact": "Boats stay balanced because of a heavy fin underneath called a keel!",
+    "story": "A tiny sailboat bobbed in a calm harbor, keeping its balance while seagulls landed on its mast.",
+    "description": "Sit down and hold the backs of your knees! ⛵ Lean back a little and lift your feet off the floor. Keep your chest proud like a sail. Float steady, little boat!",
+    "duration": 10
+  },
+  {
+    "id": "tiptoe-balance",
+    "english": "Tiptoe Reach",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🩰",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens feet and ankles",
+      "Builds balance",
+      "Stretches the body"
+    ],
+    "funFact": "Ballet dancers train for years to balance on the very tips of their toes!",
+    "story": "The cookie jar sat on the tippy-top shelf, so one determined kid rose up, up, up on tiptoes to reach it.",
+    "description": "Rise up on your tiptoes! 🩰 Reach both arms to the sky like you're grabbing a star. Squeeze your legs together and stand tall. Shhh... balance like a ballerina!",
+    "duration": 10
+  },
+  {
+    "id": "penguin-balance",
+    "english": "Penguin Balance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Penguin",
+    "emoji": "🐧",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Strengthens ankles",
+      "Makes you giggle"
+    ],
+    "funFact": "Daddy emperor penguins balance an egg on their feet for two whole months to keep it warm!",
+    "story": "On the frozen ice, a papa penguin balanced a precious egg on his toes, standing steady through the swirling snow.",
+    "description": "Stand with your heels together, toes out! 🐧 Make stiff little wings by your sides. Now rock gently onto one foot — you're guarding an invisible egg on your toes! Waddle-freeze!",
+    "duration": 10
+  },
+  {
+    "id": "kickstand",
+    "english": "Kickstand Balance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚲",
+    "category": "balance",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs",
+      "Grows confidence"
+    ],
+    "funFact": "A bike's kickstand works because three points of contact make things super stable!",
+    "story": "A shiny red bike parked itself by the ice cream shop, leaning proudly on its trusty kickstand.",
+    "description": "Stand tall like a parked bike! 🚲 Put one heel on your other ankle, toes touching the floor like a kickstand. Press your hands together at your heart. Steady... you're parked perfectly!",
+    "duration": 10
+  },
+  {
+    "id": "eagle-pose-bala",
+    "english": "Eagle Pose",
+    "sanskrit": "Garudasana",
+    "sanskritDevanagari": "गरुडासन",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Stretches shoulders",
+      "Sharpens focus"
+    ],
+    "funFact": "Eagles can spot a rabbit from more than three kilometers away!",
+    "story": "Garuda, the mighty king of birds, wrapped his wings tight and perched on the tallest mountain, watching over the whole valley.",
+    "description": "Time to be an eagle! 🦅 Cross one leg over the other and squeeze. Wrap your arms around each other like twisty wings, then bend your knees and perch. Eagle eyes on one spot — hold steady!",
+    "duration": 10
+  },
+  {
+    "id": "eagle-crouch",
+    "english": "Swooping Eagle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds deep balance",
+      "Boosts focus"
+    ],
+    "funFact": "When eagles dive for food, they can swoop faster than a race car!",
+    "story": "From way up high, the eagle spotted its dinner and swooped down low, low, lower — without ever losing its balance.",
+    "description": "Start in your twisty Eagle Pose! 🦅 Now sloooowly bend your knees and swoop down low like you're diving for a fish. Keep your wings wrapped tight. Then rise back up — what a swoop!",
+    "duration": 8
+  },
+  {
+    "id": "airplane-pose-bala",
+    "english": "Airplane",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛩️",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs and back",
+      "Builds balance",
+      "Improves focus"
+    ],
+    "funFact": "Pilots balance a plane using little flaps on the wings called ailerons!",
+    "story": "The little plane finally got its wings and zoomed over mountains and oceans, tilting side to side to wave at the clouds.",
+    "description": "Engines on! 🛩️ Stand on one leg and stretch the other leg straight back. Lean your chest forward and spread your arm-wings out wide. Vrooooom — fly steady through the sky!",
+    "duration": 10
+  },
+  {
+    "id": "boat-pose",
+    "english": "Boat Pose",
+    "sanskrit": "Navasana",
+    "sanskritDevanagari": "नावासन",
+    "animalName": "",
+    "emoji": "🚤",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds balance",
+      "Improves posture"
+    ],
+    "funFact": "Your tummy muscles are your body's own life jacket — they hold you up all day!",
+    "story": "A speedy little boat zoomed across the lake, nose up, riding the waves with a big happy splash.",
+    "description": "Sit down and lean back a little! 🚤 Lift your legs so your shins float like the deck of a boat. Stretch your arms forward past your knees. Balance on your bottom — toot toot, full speed ahead!",
+    "duration": 10
+  },
+  {
+    "id": "rocking-boat",
+    "english": "Rocking Boat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌊",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds body control",
+      "Makes balance playful"
+    ],
+    "funFact": "Sailors get 'sea legs' — their brains learn to balance on rocking ships!",
+    "story": "The waves rolled in and the brave little boat rocked forward and back, but its strong keel kept it from tipping over.",
+    "description": "Make your Boat Pose! 🌊 Now here come the waves — lower your legs and chest a tiny bit, then lift back up. Rock gently like the sea is pushing you. Keep your tummy strong so you never tip!",
+    "duration": 10
+  },
+  {
+    "id": "half-boat",
+    "english": "Half Boat",
+    "sanskrit": "Ardha Navasana",
+    "sanskritDevanagari": "अर्ध नावासन",
+    "animalName": "",
+    "emoji": "🛶",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds stamina",
+      "Improves balance"
+    ],
+    "funFact": "Canoes are so well balanced that people have paddled them across entire oceans!",
+    "story": "A quiet canoe glided low across the misty lake, sitting deep in the water, steady as a whisper.",
+    "description": "Sit in your boat, then lower it halfway! 🛶 Lean back with your lower back rounded, legs lifted low, arms reaching forward. Your tummy is working hard — hold it, strong sailor!",
+    "duration": 10
+  },
+  {
+    "id": "bird-dog-crunch",
+    "english": "Bird Dog Crunch",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dog",
+    "emoji": "🐾",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy and back",
+      "Builds coordination",
+      "Improves balance"
+    ],
+    "funFact": "Moving opposite arms and legs together makes both sides of your brain work as a team!",
+    "story": "The pointing pup learned a new trick: curling up small like a hedgehog, then stretching out long like a dachshund!",
+    "description": "Start in Balancing Table, arm and leg stretched out! 🐾 Now squeeze — bring your elbow and knee together under your belly. Then stretch looong again. Curl and stretch, curl and stretch!",
+    "duration": 10
+  },
+  {
+    "id": "toe-stand-prep",
+    "english": "Tiptoe Chair",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦶",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens feet and legs",
+      "Builds balance",
+      "Prepares for Toe Stand"
+    ],
+    "funFact": "Your big toes do most of the balancing work when you stand — thank you, toes!",
+    "story": "The elevator was broken, so the tiny mouse squatted down on tiptoes, ready to spring up the stairs.",
+    "description": "Rise onto your tiptoes! 🦶 Now slowly bend your knees and sink down like you're sitting in a tiny invisible chair. Hands together at your heart. Balance on your toes — you've got this!",
+    "duration": 10
+  },
+  {
+    "id": "standing-knee-hug",
+    "english": "Standing Knee Hug",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🤗",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Stretches hips",
+      "Calms the body"
+    ],
+    "funFact": "Hugging — even hugging your own knee — can help your body feel calm and cozy!",
+    "story": "One knee felt a little left out, so the arms gave it the biggest, warmest hug while the other leg stood guard.",
+    "description": "Stand tall and lift one knee up high! 🤗 Wrap both arms around it and give it a big squeeze-hug. Stand proud on your other leg. Breathe... then switch and hug the other knee!",
+    "duration": 10
+  },
+  {
+    "id": "hand-to-big-toe-bent",
+    "english": "Hand-to-Knee Balance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦵",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs",
+      "Improves focus"
+    ],
+    "funFact": "Staring at one still spot — yogis call it a drishti — is a real secret to not wobbling!",
+    "story": "The lighthouse keeper stood on one leg at the top of the tower, holding steady while ships blinked hello from the sea.",
+    "description": "Stand tall and lift one knee! 🦵 Hold your knee or grab your big toe with two fingers, keeping the knee bent. Stand super straight and pick one spot to stare at. Steady as a lighthouse!",
+    "duration": 10
+  },
+  {
+    "id": "baby-dancer",
+    "english": "Baby Dancer",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💃",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Stretches legs",
+      "Opens the chest"
+    ],
+    "funFact": "This pose comes from Nataraja — a famous dancing king from Indian stories!",
+    "story": "Before the big show, the littlest dancer practiced backstage, holding one foot and reaching for the spotlight.",
+    "description": "Stand tall, little dancer! 💃 Bend one knee and catch your foot behind you. Reach your other arm up like you're on stage. Stand proud and still — ta-da, take a bow!",
+    "duration": 10
+  },
+  {
+    "id": "dancer-with-wall",
+    "english": "Dancer at the Wall",
+    "sanskrit": "Natarajasana",
+    "sanskritDevanagari": "नटराजासन",
+    "animalName": "",
+    "emoji": "🧱",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance safely",
+      "Stretches the front body",
+      "Grows confidence"
+    ],
+    "funFact": "Even professional ballerinas practice at a wall — it's called a barre!",
+    "story": "The dancer found a friendly wall to hold hands with, and together they practiced the most graceful kick in the kingdom.",
+    "description": "Stand next to a wall and touch it with one hand! 🧱 Catch your foot behind you and gently kick it back and up. Lean forward a little, chest proud. The wall is your dance partner — glide and hold!",
+    "duration": 10
+  },
+  {
+    "id": "crow-prep",
+    "english": "Baby Crow",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Crow",
+    "emoji": "🐦‍⬛",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms",
+      "Builds courage",
+      "Prepares for arm balances"
+    ],
+    "funFact": "Crows are so smart they can use sticks as tools to get their food!",
+    "story": "A young crow hopped to the edge of the nest, leaned forward, and practiced pressing its wings down before its first flight.",
+    "description": "Squat down like a little crow! 🐦‍⬛ Put your hands flat on the floor and press your knees against your arms. Lean forward and let one set of toes float up. Caw caw — almost flying!",
+    "duration": 8
+  },
+  {
+    "id": "tiptoe-squat-bala",
+    "english": "Tiptoe Squat",
+    "sanskrit": "Prapadasana",
+    "sanskritDevanagari": "प्रपादासन",
+    "animalName": "",
+    "emoji": "👣",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens feet and ankles",
+      "Builds balance",
+      "Improves focus"
+    ],
+    "funFact": "Each of your feet has 26 bones — a quarter of all the bones in your body are in your feet!",
+    "story": "The tiniest elf crouched on tiptoes atop a mushroom, balancing perfectly while the forest watched in wonder.",
+    "description": "Squat all the way down onto your tiptoes! 👣 Bring your knees together and sit on your heels, floating on your toes. Press your palms together at your heart. Tiny elf, big balance!",
+    "duration": 10
+  },
+  {
+    "id": "karate-kick-freeze",
+    "english": "Karate Kick Freeze",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥋",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Strengthens legs",
+      "Improves body control"
+    ],
+    "funFact": "Karate masters balance on one leg for the famous crane kick — patience is their superpower!",
+    "story": "The young karate student climbed to the dojo roof and practiced the legendary freeze-kick until the sun went down.",
+    "description": "Hi-YA! 🥋 Lift one knee up high and raise your arms like a karate master. Now slowly stretch your leg into a gentle kick... and FREEZE right there. Hold your mighty kick statue!",
+    "duration": 8
+  },
+  {
+    "id": "figure-four-balance",
+    "english": "Pretzel Leg Balance",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥨",
+    "category": "balance",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches hips",
+      "Builds balance",
+      "Strengthens legs"
+    ],
+    "funFact": "Crossing one ankle over your knee makes a shape like the number 4!",
+    "story": "The baker twisted the dough into a perfect pretzel shape, and it balanced on the tray without flopping over.",
+    "description": "Stand tall, then cross one ankle over your other knee! 🥨 Sit back a little like you're in a chair. Press your hands together at your heart. You're a perfectly balanced pretzel!",
+    "duration": 10
+  },
+  {
+    "id": "crow-pose",
+    "english": "Crow Pose",
+    "sanskrit": "Kakasana",
+    "sanskritDevanagari": "काकासन",
+    "animalName": "Crow",
+    "emoji": "🐦‍⬛",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens arms and wrists",
+      "Builds courage",
+      "Improves focus"
+    ],
+    "funFact": "Crows can remember human faces for years — they never forget a friend!",
+    "story": "The clever crow perched on a branch, gripping tight with strong claws, balancing its whole body over its feet — just like you on your hands!",
+    "description": "Squat down and plant your hands like strong claws! 🐦‍⬛ Press your knees onto the backs of your arms. Look forward, lean forward, and let your toes float up. You're flying, little crow!",
+    "duration": 8,
+    "safetyNote": "Put a pillow in front of you for soft landings, and keep your eyes looking forward, not down."
+  },
+  {
+    "id": "crane-pose",
+    "english": "Crane Pose",
+    "sanskrit": "Bakasana",
+    "sanskritDevanagari": "बकासन",
+    "animalName": "Crane",
+    "emoji": "🦢",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens arms",
+      "Builds core power",
+      "Boosts confidence"
+    ],
+    "funFact": "Cranes are famous for standing tall on long, straight legs — this pose uses long, straight arms!",
+    "story": "The elegant crane rose up on the tallest, straightest legs in the marsh, and all the frogs applauded.",
+    "description": "Start in your Crow, knees on your arms! 🦢 Now press the floor away and make your arms straaaight like crane legs. Squeeze your knees high near your armpits. Tall and proud — you're a crane!",
+    "duration": 8,
+    "safetyNote": "Master Crow Pose first, use a pillow in front of you, and practice with a grown-up nearby."
+  },
+  {
+    "id": "side-crow",
+    "english": "Side Crow",
+    "sanskrit": "Parsva Bakasana",
+    "sanskritDevanagari": "पार्श्व बकासन",
+    "animalName": "Crow",
+    "emoji": "🌪️",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens arms",
+      "Builds twisting power",
+      "Improves focus"
+    ],
+    "funFact": "Crows can fly sideways and even a little bit upside down when they play in the wind!",
+    "story": "A playful crow caught a twisty gust of wind and spun sideways through the sky, laughing all the way.",
+    "description": "Squat down and twist, putting both hands flat on one side! 🌪️ Rest the side of your leg on your bent arms. Lean forward slowly... and float your feet up sideways. Twisty flying crow!",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up spotter and a soft pillow beside you. Skip if your wrists hurt."
+  },
+  {
+    "id": "toe-stand",
+    "english": "Toe Stand",
+    "sanskrit": "Padangushthasana",
+    "sanskritDevanagari": "पादाङ्गुष्ठासन",
+    "animalName": "",
+    "emoji": "🦶",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens ankles and feet",
+      "Builds deep balance",
+      "Sharpens focus"
+    ],
+    "funFact": "Balancing gets easier every time you practice — your brain literally rewires itself!",
+    "story": "The mountain goat perched on a rock the size of a coin, balancing on one hoof-tip while the wind whooshed by.",
+    "description": "Stand tall and place one ankle over your other knee like a pretzel! 🦶 Slowly bend down until you're sitting on your tiptoe heel. Hands to your heart. You're balancing on one tiny toe-perch!",
+    "duration": 10,
+    "safetyNote": "Keep fingertips on the floor or a block until you feel steady. Skip if your knees hurt."
+  },
+  {
+    "id": "standing-big-toe",
+    "english": "Standing Hand-to-Big-Toe",
+    "sanskrit": "Utthita Hasta Padangusthasana",
+    "sanskritDevanagari": "उत्थित हस्त पादाङ्गुष्ठासन",
+    "animalName": "",
+    "emoji": "🎯",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Stretches hamstrings",
+      "Builds strong balance",
+      "Improves focus"
+    ],
+    "funFact": "Your big toe presses down about a hundred times every minute you walk!",
+    "story": "The archer stood on one leg, stretched the bow with a steady arm, and stayed perfectly still before the winning shot.",
+    "description": "Stand tall and grab your big toe with two fingers! 🎯 Slooowly stretch that leg out in front of you. Stand proud, shoulders back, eyes on one spot. Steady as an archer — bullseye!",
+    "duration": 10,
+    "safetyNote": "Keep the standing knee soft and a wall within reach. A bent knee version is always a win too."
+  },
+  {
+    "id": "standing-big-toe-side",
+    "english": "Hand-to-Big-Toe Side Stretch",
+    "sanskrit": "Utthita Hasta Padangusthasana B",
+    "sanskritDevanagari": "उत्थित हस्त पादाङ्गुष्ठासन बी",
+    "animalName": "",
+    "emoji": "🧭",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Opens hips",
+      "Builds strong balance",
+      "Stretches legs"
+    ],
+    "funFact": "Opening your leg to the side uses a hip joint shaped like a ball in a bowl!",
+    "story": "The compass needle swung slowly to the side and stopped, pointing the explorers exactly the right way.",
+    "description": "Hold your big toe and stretch your leg forward first! 🧭 Now slooowly swing it out to the side like a gate opening. Stand tall and look the other way. You're a human compass — hold your point!",
+    "duration": 10,
+    "safetyNote": "Move slowly and keep a wall nearby. Holding your knee instead of your toe is perfect too."
+  },
+  {
+    "id": "royal-dancer",
+    "english": "Royal Dancer",
+    "sanskrit": "Natarajasana",
+    "sanskritDevanagari": "नटराजासन",
+    "animalName": "",
+    "emoji": "👑",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Stretches the front body",
+      "Builds balance",
+      "Opens the chest"
+    ],
+    "funFact": "Nataraja means 'king of dancers' — statues of this dancing king are thousands of years old!",
+    "story": "In the royal palace, the greatest dancer kicked one leg high behind them like a swirling ribbon, and the whole court gasped.",
+    "description": "Catch your foot behind you, dancer! 👑 Now kick it up and back, high and strong, as you reach forward with your other arm. Chest proud, eyes ahead. You're dancing for the whole kingdom!",
+    "duration": 10,
+    "safetyNote": "Practice near a wall and kick up slowly. Skip the big kick if your back feels achy."
+  },
+  {
+    "id": "sleeping-eagle",
+    "english": "Sleeping Eagle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds deep balance",
+      "Stretches shoulders and hips",
+      "Calms the mind"
+    ],
+    "funFact": "Eagles tuck their heads under a wing to sleep — even way up in tall trees!",
+    "story": "As the moon rose, the eagle wrapped its wings tight, tucked in its beak, and dozed off without ever falling from its branch.",
+    "description": "Wrap into your twisty Eagle Pose! 🦅 Now slowly fold forward and bring your elbows toward your knee. Tuck your head like a sleepy bird. Shhh... balance in your cozy nest!",
+    "duration": 10,
+    "safetyNote": "Fold forward slowly and keep a wall nearby in case you wobble."
+  },
+  {
+    "id": "eyes-closed-statue",
+    "english": "Eyes-Closed Statue",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🙈",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Supercharges balance",
+      "Builds body awareness",
+      "Calms the mind"
+    ],
+    "funFact": "Your eyes do half your balancing work — close them and your inner ear takes over!",
+    "story": "The wizard's statue game had one final level: balance in the dark! Only the bravest, calmest kids could do it.",
+    "description": "Stand on one leg in your favorite statue shape! 🙈 Feeling steady? Now gently close your eyes. Whoa — feel your feet talking to the floor! Wobbles mean your brain is learning!",
+    "duration": 8,
+    "safetyNote": "Stand on a clear, soft surface away from furniture, with a grown-up or wall close by."
+  },
+  {
+    "id": "v-sit-boat",
+    "english": "Big V Boat",
+    "sanskrit": "Paripurna Navasana",
+    "sanskritDevanagari": "परिपूर्ण नावासन",
+    "animalName": "",
+    "emoji": "🛥️",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens tummy",
+      "Builds balance",
+      "Improves posture"
+    ],
+    "funFact": "Racing sailboats tip way over on purpose — strong sailors lean out to balance them!",
+    "story": "The racing yacht lifted its bow high out of the water, sails wide, flying across the finish line in first place.",
+    "description": "Sit tall and lift your legs straight up into a big V! 🛥️ Grab your toes or reach your arms along your legs. Chest proud, tummy strong. You're a racing boat at full speed!",
+    "duration": 10,
+    "safetyNote": "Keep your back long, not slumped. Bend your knees any time your back gets tired."
+  },
+  {
+    "id": "flying-eagle",
+    "english": "Flying Eagle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "balance",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds strong balance",
+      "Strengthens legs and core",
+      "Sharpens focus"
+    ],
+    "funFact": "Eagles can glide for hours without flapping by riding warm rising air!",
+    "story": "The eagle leapt from the cliff with wings still wrapped, tipped forward into the wind, and soared over the shining river.",
+    "description": "Start wrapped up in Eagle Pose! 🦅 Now slowly tip your chest forward and stretch your wrapped leg back behind you. Arms stay twisted in front. You're gliding — steady wings, brave eagle!",
+    "duration": 8,
+    "safetyNote": "Tip forward slowly and practice near a wall. Unwrap and land any time you need."
+  },
+  {
+    "id": "firefly",
+    "english": "Firefly Pose",
+    "sanskrit": "Tittibhasana",
+    "sanskritDevanagari": "तित्तिभासन",
+    "animalName": "Firefly",
+    "emoji": "✨",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strengthens arms and wrists",
+      "Builds core power",
+      "Stretches hamstrings"
+    ],
+    "funFact": "Fireflies make real light inside their bodies — and it's not even hot!",
+    "story": "On a warm summer night, one little firefly stretched its legs out wide and lit up the whole meadow with a happy glow.",
+    "description": "Squat and sneak your hands behind your feet, palms flat! ✨ Rest your legs high on your arms. Lean back gently, lift your feet, and stretch your legs out wide. Glow bright, little firefly!",
+    "duration": 8,
+    "safetyNote": "Advanced pose — only with a grown-up spotter and soft ground. Warm up your wrists first."
+  },
+  {
+    "id": "eight-angle",
+    "english": "Eight-Angle Pose",
+    "sanskrit": "Astavakrasana",
+    "sanskritDevanagari": "अष्टावक्रासन",
+    "animalName": "",
+    "emoji": "8️⃣",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strengthens arms and core",
+      "Builds coordination",
+      "Boosts confidence"
+    ],
+    "funFact": "This pose is named after a wise sage called Ashtavakra, whose name means 'eight bends'!",
+    "story": "A wise young sage amazed the royal court by folding into eight zigzag bends and floating like a puzzle in the air.",
+    "description": "Sit and hook one leg over your shoulder! 8️⃣ Plant both hands, cross your ankles, and squeeze your legs around one arm. Lean forward, bend your elbows... and lift off sideways! Zigzag magic!",
+    "duration": 8,
+    "safetyNote": "Advanced pose — only with a grown-up spotter and a cushion below. Stop if wrists or shoulders hurt."
+  },
+  {
+    "id": "peacock-pose",
+    "english": "Peacock Pose",
+    "sanskrit": "Mayurasana",
+    "sanskritDevanagari": "मयूरासन",
+    "animalName": "Peacock",
+    "emoji": "🦚",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strengthens arms and wrists",
+      "Builds core power",
+      "Improves focus"
+    ],
+    "funFact": "A peacock's shimmering tail can have more than 150 sparkling eye-spot feathers!",
+    "story": "The proud peacock spread its dazzling tail, leaned forward on strong legs, and balanced its whole rainbow body like magic.",
+    "description": "Kneel and point your fingers back toward your toes! 🦚 Snuggle your elbows into your belly. Lean forward slowly, stretch your legs back... and let your tail feathers float. Dazzling!",
+    "duration": 8,
+    "safetyNote": "Advanced pose — only with a grown-up spotter and pillows in front. Skip if your wrists or tummy hurt."
+  },
+  {
+    "id": "flying-pigeon",
+    "english": "Flying Pigeon",
+    "sanskrit": "Eka Pada Galavasana",
+    "sanskritDevanagari": "एक पाद गालवासन",
+    "animalName": "Pigeon",
+    "emoji": "🕊️",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strengthens arms",
+      "Opens hips",
+      "Builds courage"
+    ],
+    "funFact": "Pigeons can find their way home from hundreds of kilometers away!",
+    "story": "The messenger pigeon tucked one foot into its feathers, leaned into the wind, and launched off the tower with an important letter.",
+    "description": "Cross one ankle over your other knee, then fold down and plant your hands! 🕊️ Hook your foot around your arm, lean forward, and stretch your back leg to the sky. Special delivery — you're flying!",
+    "duration": 8,
+    "safetyNote": "Advanced pose — only with a grown-up spotter and soft ground. Master Crow Pose first."
+  },
+  {
+    "id": "king-dancer-full",
+    "english": "Full King Dancer",
+    "sanskrit": "Natarajasana",
+    "sanskritDevanagari": "नटराजासन",
+    "animalName": "",
+    "emoji": "🕺",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deep front-body stretch",
+      "Builds strong balance",
+      "Opens shoulders"
+    ],
+    "funFact": "In old stories, Nataraja's cosmic dance keeps the whole universe spinning!",
+    "story": "When the king of dancers reached both arms overhead and caught his foot like a crown, even the stars stopped to watch.",
+    "description": "Kick one foot up behind you and reach BOTH arms overhead to catch it! 🕺 Elbows point to the sky, chest lifts proud. Kick gently into your hands and balance. The universe is watching — dance, royal one!",
+    "duration": 10,
+    "safetyNote": "Advanced backbend — only with a grown-up nearby and after warming up. A strap around the foot makes it safer."
+  },
+  {
+    "id": "one-legged-crow",
+    "english": "One-Legged Crow",
+    "sanskrit": "Eka Pada Bakasana",
+    "sanskritDevanagari": "एक पाद बकासन",
+    "animalName": "Crow",
+    "emoji": "🐦‍⬛",
+    "category": "balance",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strengthens arms and core",
+      "Builds control",
+      "Boosts courage"
+    ],
+    "funFact": "Crows sometimes stand on one leg to rest the other — even bird legs need breaks!",
+    "story": "The bravest crow in the flock balanced on the wire, stretched one leg long behind, and everyone cheered from the rooftops.",
+    "description": "Float up into your strong Crow Pose! 🐦‍⬛ Squeeze your tummy tight... then slooowly stretch one leg straight back behind you. Keep leaning forward and breathe. One-legged flying champion!",
+    "duration": 8,
+    "safetyNote": "Advanced pose — only with a grown-up spotter and pillows around you. Master Crow Pose first."
+  }
+]

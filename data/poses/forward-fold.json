@@ -1,0 +1,771 @@
+[
+  {
+    "id": "standing-forward-fold",
+    "english": "Standing Forward Fold",
+    "sanskrit": "Uttanasana",
+    "sanskritDevanagari": "उत्तानासन",
+    "animalName": "",
+    "emoji": "🙇",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches the backs of your legs",
+      "Helps you feel calm",
+      "Wakes up your spine"
+    ],
+    "funFact": "When you fold forward, fresh blood flows to your brain and helps you think clearly!",
+    "story": "A little explorer dropped her map on the trail. She folded all the way down, nose to knees, and found a secret message written on the back!",
+    "description": "Stand tall, then fold forward like you're closing a big book! 📖 Bend your knees a little and let your head hang heavy. Reach your fingers toward your toes... shhh, everything is upside down and peaceful. 🙃",
+    "duration": 10
+  },
+  {
+    "id": "halfway-lift",
+    "english": "Halfway Lift",
+    "sanskrit": "Ardha Uttanasana",
+    "sanskritDevanagari": "अर्ध उत्तानासन",
+    "animalName": "",
+    "emoji": "📐",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Makes your back strong",
+      "Teaches good posture",
+      "Stretches your legs"
+    ],
+    "funFact": "Your spine has 33 bones stacked up like building blocks!",
+    "story": "The tabletop fairy needed a flat table for her tea party. One kind yogi made a perfect flat back, and the fairy set out tiny cups right away!",
+    "description": "From your fold, slide your hands up to your shins and lift your chest halfway — whoosh! 🛫 Make your back flat like a table. Look at the floor just in front of you and take a big proud breath. 📐",
+    "duration": 8
+  },
+  {
+    "id": "big-toe-pose-forw",
+    "english": "Big Toe Pose",
+    "sanskrit": "Padangusthasana",
+    "sanskritDevanagari": "पादाङ्गुष्ठासन",
+    "animalName": "",
+    "emoji": "🦶",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your hamstrings",
+      "Calms busy thoughts",
+      "Wakes up your feet"
+    ],
+    "funFact": "Your big toe does more work for balance than any other toe!",
+    "story": "Two little toes were feeling lonely down there on the floor. So a yogi folded down, said hello, and held their hands — I mean toes — until they giggled.",
+    "description": "Fold forward and grab your big toes with two fingers, like a gentle pinch — got 'em! 🦶 Bend your knees as much as you need. Breathe in and lift your chest a tiny bit, breathe out and fold closer. Say hi to your toes! 👋",
+    "duration": 10
+  },
+  {
+    "id": "hand-under-foot-pose",
+    "english": "Hand-Under-Foot Pose",
+    "sanskrit": "Padahastasana",
+    "sanskritDevanagari": "पादहस्तासन",
+    "animalName": "Gorilla",
+    "emoji": "🦍",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Deep leg stretch",
+      "Gives your wrists a break",
+      "Helps you relax"
+    ],
+    "funFact": "Gorillas walk on their knuckles, so this pose gives YOUR hands a cozy rest too!",
+    "story": "A gentle gorilla had tired hands from knuckle-walking all day. He found the softest, warmest spot in the jungle to rest them — right under his own feet!",
+    "description": "Time to be a gorilla! 🦍 Fold forward, lift your toes, and slide your hands under your feet, palms up. Stand on your hands like a squishy hand-sandwich! Bend your knees and hang out — ooh ooh ah ah!",
+    "duration": 10
+  },
+  {
+    "id": "rag-doll-fold",
+    "english": "Rag Doll",
+    "sanskrit": "Baddha Hasta Uttanasana",
+    "sanskritDevanagari": "बद्धहस्त उत्तानासन",
+    "animalName": "",
+    "emoji": "🪆",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes your whole body",
+      "Gently stretches your back",
+      "Melts away wiggles"
+    ],
+    "funFact": "Letting your head hang heavy helps your neck muscles take a mini vacation!",
+    "story": "A floppy rag doll fell out of the toy box and just dangled there, soft and smiley. All the other toys tried it too, and it felt wonderful.",
+    "description": "Fold forward with bendy knees and grab your elbows — now you're a floppy rag doll! 🪆 Let your head dangle, sway a teeny bit side to side... flop, flop. Everything is soft and wobbly and happy!",
+    "duration": 15
+  },
+  {
+    "id": "wide-legged-forward-fold-forw",
+    "english": "Wide-Legged Forward Fold",
+    "sanskrit": "Prasarita Padottanasana",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन",
+    "animalName": "",
+    "emoji": "🔻",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your inner legs",
+      "Calms your mind",
+      "Makes hips flexible"
+    ],
+    "funFact": "Folding upside down lets you see the world the way a bat does!",
+    "story": "A curious kid heard the grass whispering. She stepped her feet wide, folded down close, and finally heard the secret: 'You are doing great!'",
+    "description": "Step your feet super wide like a giant! 🦵 Put your hands on your hips, breathe in tall... then fold forward and let your head hang down. Press your feet into the floor like roots. Hello, upside-down world! 🙃",
+    "duration": 10
+  },
+  {
+    "id": "wide-legged-fold-a",
+    "english": "Wide-Legged Fold A",
+    "sanskrit": "Prasarita Padottanasana A",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन अ",
+    "animalName": "",
+    "emoji": "👇",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Strong leg stretch",
+      "Builds focus",
+      "Lengthens your spine"
+    ],
+    "funFact": "In this pose your head might touch the floor — that's a real yogi high-five with the ground!",
+    "story": "Version A is the doorway pose: an upside-down explorer peeked through her wide legs and discovered a whole backwards kingdom behind her!",
+    "description": "Feet wide, hands on the floor right under your shoulders — plant them like flags! 🚩 Breathe in, look forward... breathe out and fold, walking your hands back between your feet. Maybe your head kisses the floor — boop! 👇",
+    "duration": 10
+  },
+  {
+    "id": "wide-legged-fold-b",
+    "english": "Wide-Legged Fold B",
+    "sanskrit": "Prasarita Padottanasana B",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन ब",
+    "animalName": "",
+    "emoji": "🖐️",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Improves balance while folding",
+      "Opens your chest",
+      "Stretches your legs"
+    ],
+    "funFact": "Keeping hands on your hips makes your tummy and back muscles do the steering!",
+    "story": "The teapot twins kept their handles on their hips ALL the way down and back up, and never spilled a single drop of imaginary tea.",
+    "description": "Feet wide, hands glued to your hips like teapot handles! 🫖 Breathe in and puff your chest up proud... breathe out and fold down slowwwly, keeping those hands on your hips. Tricky and cool — you steered with your belly! 🖐️",
+    "duration": 10
+  },
+  {
+    "id": "wide-legged-fold-c",
+    "english": "Wide-Legged Fold C",
+    "sanskrit": "Prasarita Padottanasana C",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन च",
+    "animalName": "",
+    "emoji": "🤝",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Opens your shoulders",
+      "Deep leg stretch",
+      "Builds bravery"
+    ],
+    "funFact": "Clasping your hands behind your back stretches the front of your shoulders, where backpack straps sit all day!",
+    "story": "A brave superhero clipped on an invisible cape behind her back, folded forward, and let the cape fly up to the sky. Whoosh!",
+    "description": "Feet wide! Now clasp your hands behind your back like you're hiding a treasure. 🤝 Breathe in big... fold forward and let your arms float up and over like a superhero cape! Whoosh! Keep your knees a little soft. 🦸",
+    "duration": 10,
+    "safetyNote": "Keep knees softly bent and only lift arms as far as feels comfy — no forcing."
+  },
+  {
+    "id": "wide-legged-fold-d",
+    "english": "Wide-Legged Fold D",
+    "sanskrit": "Prasarita Padottanasana D",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन द",
+    "animalName": "",
+    "emoji": "🦶",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Strongest wide-leg stretch",
+      "Builds patience",
+      "Strengthens your back"
+    ],
+    "funFact": "This is the deepest of the four wide-legged folds — yogis save it for last, like dessert!",
+    "story": "The toe-tickler troll challenged everyone: 'Bet you can't hold your toes with straight-ish legs!' One patient yogi breathed slowly... and won the golden feather.",
+    "description": "Feet wide, fold down, and catch your big toes with two-finger hooks — gotcha! 🦶 Bend your elbows out to the sides and gently fold deeper with each breath out. Sooo stretchy! Bend your knees any time you like.",
+    "duration": 10,
+    "safetyNote": "Bend your knees if the stretch feels sharp, and come up slowly so you don't get dizzy."
+  },
+  {
+    "id": "seated-forward-fold",
+    "english": "Seated Forward Fold",
+    "sanskrit": "Paschimottanasana",
+    "sanskritDevanagari": "पश्चिमोत्तानासन",
+    "animalName": "",
+    "emoji": "🥪",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your whole back body",
+      "Helps you feel peaceful",
+      "Good for bedtime"
+    ],
+    "funFact": "The Sanskrit name means 'stretch of the west side' — in yoga, your back is called your west side!",
+    "story": "Once there was a sandwich who wanted a nap. It folded its bread — flip! — hugged its filling tight, and dreamed delicious dreams.",
+    "description": "Sit with your legs out long — you're the bottom bread of a sandwich! 🥪 Breathe in and reach your arms way up... breathe out and fold forward over your legs. Reach for your feet, your ankles, or your knees — any filling works! Squiiish.",
+    "duration": 15
+  },
+  {
+    "id": "sleepy-bear-fold",
+    "english": "Sleepy Bear Fold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Bear",
+    "emoji": "🐻",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Gentle back stretch",
+      "Super calming",
+      "Great before naps"
+    ],
+    "funFact": "Bears can snooze for months in winter — that's the longest bedtime ever!",
+    "story": "Little Bear couldn't sleep, so he sat down, hugged his knees like a honey pot, and folded over them. Three breaths later... zzzzz.",
+    "description": "Sit down and bend your knees up like two little hills. 🐻 Wrap your arms around them — that's your honey pot! Now fold over and rest your head on your knees. Take slow sleepy-bear breaths... zzz... zzz...",
+    "duration": 15
+  },
+  {
+    "id": "head-to-knee-fold",
+    "english": "Head-to-Knee Fold",
+    "sanskrit": "Janu Sirsasana",
+    "sanskritDevanagari": "जानुशीर्षासन",
+    "animalName": "",
+    "emoji": "🦵",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches one leg at a time",
+      "Opens your hips",
+      "Quiets your mind"
+    ],
+    "funFact": "Stretching one side at a time helps you notice that your two sides feel different — everybody's do!",
+    "story": "A knee felt sad because heads never visited. So one day a friendly forehead leaned all the way down and whispered, 'Hello, knee, you're my favorite.'",
+    "description": "Sit with one leg long and tuck your other foot against your inner thigh, making a number 4! 4️⃣ Breathe in, reach up tall... breathe out and fold over your long leg. Give your knee a gentle head bonk — boop! Then switch sides.",
+    "duration": 15
+  },
+  {
+    "id": "revolved-head-to-knee-forw",
+    "english": "Revolved Head-to-Knee",
+    "sanskrit": "Parivrtta Janu Sirsasana",
+    "sanskritDevanagari": "परिवृत्त जानुशीर्षासन",
+    "animalName": "",
+    "emoji": "🌙",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Stretches the sides of your body",
+      "Opens your ribs for big breaths",
+      "Bendy hips"
+    ],
+    "funFact": "This pose stretches the muscles between your ribs — the ones that help you take giant breaths!",
+    "story": "A crescent moon slipped down from the sky to learn yoga. She leaned sideways over one long leg, curving just like she does at night, and glowed with pride.",
+    "description": "Sit with one leg stretched way out to the side, other foot tucked in. Now lean sideways over the long leg like a banana! 🍌 Reach your top arm up and over your ear — you're a curvy moon! 🌙 Breathe into your side, then switch.",
+    "duration": 10,
+    "safetyNote": "Lean sideways only as far as feels good — no pushing, and keep your bottom on the floor."
+  },
+  {
+    "id": "seated-straddle-fold",
+    "english": "Seated Straddle Fold",
+    "sanskrit": "Upavistha Konasana",
+    "sanskritDevanagari": "उपविष्ट कोणासन",
+    "animalName": "",
+    "emoji": "🍕",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Opens your hips wide",
+      "Stretches inner legs",
+      "Helps you sit tall"
+    ],
+    "funFact": "Gymnasts and yogis both love this pose — it's the seed of a full split!",
+    "story": "The pizza chef made the widest slice ever — legs for crust, belly for cheese! Then the slice folded itself forward to share a cheesy hug with the floor.",
+    "description": "Sit and open your legs wide like a giant pizza slice! 🍕 Flex your feet so your toes point up — sprinkle on the cheese! Walk your hands forward on the floor and fold. How cheesy can you get? Breathe and smile!",
+    "duration": 15
+  },
+  {
+    "id": "butterfly-fold",
+    "english": "Butterfly Fold",
+    "sanskrit": "Baddha Konasana",
+    "sanskritDevanagari": "बद्धकोणासन",
+    "animalName": "Butterfly",
+    "emoji": "🦋",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens your hips",
+      "Relaxes your legs",
+      "Feels cozy and calm"
+    ],
+    "funFact": "Butterflies taste with their feet — imagine tasting a cookie with your toes!",
+    "story": "A butterfly landed on a flower and folded her wings down slowly, sniffing the sweet petals. She stayed so still that the flower thought she was a petal too.",
+    "description": "Sit down and press the bottoms of your feet together — your legs are butterfly wings! 🦋 Flap them gently... flap, flap. Now hold your feet and fold forward to smell an imaginary flower. Mmm, what does yours smell like? 🌸",
+    "duration": 15
+  },
+  {
+    "id": "childs-pose",
+    "english": "Child's Pose",
+    "sanskrit": "Balasana",
+    "sanskritDevanagari": "बालासन",
+    "animalName": "",
+    "emoji": "🌰",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Super calming",
+      "Gently stretches your back",
+      "A cozy rest anytime"
+    ],
+    "funFact": "This is yoga's official rest button — yogis of every age press it whenever they need a break!",
+    "story": "A tiny seed snuggled into the warm earth, tucked itself up small, and waited quietly. Soon, it would grow into something amazing — but first, rest.",
+    "description": "Kneel down and sit back on your heels. 🌰 Now fold forward and rest your forehead on the floor, arms cozy by your sides. You're a little seed in the earth! Breathe slow and soft... this is your rest button — press it anytime!",
+    "duration": 20
+  },
+  {
+    "id": "extended-childs-pose",
+    "english": "Extended Child's Pose",
+    "sanskrit": "Utthita Balasana",
+    "sanskritDevanagari": "उत्थित बालासन",
+    "animalName": "",
+    "emoji": "🙏",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches arms and back",
+      "Calms big feelings",
+      "Opens your shoulders"
+    ],
+    "funFact": "Reaching your arms forward in this pose stretches muscles all the way from your fingers to your hips!",
+    "story": "The sleepy wizard reached his arms waaay out to grab his magic book, but the floor was so comfy he decided the spell could wait until morning.",
+    "description": "Start in Child's Pose, then walk your fingers waaaay out in front of you — reach for treasure! 🙏 Keep your bottom back on your heels. Melt your chest toward the floor. Ahhh, the longest, coziest stretch ever!",
+    "duration": 20
+  },
+  {
+    "id": "wide-knee-childs-pose",
+    "english": "Wide-Knee Child's Pose",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🐚",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Extra room to breathe",
+      "Opens your hips",
+      "Deeply relaxing"
+    ],
+    "funFact": "With your knees wide, your belly gets room to fill up like a balloon on every breath!",
+    "story": "A hermit crab found a roomy new shell with space for its whole belly. It settled in, took ten slow bubbly breaths, and declared it home.",
+    "description": "Kneel and slide your knees out wide, big toes touching behind you. 🐚 Fold forward and let your belly sink down between your knees like it's home. Rest your forehead down and breathe big balloon breaths... in... and out...",
+    "duration": 20
+  },
+  {
+    "id": "downward-dog",
+    "english": "Downward Dog",
+    "sanskrit": "Adho Mukha Svanasana",
+    "sanskritDevanagari": "अधोमुखश्वानासन",
+    "animalName": "Dog",
+    "emoji": "🐶",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches your whole body",
+      "Strong arms and legs",
+      "Wakes you up"
+    ],
+    "funFact": "Real dogs do this stretch every time they wake up from a nap — that's why it's named after them!",
+    "story": "Every morning, Biscuit the puppy did his favorite big stretch — bottom up, paws forward — before zooming off to chase butterflies in the yard.",
+    "description": "Hands and knees on the floor, then push your bottom up, up, UP to the sky! 🐶 Make an upside-down V with your body. Press your paws into the ground and let your head hang. Can you bark like a happy pup? Woof woof!",
+    "duration": 10
+  },
+  {
+    "id": "three-legged-dog",
+    "english": "Three-Legged Dog",
+    "sanskrit": "Eka Pada Adho Mukha Svanasana",
+    "sanskritDevanagari": "एकपाद अधोमुखश्वानासन",
+    "animalName": "Dog",
+    "emoji": "🐕",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds strength",
+      "Stretches your hips",
+      "Practices balance"
+    ],
+    "funFact": "Dogs can balance on three legs easily — they even scratch their ears that way!",
+    "story": "Biscuit the puppy spotted a squirrel and pointed one back leg straight at it like a furry arrow. The squirrel was so impressed it clapped.",
+    "description": "Start in your Downward Dog... now lift one leg high to the sky like a doggy tail-point! 🐕 Keep your paws pressing down strong. Wag that high foot — wiggle wiggle! Then switch legs. Good dog!",
+    "duration": 8
+  },
+  {
+    "id": "puppy-dog-pose",
+    "english": "Puppy Dog Pose",
+    "sanskrit": "Uttana Shishosana",
+    "sanskritDevanagari": "उत्तान शिशोसन",
+    "animalName": "Puppy",
+    "emoji": "🐶",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Melts shoulder tightness",
+      "Gently stretches your back",
+      "Cozy and calming"
+    ],
+    "funFact": "Puppies stretch like this when they want to play — it's called a play bow!",
+    "story": "The littlest puppy wanted to ask the big dogs to play. He stretched his front paws way out, chest low, tail high — the official puppy way of saying 'let's have fun!'",
+    "description": "Start on hands and knees. Keep your bottom high over your knees, then walk your paws forward and melt your chest toward the floor. 🐶 Rest your forehead down. This is how puppies say 'play with me!' Can you give a happy little woof?",
+    "duration": 15
+  },
+  {
+    "id": "wagging-puppy-dog",
+    "english": "Wagging Puppy",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Puppy",
+    "emoji": "🐕",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Loosens your spine",
+      "Brings big smiles",
+      "Gentle side stretch"
+    ],
+    "funFact": "A dog's tail wag can mean 'I'm SO happy' — the faster the wag, the bigger the happy!",
+    "story": "When Grandma came home, the puppy's tail wagged so hard that his whole body wiggled from ears to toes like happy jelly.",
+    "description": "Get into Puppy Pose, chest melting down, bottom up high. 🐕 Now wag your 'tail'! Wiggle your hips side to side — wag, wag, wag! Someone you love just walked in — show them your happiest wag ever!",
+    "duration": 8
+  },
+  {
+    "id": "dolphin-pose",
+    "english": "Dolphin Pose",
+    "sanskrit": "Ardha Pincha Mayurasana",
+    "sanskritDevanagari": "अर्ध पिञ्चमयूरासन",
+    "animalName": "Dolphin",
+    "emoji": "🐬",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Super-strong shoulders",
+      "Stretches your legs",
+      "Builds handstand courage"
+    ],
+    "funFact": "Dolphins sleep with one eye open, letting half their brain nap at a time!",
+    "story": "Splash the dolphin practiced her diving shape on the beach: nose down, tail up, flippers flat on the sand. Then — SPLOOSH — the perfect dive!",
+    "description": "Put your forearms on the floor like flippers! 🐬 Tuck your toes and lift your bottom high to the sky — you're a diving dolphin! Press your flippers down strong and let your head hang free. Eee-ee-ee! Squeak like a dolphin!",
+    "duration": 10
+  },
+  {
+    "id": "tortoise-pose",
+    "english": "Tortoise Pose",
+    "sanskrit": "Kurmasana",
+    "sanskritDevanagari": "कूर्मासन",
+    "animalName": "Tortoise",
+    "emoji": "🐢",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Very deep hip stretch",
+      "Teaches patience",
+      "Deeply quieting"
+    ],
+    "funFact": "Giant tortoises can live over 150 years — they're the slow-and-steady champions of the world!",
+    "story": "Old Tortoise won the great forest race not by running, but by tucking into his shell each night for the deepest, calmest rest. Slow and steady, breath by breath.",
+    "description": "Sit with legs wide and knees bent a little. Slide your arms UNDER your knees like a tortoise tucking into its shell! 🐢 Fold your chest low between your legs. Move slooowly like a wise old tortoise... no rushing, just breathing.",
+    "duration": 15,
+    "safetyNote": "Move in slowly and keep knees bent — if your back or knees complain, tuck less and breathe more."
+  },
+  {
+    "id": "half-tortoise-pose",
+    "english": "Half Tortoise Pose",
+    "sanskrit": "Ardha Kurmasana",
+    "sanskritDevanagari": "अर्ध कूर्मासन",
+    "animalName": "Tortoise",
+    "emoji": "🐢",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches shoulders and back",
+      "Very calming",
+      "Easy on your knees"
+    ],
+    "funFact": "A tortoise's shell is part of its skeleton — it can feel a gentle pat right through it!",
+    "story": "Little Tortoise wasn't ready for the full shell-tuck, so Grandpa taught him the half version: arms long, head down, breathing slow. 'Halfway is still all the way brave,' he said.",
+    "description": "Sit on your heels, then reach your arms up and press your palms together like a shell-tip! 🐢 Fold forward slowwwly until your pinky fingers and forehead touch the floor. Keep your bottom on your heels. You're a peaceful half-tortoise!",
+    "duration": 15
+  },
+  {
+    "id": "sleeping-tortoise",
+    "english": "Sleeping Tortoise",
+    "sanskrit": "Supta Kurmasana",
+    "sanskritDevanagari": "सुप्त कूर्मासन",
+    "animalName": "Tortoise",
+    "emoji": "🐢",
+    "category": "forward-fold",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deepest fold of all",
+      "Big-time patience practice",
+      "Quiet, cozy mind"
+    ],
+    "funFact": "Some tortoises brumate — a lizard-family version of hibernation where everything slooows down!",
+    "story": "When winter came, Old Tortoise wrapped himself all the way into his shell, arms tucked, head low, and dreamed of sunny lettuce fields until spring.",
+    "description": "This is a big-yogi pose! From Tortoise, slide your arms further under your legs and fold all the way in, like closing your shell for the night. 🐢 Only go as deep as feels easy. Breathe slow like a sleepy tortoise... zzz.",
+    "duration": 15,
+    "safetyNote": "Advanced pose — only with a grown-up yoga helper, warmed-up hips, and zero forcing. Skip if anything pinches."
+  },
+  {
+    "id": "standing-splits-fold",
+    "english": "Standing Splits Fold",
+    "sanskrit": "Urdhva Prasarita Eka Padasana",
+    "sanskritDevanagari": "ऊर्ध्व प्रसारित एकपादासन",
+    "animalName": "",
+    "emoji": "🤸",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Big balance challenge",
+      "Deep leg stretch",
+      "Builds strong focus"
+    ],
+    "funFact": "This pose is a forward fold AND a balance AND a stretch — three yoga superpowers in one!",
+    "story": "The circus star folded forward and lifted one leg so high it drew a straight line to the moon. The crowd whispered, 'How is she so still?' Her secret: slow breaths.",
+    "description": "Fold forward over one leg with your fingertips on the floor. 🤸 Now float your other leg up behind you — higher, higher! Nose toward your standing knee. Wobbling? That's part of the fun! Then switch legs.",
+    "duration": 8,
+    "safetyNote": "Keep fingertips on the floor or a block for balance, and practice near a wall."
+  },
+  {
+    "id": "pyramid-pose-forw",
+    "english": "Pyramid Pose",
+    "sanskrit": "Parsvottanasana",
+    "sanskritDevanagari": "पार्श्वोत्तानासन",
+    "animalName": "",
+    "emoji": "🔺",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your hamstrings",
+      "Practices balance",
+      "Teaches steady breathing"
+    ],
+    "funFact": "The Great Pyramid of Giza has stood strong for more than 4,500 years — talk about holding a pose!",
+    "story": "An explorer in Egypt wanted to thank the great pyramid, so she made her own little pyramid shape and bowed forward over her front leg. The pyramid seemed to smile.",
+    "description": "Step one foot forward, one foot back, both legs strong like pyramid walls! 🔺 Hands on your hips, breathe in tall... breathe out and fold over your front leg. Keep both feet glued to the ground. You're an ancient wonder! Then switch.",
+    "duration": 10
+  },
+  {
+    "id": "rabbit-pose",
+    "english": "Rabbit Pose",
+    "sanskrit": "Sasangasana",
+    "sanskritDevanagari": "शशाङ्गासन",
+    "animalName": "Rabbit",
+    "emoji": "🐰",
+    "category": "forward-fold",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your spine",
+      "Gently wakes your neck",
+      "Cozy and quieting"
+    ],
+    "funFact": "Rabbits can turn their ears almost all the way around to hear behind them!",
+    "story": "A little rabbit curled into the roundest ball to hide from the rain, holding her own heels like lucky clovers. The rain drummed a lullaby on her back.",
+    "description": "Kneel down, sit on your heels, and hold your heels with your hands! 🐰 Tuck your chin and roll forward until the tip-top of your head rests lightly on the floor. Make your back super round like a bunny ball! Soft breaths, little rabbit.",
+    "duration": 10
+  },
+  {
+    "id": "plow-pose",
+    "english": "Plow Pose",
+    "sanskrit": "Halasana",
+    "sanskritDevanagari": "हलासन",
+    "animalName": "",
+    "emoji": "🚜",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Deep back-of-body stretch",
+      "Very calming",
+      "Fun upside-down feeling"
+    ],
+    "funFact": "This pose is named after the farm tool that turns soil so seeds can grow!",
+    "story": "A magical farmer plowed a field in the clouds. Her toes reached back over her head to plant star-seeds, and by morning the sky bloomed with new constellations.",
+    "description": "Lie on your back and swing your legs up and over your head — whooosh! 🚜 Let your toes reach for the floor behind you. Support your back with your hands. You're planting star-seeds! Come down slow, one bump of your spine at a time.",
+    "duration": 10,
+    "safetyNote": "Only on a soft mat with a grown-up nearby. Keep your head still — never turn your neck in this pose."
+  },
+  {
+    "id": "ear-pressure-pose",
+    "english": "Ear Pressure Pose",
+    "sanskrit": "Karnapidasana",
+    "sanskritDevanagari": "कर्णपीडासन",
+    "animalName": "",
+    "emoji": "🎧",
+    "category": "forward-fold",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deepest spine curl",
+      "Blocks out noise for calm",
+      "Big flexibility"
+    ],
+    "funFact": "With your knees on your ears, the world goes quiet — it's like nature's noise-canceling headphones!",
+    "story": "The world was too loud for the little dreamer, so she rolled up and let her knees hug her ears. Inside her cozy quiet, she could finally hear her own heartbeat, like a tiny drum.",
+    "description": "This is a big-yogi pose! From Plow, bend your knees and let them rest gently beside your ears — nature's headphones! 🎧 Everything goes quiet and cozy. Listen for your heartbeat... thump, thump. Roll down slowly when you're done.",
+    "duration": 10,
+    "safetyNote": "Advanced pose — only with a grown-up helper, on a soft mat, and never turn your head while folded."
+  },
+  {
+    "id": "heron-pose-forw",
+    "english": "Heron Pose",
+    "sanskrit": "Krounchasana",
+    "sanskritDevanagari": "क्रौञ्चासन",
+    "animalName": "Heron",
+    "emoji": "🦩",
+    "category": "forward-fold",
+    "difficulty": "hard",
+    "benefits": [
+      "Big hamstring stretch",
+      "Sit-tall strength",
+      "Sharp focus"
+    ],
+    "funFact": "Herons stand perfectly still in the water for ages, waiting patiently — masters of focus!",
+    "story": "The heron lifted one long leg straight up like a fishing pole and watched the pond without a single wiggle. The fish thought she was a statue — until dinnertime!",
+    "description": "Sit tall with one leg folded back or crossed in. Hold your other foot with both hands and stretch that leg up, up, up like a heron's fishing pole! 🦩 Sit tall and proud, chest up. Steady... steady... then switch legs.",
+    "duration": 10,
+    "safetyNote": "Keep the lifted knee bent as much as you need — a tall back matters more than a straight leg."
+  },
+  {
+    "id": "waterfall-touch-your-toes",
+    "english": "Waterfall Touch-Your-Toes",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💦",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Fun leg stretch",
+      "Gets wiggles out",
+      "Wakes up your body"
+    ],
+    "funFact": "Angel Falls, the tallest waterfall on Earth, drops water almost a kilometer — that's like 3 Eiffel Towers!",
+    "story": "High on a mountain, a stream reached the edge and — whooooosh! — poured down in a sparkling waterfall, splashing giggles all over the rocks below.",
+    "description": "Stand tall and reach your arms up like water at the tip-top of a mountain! ⛰️ Now WHOOOSH — pour yourself down and touch your toes like a waterfall! 💦 Splash-wiggle your fingers on your feet, then flow back up. Again!",
+    "duration": 8
+  },
+  {
+    "id": "folded-leaf",
+    "english": "Folded Leaf",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍃",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Gentle full-back stretch",
+      "Slows your breathing",
+      "Peaceful and quiet"
+    ],
+    "funFact": "Some plants really do fold their leaves closed every night, like they're going to sleep!",
+    "story": "When the sun set, a little leaf folded itself softly in half, the way leaves do at bedtime, and rocked gently in the evening breeze until morning.",
+    "description": "Sit with your legs long and imagine you're a big green leaf. 🍃 Breathe in and grow tall... breathe out and fold gently in half over your legs, soft as a leaf closing for the night. Sway a tiny bit in the breeze... so peaceful.",
+    "duration": 15
+  },
+  {
+    "id": "elephant-trunk-swing",
+    "english": "Elephant Trunk Swing",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Elephant",
+    "emoji": "🐘",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Loosens your back",
+      "Fun and silly",
+      "Warms up your body"
+    ],
+    "funFact": "An elephant's trunk has about 40,000 muscles — your whole body has only about 600!",
+    "story": "Ella the elephant loved splashing at the watering hole. She swung her trunk low — swish, swish — scooping up water and spraying rainbows over her friends.",
+    "description": "Clasp your hands together to make a looong trunk! 🐘 Fold forward with bendy knees and let your trunk hang down. Now swing it side to side — swish, swoosh! Scoop up some water and — PBBBT — spray it in the air!",
+    "duration": 8
+  },
+  {
+    "id": "jellyfish-dangle",
+    "english": "Jellyfish Dangle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Jellyfish",
+    "emoji": "🪼",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes arms and neck",
+      "Soft floaty stretch",
+      "Melts tension away"
+    ],
+    "funFact": "Jellyfish have no bones at all — they're more than 90 percent water!",
+    "story": "Deep in the calm blue sea, a jellyfish let all her tentacles dangle loose and drifted with the current, bloop... bloop... the most relaxed creature in the ocean.",
+    "description": "Fold forward with super-bendy knees and let your arms dangle like jellyfish tentacles! 🪼 Wiggle your fingers... bloop bloop... Sway gently like ocean waves are rocking you. No bones, all floppy! Can you be the floatiest jellyfish?",
+    "duration": 10
+  },
+  {
+    "id": "peekaboo-fold",
+    "english": "Peekaboo Fold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🙃",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Fun leg stretch",
+      "Silly upside-down giggles",
+      "Wakes up your brain"
+    ],
+    "funFact": "Looking at the world upside down gives your brain a fun puzzle — everything is familiar AND brand new!",
+    "story": "A giggly kid discovered a secret window: fold over, peek between your legs, and the whole world flips! Trees hung from the sky and clouds became the floor.",
+    "description": "Stand with your feet wide and fold forward. Now peek between your legs — peekaboo! 🙃 Wave hello to someone behind you! Everything's upside down — the floor is the sky! Bendy knees, big giggles. Who do you see back there?",
+    "duration": 8
+  },
+  {
+    "id": "windmill-fold",
+    "english": "Windmill Fold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌀",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up your whole body",
+      "Twisty back stretch",
+      "Great energy burner"
+    ],
+    "funFact": "Wind turbines turn moving air into electricity — one big spin can power a whole house for a day!",
+    "story": "On a breezy hill stood a happy windmill. Every gust made its arms swoop down and around — whoosh, whoosh — grinding flour for the village's birthday cakes.",
+    "description": "Stand with feet wide and arms out like windmill blades! 🌀 Fold forward and swing one hand down toward your opposite foot — whoosh! Come up and swing the other side — whoosh! You're making wind power! Nice and gentle, round and round.",
+    "duration": 8
+  },
+  {
+    "id": "melting-ice-cream-fold",
+    "english": "Melting Ice Cream",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍦",
+    "category": "forward-fold",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches slow relaxing",
+      "Gentle back stretch",
+      "Calms wiggly bodies"
+    ],
+    "funFact": "It takes about 50 licks to finish one scoop of ice cream — scientists really counted!",
+    "story": "On the hottest day of summer, a tall ice cream cone stood in the sunshine. Drip... drip... it melted slower and slooower into the happiest puddle on the sidewalk.",
+    "description": "Stand tall like a fresh ice cream cone — what flavor are you? 🍦 Here comes the warm sun... start meeeelting! Drip your head down, drip your arms, fold a little more with every breath... until you're a soft, happy puddle. Ahhh!",
+    "duration": 15
+  }
+]

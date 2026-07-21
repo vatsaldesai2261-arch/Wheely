@@ -1,0 +1,733 @@
+[
+  {
+    "id": "seated-spinal-twist",
+    "english": "Seated Spinal Twist",
+    "sanskrit": "Parivrtta Sukhasana",
+    "sanskritDevanagari": "परिवृत्त सुखासन",
+    "animalName": "",
+    "emoji": "🪷",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up your spine",
+      "Helps tummy feel good",
+      "Makes sitting comfy"
+    ],
+    "funFact": "Your spine has 33 little bones that work together like a bendy chain of beads!",
+    "story": "A sleepy little meditation frog woke up on its lily pad and slowly looked all the way around the pond to say good morning to every friend.",
+    "description": "Sit criss-cross applesauce and grow tall like a tower! 🏰 Put one hand on your knee, breathe in big... and slooowly twist to look behind you. Whoosh! Now twist the other way!",
+    "duration": 10
+  },
+  {
+    "id": "reclined-twist",
+    "english": "Reclined Twist",
+    "sanskrit": "Supta Matsyendrasana",
+    "sanskritDevanagari": "सुप्त मत्स्येन्द्रासन",
+    "animalName": "",
+    "emoji": "🌙",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes your back",
+      "Helps you feel calm",
+      "Great before bedtime"
+    ],
+    "funFact": "Gentle twists give your tummy a tiny massage from the inside!",
+    "story": "A cozy crescent moon stretched out across the night sky, rolling gently from side to side until every star was tucked in.",
+    "description": "Lie on your back like a starfish. 🌙 Hug one knee to your chest, then let it fall across your body to the floor. Stretch your arms wide and look the other way. Ahhh... melt like moonlight!",
+    "duration": 20
+  },
+  {
+    "id": "supine-knee-down-twist",
+    "english": "Knee-Down Belly Twist",
+    "sanskrit": "Jathara Parivartanasana",
+    "sanskritDevanagari": "जठर परिवर्तनासन",
+    "animalName": "",
+    "emoji": "🛏️",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Softens your lower back",
+      "Calms your body",
+      "Helps tummy digestion"
+    ],
+    "funFact": "This pose's Sanskrit name means 'belly turning' — your belly really does go along for the ride!",
+    "story": "Two sleepy puppies curled up together and rolled to one side, then the other, until they found the comfiest spot ever.",
+    "description": "Lie down and hug BOTH knees like a big teddy bear. 🧸 Keep your knees glued together and let them flop to one side. Arms out wide like wings! Breathe slow... then flop to the other side.",
+    "duration": 20
+  },
+  {
+    "id": "thread-the-needle",
+    "english": "Thread the Needle",
+    "sanskrit": "Parsva Balasana",
+    "sanskritDevanagari": "पार्श्व बालासन",
+    "animalName": "",
+    "emoji": "🧵",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches shoulders",
+      "Twists your upper back",
+      "Feels cozy and calm"
+    ],
+    "funFact": "Sewing needles have a little hole called an 'eye' — in this pose your arm is the thread going through!",
+    "story": "A tiny mouse tailor slipped his thread through the eye of a needle to sew a blanket of clouds for the whole town.",
+    "description": "Start on hands and knees like a table. 🧵 Now slide one arm under your body like thread through a needle — zoop! Rest your ear and shoulder on the floor. Breathe... then thread the other arm!",
+    "duration": 15
+  },
+  {
+    "id": "washing-machine",
+    "english": "Washing Machine",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌀",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up your spine",
+      "Wiggles out the sillies",
+      "Wakes up your tummy"
+    ],
+    "funFact": "A real washing machine can spin over 1,000 times a minute — way faster than you!",
+    "story": "The magic laundry machine gobbled up a pile of muddy socks and swished them round and round until they sparkled like new.",
+    "description": "Sit criss-cross and put your hands on your shoulders. 🌀 Now swish your body side to side — swish, swish, swish! You're a washing machine cleaning happy thoughts. Slow down for the rinse cycle... aaand stop!",
+    "duration": 8
+  },
+  {
+    "id": "helicopter-spin-sit",
+    "english": "Helicopter Spin-Sit",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚁",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Loosens your waist",
+      "Builds body control",
+      "Super fun energy burner"
+    ],
+    "funFact": "Helicopter blades tilt to steer — pilots twist a control stick to make them turn!",
+    "story": "A brave rescue helicopter spun its blades, lifted off the ground, and turned in a big circle to spot a kitten waving from a rooftop.",
+    "description": "Sit tall with legs crossed and stretch your arms out like helicopter blades. 🚁 Whirrr! Twist your blades to one side, then the other — whoosh, whoosh! Ready for landing? Slow your blades... and touch down!",
+    "duration": 8
+  },
+  {
+    "id": "wring-the-towel",
+    "english": "Wring the Towel",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🧺",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Deepens your breathing",
+      "Twists your whole spine",
+      "Teaches squeeze-and-relax"
+    ],
+    "funFact": "When you twist and then untwist, fresh blood rushes through your muscles like a river after rain!",
+    "story": "After splashing in the sea, a little octopus helped wring out the beach towels — squeeze, twist, drip drip drip — until they were dry in the sun.",
+    "description": "Sit tall and pretend YOU are a soggy towel. 🧺 Breathe in big... now twist to one side and squeeeeze all the water out — drip, drip! Untwist, breathe in, and wring out the other side!",
+    "duration": 10
+  },
+  {
+    "id": "owl-twist",
+    "english": "Owl Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Owl",
+    "emoji": "🦉",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Gently stretches your neck",
+      "Twists your upper back",
+      "Builds quiet focus"
+    ],
+    "funFact": "Owls can turn their heads almost all the way around — about 270 degrees — because they have 14 neck bones and you have only 7!",
+    "story": "A wise little owl sat on a moonlit branch, slowly turning its head this way and that, keeping watch over all the sleeping forest friends.",
+    "description": "Sit on your heels like an owl on a branch. 🦉 Grow ve-e-ery still. Now slowly turn your head and shoulders to peek behind you — whooo's there? Come back to center and peek the other way. Hoo hoo!",
+    "duration": 10
+  },
+  {
+    "id": "pretzel-twist",
+    "english": "Pretzel Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥨",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches hips and back",
+      "Makes your spine bendy",
+      "Fun way to sit tall"
+    ],
+    "funFact": "Pretzels were invented hundreds of years ago, and their twisty shape is said to look like folded arms!",
+    "story": "In a cozy bakery, a ball of dough dreamed of becoming the twistiest pretzel ever, so it folded itself into a perfect knot and got a sprinkle of salt-star magic.",
+    "description": "Sit criss-cross like pretzel dough. 🥨 Put your right hand on your left knee and twist — you're getting twistier! Hold it, breathe, and imagine getting sprinkled with salt. Now twist the other way!",
+    "duration": 10
+  },
+  {
+    "id": "tornado-twist",
+    "english": "Tornado Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌪️",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up your whole body",
+      "Loosens your waist",
+      "Shakes out wiggles"
+    ],
+    "funFact": "Real tornadoes spin like a top, and scientists chase them in special trucks to learn their secrets!",
+    "story": "A friendly baby tornado twirled across the prairie, spinning leaves into the air and giggling as it danced between the fence posts.",
+    "description": "Stand with feet planted like fence posts. 🌪️ Let your arms go floppy like spaghetti, then twist side to side so they swing and wrap around you — whoosh, whoosh! You're a giggling tornado! Slow down... and settle to a breeze.",
+    "duration": 8
+  },
+  {
+    "id": "chair-helper-twist",
+    "english": "Chair Helper Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪑",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Great twist for desk time",
+      "Wakes up a sleepy back",
+      "Anyone can do it"
+    ],
+    "funFact": "You can do this sneaky stretch at school, in the car, or even at the dinner table!",
+    "story": "A clever robot sat in its charging chair and discovered that a slow twist to each side made its circuits sparkle with fresh energy.",
+    "description": "Sit sideways-tall on a chair with feet flat on the floor. 🪑 Hold the chair back with both hands, breathe in tall... and gently twist toward your hands. Beep boop — recharging! Switch sides and twist again!",
+    "duration": 10
+  },
+  {
+    "id": "windshield-wipers-twis",
+    "english": "Windshield Wipers",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚗",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Loosens hips and lower back",
+      "Gentle moving twist",
+      "Fun and relaxing"
+    ],
+    "funFact": "Windshield wipers were invented in 1903 by Mary Anderson, who got the idea watching drivers in the rain!",
+    "story": "Pitter-patter went the rain on a little red car, and its trusty wipers swished side to side, clearing the way for a road-trip adventure.",
+    "description": "Lie on your back with knees bent and feet wide like car tires. 🚗 Now swish both knees to one side — squeak! — and over to the other side — squeak! You're windshield wipers on a rainy day. Swish nice and slow!",
+    "duration": 8
+  },
+  {
+    "id": "back-to-back-partner-twist",
+    "english": "Back-to-Back Partner Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🤝",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Twists with teamwork",
+      "Builds trust and sharing",
+      "Stretches your spine"
+    ],
+    "funFact": "Doing yoga with a buddy can make you both smile more — smiles are contagious!",
+    "story": "Two best-friend penguins sat back to back on the ice, twisting to pass a snowball around and around without ever dropping it.",
+    "description": "Sit criss-cross with your backs touching, tall like twin towers. 🤝 Breathe in together... now both twist the same way and try to give your buddy a high five behind you! Slap! Now twist the other way!",
+    "duration": 10
+  },
+  {
+    "id": "cat-tail-twist",
+    "english": "Cat Tail Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Cat",
+    "emoji": "🐱",
+    "category": "twist",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches back and legs",
+      "Cozy and calming",
+      "Good before naps"
+    ],
+    "funFact": "Cats twist in the air to land on their feet — it's called the righting reflex!",
+    "story": "A fluffy cat finished a long nap in the sun, stretched out looong, and curled its tail around for one last cozy wiggle.",
+    "description": "Lie on your side like a snoozing kitty. 🐱 Bend your top knee to the floor in front of you, then reach back with your top arm and roll your shoulders open the other way. Curl your 'tail', breathe soft... purrrr. Then switch sides!",
+    "duration": 15
+  },
+  {
+    "id": "half-lord-of-the-fishes",
+    "english": "Half Lord of the Fishes",
+    "sanskrit": "Ardha Matsyendrasana",
+    "sanskritDevanagari": "अर्ध मत्स्येन्द्रासन",
+    "animalName": "Fish",
+    "emoji": "🐟",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Deeply twists your spine",
+      "Opens hips and shoulders",
+      "Helps digestion"
+    ],
+    "funFact": "This pose is named after Matsyendra, a legendary yoga teacher whose name means 'Lord of the Fishes'!",
+    "story": "Long ago, a wise fish listened so carefully to yoga secrets under the sea that it turned into a great teacher who could twist like a wave.",
+    "description": "Sit tall and step one foot over your other leg — plant it like a flag! 🐟 Hug that knee with the opposite arm, breathe in to grow taller... and twist to look behind you like a curious fish. Bubbles! Switch sides!",
+    "duration": 10
+  },
+  {
+    "id": "bharadvaja-twist",
+    "english": "Bharadvaja's Twist",
+    "sanskrit": "Bharadvajasana",
+    "sanskritDevanagari": "भरद्वाजासन",
+    "animalName": "",
+    "emoji": "🧘",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Gently twists your whole spine",
+      "Stretches hips and shoulders",
+      "Feels grounding"
+    ],
+    "funFact": "Bharadvaja was a famous sage in old Indian stories, known for collecting knowledge like a treasure hunter!",
+    "story": "The gentle sage Bharadvaja sat by the river with his legs swept to one side, twisting slowly to watch the swans glide past behind him.",
+    "description": "Sit down and swing both feet to one side, like a mermaid on a rock. 🧘 Sit up tall as a lighthouse, breathe in... and twist your belly and chest away from your feet. Look softly over your shoulder. Then swim your legs to the other side!",
+    "duration": 10
+  },
+  {
+    "id": "marichi-twist-1",
+    "english": "Sage Marichi Pose I",
+    "sanskrit": "Marichyasana I",
+    "sanskritDevanagari": "मरीच्यासन",
+    "animalName": "",
+    "emoji": "🌅",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your back and legs",
+      "Wakes up your tummy",
+      "Builds calm focus"
+    ],
+    "funFact": "Marichi's name means 'ray of light' — like a tiny sunbeam!",
+    "story": "The sage Marichi folded himself around one knee like a sunbeam wrapping around a mountain, sending morning light into every valley.",
+    "description": "Sit with one leg long and bend the other knee up tall, foot flat. 🌅 Wrap your arm around the bent knee and give it a sunny hug — you can reach for your other hand behind your back. Breathe in tall, fold gently forward. Switch legs!",
+    "duration": 10
+  },
+  {
+    "id": "reclined-eagle-twist",
+    "english": "Reclined Eagle Twist",
+    "sanskrit": "Supta Parivrtta Garudasana",
+    "sanskritDevanagari": "सुप्त परिवृत्त गरुडासन",
+    "animalName": "Eagle",
+    "emoji": "🦅",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Deep twist for hips and back",
+      "Stretches outer legs",
+      "Very relaxing"
+    ],
+    "funFact": "Eagles can lock their talons together — just like your legs wrap and lock in this pose!",
+    "story": "High above the canyon, an eagle folded its wings, crossed its talons, and rolled on the wind, letting the breeze carry it side to side.",
+    "description": "Lie on your back and cross one leg over the other like a twisty eagle wrap. 🦅 Now let both legs swoop over to one side and rest on the floor. Spread your arm-wings wide and look the other way. Glide and breathe... then swoop across!",
+    "duration": 15
+  },
+  {
+    "id": "twisting-chair",
+    "english": "Twisting Chair",
+    "sanskrit": "Parivrtta Utkatasana",
+    "sanskritDevanagari": "परिवृत्त उत्कटासन",
+    "animalName": "",
+    "emoji": "⚡",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Powers up your core",
+      "Twists your spine"
+    ],
+    "funFact": "Squatting and twisting at the same time uses more than half the muscles in your body!",
+    "story": "A lightning wizard sat on an invisible throne of storm clouds and twisted to zap sparkles of energy over each shoulder.",
+    "description": "Bend your knees and sit back on your invisible chair — zzzap! ⚡ Press your hands together at your heart. Breathe in... now twist and hook your elbow across to the opposite knee. Keep your knees side by side like best friends. Switch sides!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-lunge",
+    "english": "Twisted Lunge",
+    "sanskrit": "Parivrtta Anjaneyasana",
+    "sanskritDevanagari": "परिवृत्त अञ्जनेयासन",
+    "animalName": "",
+    "emoji": "🌋",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches hips",
+      "Strengthens legs",
+      "Opens your chest"
+    ],
+    "funFact": "Lunging and twisting is how explorers duck under branches while looking around for treasure!",
+    "story": "A jungle explorer knelt at the base of a volcano, twisted toward the sunrise, and spotted a hidden path glowing between the vines.",
+    "description": "Step one foot forward into a big lunge and let your back knee rest on the ground. 🌋 Press your palms together at your heart, breathe in tall... and twist your elbow over your front knee. Peek around like an explorer! Switch sides!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-dragon",
+    "english": "Twisted Dragon",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dragon",
+    "emoji": "🐉",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Deeply opens hips",
+      "Twists your chest",
+      "Builds brave patience"
+    ],
+    "funFact": "In many stories, dragons guard treasure — in this pose, the treasure is a big happy hip stretch!",
+    "story": "A young dragon crouched low in its mountain cave, twisted toward the sky, and puffed a swirl of sparkly smoke from its nose.",
+    "description": "Step one foot forward into a looong low lunge — you're a dragon guarding treasure! 🐉 Put one hand on the floor inside your foot, then twist and reach your other arm up to the sky. Puff out a big dragon breath — haaah! Switch sides!",
+    "duration": 15
+  },
+  {
+    "id": "revolved-head-to-knee-twis",
+    "english": "Revolved Head-to-Knee",
+    "sanskrit": "Parivrtta Janu Sirsasana",
+    "sanskritDevanagari": "परिवृत्त जानुशीर्षासन",
+    "animalName": "",
+    "emoji": "🌈",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your side body",
+      "Opens hamstrings",
+      "Twists your ribs open"
+    ],
+    "funFact": "Your side body has muscles between every rib that help you breathe — this pose gives them all a stretch!",
+    "story": "A rainbow bent itself sideways over a mountain to sip cool water from the lake, painting colors all along the shore.",
+    "description": "Sit with one leg stretched out and the other foot tucked in. 🌈 Tip sideways over your long leg and slide your arm down your shin. Now reach your top arm up and over like a rainbow — twist your chest toward the sky! Switch sides!",
+    "duration": 15
+  },
+  {
+    "id": "twisted-squat",
+    "english": "Twisted Squat",
+    "sanskrit": "Parivrtta Malasana",
+    "sanskritDevanagari": "परिवृत्त मालासन",
+    "animalName": "Frog",
+    "emoji": "🐸",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Opens hips and ankles",
+      "Twists your low back",
+      "Builds strong legs"
+    ],
+    "funFact": "Frogs can look almost all the way behind themselves without moving their bodies — their eyes do the twisting!",
+    "story": "A little frog squatted on a lily pad and twisted around to wave hello to a dragonfly zooming past its shoulder.",
+    "description": "Squat down low like a frog with your feet flat — ribbit! 🐸 Put one hand on the ground between your feet. Breathe in... then twist and reach your other arm high to the sky. Wave to a dragonfly! Hop your arms and twist the other way!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-windmill",
+    "english": "Twisted Windmill",
+    "sanskrit": "Parivrtta Prasarita Padottanasana",
+    "sanskritDevanagari": "परिवृत्त प्रसारित पादोत्तानासन",
+    "animalName": "",
+    "emoji": "🌬️",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your legs",
+      "Twists your spine",
+      "Wakes up your whole body"
+    ],
+    "funFact": "Windmills have been turning wind into power for over a thousand years!",
+    "story": "On a breezy hill, a friendly windmill spun its arms round and round, grinding stardust into flour for the village's birthday cake.",
+    "description": "Stand with your feet suuuper wide and fold forward. 🌬️ Put one hand on the floor under your nose. Now twist and sweep your other arm up to the sky like a windmill blade — whoosh! Look up at your hand. Now spin the other blade up!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-gate",
+    "english": "Twisted Gate",
+    "sanskrit": "Parivrtta Parighasana",
+    "sanskritDevanagari": "परिवृत्त परिघासन",
+    "animalName": "",
+    "emoji": "🚪",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches your side ribs",
+      "Opens your chest",
+      "Twists kneeling-style"
+    ],
+    "funFact": "Parigha means the strong bar that locked old castle gates — your stretched leg is the bar!",
+    "story": "The kingdom's magic gate swung open with a creak and twisted on its golden hinge to let a parade of friendly animals march through.",
+    "description": "Kneel tall, then stretch one leg out to the side like a gate bar. 🚪 Slide your hand down that long leg, breathe in... and twist your chest up toward the sky, reaching your top arm over. Creeeak — the gate is open! Switch sides!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-figure-four",
+    "english": "Twisted Number Four",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "4️⃣",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches deep hip muscles",
+      "Relaxes your low back",
+      "Calms busy legs"
+    ],
+    "funFact": "Crossing your ankle over your knee makes a shape just like the number 4 — math you can do with your legs!",
+    "story": "The number 4 got tired of standing straight in the math book, so it lay down, rolled to its side, and discovered stretching was way more fun than counting.",
+    "description": "Lie on your back and rest one ankle on the other knee — look, you made a 4! 4️⃣ Now let your legs tip slooowly to the side until they rest on the floor. Arms wide, breathe easy. Roll back up and make a 4 the other way!",
+    "duration": 15
+  },
+  {
+    "id": "twisted-cobra",
+    "english": "Twisted Cobra",
+    "sanskrit": "Tiryaka Bhujangasana",
+    "sanskritDevanagari": "तिर्यक भुजङ्गासन",
+    "animalName": "Cobra",
+    "emoji": "🐍",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens your back",
+      "Twists your spine gently",
+      "Opens your chest"
+    ],
+    "funFact": "Snakes don't have arms or legs, but their super-bendy spines can have over 300 bones!",
+    "story": "A curious cobra rose up from the warm sand and swiveled its head over each shoulder, checking that its tail was still following along.",
+    "description": "Lie on your belly and press up into cobra with your chest lifted — sssss! 🐍 Now slowly twist your head and shoulders to peek back at one heel. Ssssneaky! Come back to center and peek at the other heel!",
+    "duration": 10
+  },
+  {
+    "id": "twisted-star",
+    "english": "Twisted Star",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⭐",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Twists your waist",
+      "Stretches your legs",
+      "Gets your heart pumping"
+    ],
+    "funFact": "Stars twinkle because their light wiggles and twists through Earth's moving air!",
+    "story": "A five-pointed star hopped down from the sky to try gymnastics, tapping each of its points together in a sparkly twisting dance.",
+    "description": "Stand in a big star shape — feet wide, arms wide, shine bright! ⭐ Now twist and tap your right hand down toward your left toes. Ding! Rise back to star shape, then twist and tap the other side. Twinkle, twist, twinkle!",
+    "duration": 8
+  },
+  {
+    "id": "twisted-shoelace",
+    "english": "Twisted Shoelace",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "👟",
+    "category": "twist",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches outer hips",
+      "Twists your back",
+      "Teaches patient breathing"
+    ],
+    "funFact": "This pose gets its name because your knees stack up like the crossed laces on a sneaker!",
+    "story": "A pair of sneaker laces got tangled into a perfect knot at recess and decided they liked being cozy and crossed forever.",
+    "description": "Sit and stack one knee right on top of the other, feet by your hips — knot tied! 👟 Sit up tall, put your opposite hand on your top knee, and gently twist to look over your shoulder. Breathe slow like you're double-knotting. Switch sides!",
+    "duration": 15
+  },
+  {
+    "id": "half-lord-of-the-fishes-bound",
+    "english": "Bound Half Lord of the Fishes",
+    "sanskrit": "Baddha Ardha Matsyendrasana",
+    "sanskritDevanagari": "बद्ध अर्ध मत्स्येन्द्रासन",
+    "animalName": "Fish",
+    "emoji": "🐠",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Very deep spinal twist",
+      "Opens shoulders wide",
+      "Builds flexibility"
+    ],
+    "funFact": "'Baddha' means 'bound' — yogis wrap their arms like a gift ribbon around the pose!",
+    "story": "The Lord of the Fishes wrapped his fins all the way around a coral spiral, tying the ocean's currents into a gentle bow.",
+    "description": "Start in your fish twist with one foot stepped over. 🐠 Now slide your front arm under your bent knee and reach your other arm behind your back — can your hands find each other? Clasp and breathe like calm waves. Unwrap slowly and switch!",
+    "duration": 10,
+    "safetyNote": "Only twist as far as feels comfy — never yank the bind. Skip if your shoulders or back hurt."
+  },
+  {
+    "id": "bharadvaja-twist-2",
+    "english": "Bharadvaja's Twist II",
+    "sanskrit": "Bharadvajasana II",
+    "sanskritDevanagari": "भरद्वाजासन",
+    "animalName": "",
+    "emoji": "🕉️",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Deep twist for the spine",
+      "Opens hips and knees",
+      "Stretches shoulders"
+    ],
+    "funFact": "This trickier version mixes three shapes at once: a hero leg, a lotus leg, and a twist!",
+    "story": "Sage Bharadvaja folded one leg like a lotus flower and one like a hero, then twisted to watch two rivers join into one.",
+    "description": "Sit and fold one foot back beside your hip, then lift your other foot to rest high on your thigh — gently! 🕉️ Sit tall as a temple, breathe in... and twist toward your folded-up foot. Hold soft and steady. Slowly unwind and switch sides!",
+    "duration": 10,
+    "safetyNote": "Knees are precious! If the folded leg pinches at all, keep that foot on the floor instead."
+  },
+  {
+    "id": "marichi-twist-2",
+    "english": "Sage Marichi Pose II",
+    "sanskrit": "Marichyasana II",
+    "sanskritDevanagari": "मरीच्यासन",
+    "animalName": "",
+    "emoji": "☀️",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Deeply opens hips",
+      "Stretches your whole back",
+      "Builds focus and patience"
+    ],
+    "funFact": "Sage poses are numbered like levels in a game — each one adds a new twisty challenge!",
+    "story": "Sunbeam sage Marichi tucked one foot up like a sleeping bird, wrapped himself around his other knee, and glowed quietly like the noon sun.",
+    "description": "Sit tall and gently rest one foot up on the opposite thigh, like a cozy nest. ☀️ Bend your other knee up tall, wrap your arm around it, and reach your hands together behind your back. Breathe in... fold forward just a little. Unwrap and switch!",
+    "duration": 10,
+    "safetyNote": "If your knee complains in the folded leg, keep that leg straight instead. Move slowly with a grown-up nearby."
+  },
+  {
+    "id": "marichi-twist-3",
+    "english": "Sage Marichi Pose III",
+    "sanskrit": "Marichyasana III",
+    "sanskritDevanagari": "मरीच्यासन",
+    "animalName": "",
+    "emoji": "🌞",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Strong spinal twist",
+      "Helps digestion",
+      "Stretches shoulders"
+    ],
+    "funFact": "Twisting poses like this one help your spine stay springy, like wringing out a sponge and letting it puff back up!",
+    "story": "For his third trick, the sunbeam sage twisted around his own knee like light bending through a crystal, scattering tiny rainbows everywhere.",
+    "description": "Sit with one leg long and the other knee bent up tall. 🌞 Hug the tall knee with your OPPOSITE elbow, press them together, and twist to look behind you. Grow taller with every breath in, twist a tiny bit more as you breathe out. Switch sides!",
+    "duration": 10,
+    "safetyNote": "Twist from your middle, not your neck. Ease off if anything pinches."
+  },
+  {
+    "id": "twisted-triangle",
+    "english": "Twisted Triangle",
+    "sanskrit": "Parivrtta Trikonasana",
+    "sanskritDevanagari": "परिवृत्त त्रिकोणासन",
+    "animalName": "",
+    "emoji": "🔺",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens legs",
+      "Twists your whole spine",
+      "Builds big balance"
+    ],
+    "funFact": "Triangles are the strongest shape in building — that's why bridges are full of them!",
+    "story": "A brave triangle from Bridge City wanted to see the world upside-down-and-backwards, so it flipped its twist and discovered a whole new view.",
+    "description": "Step one foot forward and keep both legs straight and strong. 🔺 Reach your opposite hand down to your shin or the floor by your front foot... then twist and stretch your other arm to the sky! You're a twisty bridge! Slowly unwind and switch.",
+    "duration": 10,
+    "safetyNote": "Wobbles are welcome! Use a block or a chair under your bottom hand, and come up slowly if you feel dizzy."
+  },
+  {
+    "id": "twisted-side-angle",
+    "english": "Twisted Side Angle",
+    "sanskrit": "Parivrtta Parsvakonasana",
+    "sanskritDevanagari": "परिवृत्त पार्श्वकोणासन",
+    "animalName": "",
+    "emoji": "📐",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Powers up your legs",
+      "Deep twist for your back",
+      "Boosts balance and focus"
+    ],
+    "funFact": "This pose twists your spine while your legs do a big lunge — two workouts in one!",
+    "story": "A mountain-climbing fox lunged up the steep trail and twisted around a bend, spotting the sparkling summit flag just above.",
+    "description": "Lunge one leg forward, strong like a mountain climber. 📐 Press your hands together at your heart and twist your elbow across your front knee. Push palm into palm — steady! If you're feeling mighty, reach your arms long. Unwind and switch!",
+    "duration": 10,
+    "safetyNote": "Keep your front knee over your ankle. Drop your back knee to the floor any time you need a rest."
+  },
+  {
+    "id": "twisted-half-moon",
+    "english": "Twisted Half Moon",
+    "sanskrit": "Parivrtta Ardha Chandrasana",
+    "sanskritDevanagari": "परिवृत्त अर्धचन्द्रासन",
+    "animalName": "",
+    "emoji": "🌛",
+    "category": "twist",
+    "difficulty": "hard",
+    "benefits": [
+      "Big balance challenge",
+      "Twists while you balance",
+      "Strengthens legs and core"
+    ],
+    "funFact": "The Moon spins as it circles Earth, but so slowly that we always see the same face!",
+    "story": "The half moon got dizzy watching Earth spin, so it tried spinning too — balancing on one moonbeam and twirling its silver light.",
+    "description": "Stand on one leg and float your other leg back like a moonbeam. 🌛 Put your opposite hand on the floor or a block under your shoulder... now twist your chest and reach your free arm to the sky! Wobble, giggle, glow! Float down and switch.",
+    "duration": 8,
+    "safetyNote": "Use a block under your hand and a wall behind you. Wobbling is part of the fun — step down softly any time."
+  },
+  {
+    "id": "full-lord-of-the-fishes",
+    "english": "Full Lord of the Fishes",
+    "sanskrit": "Paripurna Matsyendrasana",
+    "sanskritDevanagari": "परिपूर्ण मत्स्येन्द्रासन",
+    "animalName": "Fish",
+    "emoji": "🐡",
+    "category": "twist",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deepest of spinal twists",
+      "Opens hips and shoulders",
+      "Builds great flexibility"
+    ],
+    "funFact": "This is one of the twistiest poses in all of yoga — even grown-up yogis practice for years to do it!",
+    "story": "In the deepest part of the ocean, the great Fish King curled into a perfect spiral shell shape, and all the sea creatures came to marvel.",
+    "description": "Fold one foot up onto your opposite thigh like a lotus, then step your other foot over that knee. 🐡 Wrap your arm around the standing knee, sit tall... and spiral your spine around like a seashell. Breathe like slow ocean waves. Gently unwind!",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up yoga helper. Skip the lotus fold if your knee feels any pinch — a half twist is just as magical."
+  },
+  {
+    "id": "rope-twist",
+    "english": "Rope Twist",
+    "sanskrit": "Pashasana",
+    "sanskritDevanagari": "पाशासन",
+    "animalName": "",
+    "emoji": "🪢",
+    "category": "twist",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deep squat and twist together",
+      "Opens ankles and back",
+      "Builds strong balance"
+    ],
+    "funFact": "Pasha means 'rope' or 'loop' in Sanskrit — your arms tie the whole pose together like a knot!",
+    "story": "A sailor's rope wanted to learn the fanciest knot of all, so it looped itself around a treasure chest and held on tight while the ship sailed home.",
+    "description": "Squat all the way down with your feet together, heels reaching for the floor. 🪢 Twist to one side and wrap your top arm around both knees, reaching for your other hand behind you. You're a treasure knot! Untie slowly and knot the other way!",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up spotter. Put a rolled towel under your heels, and skip the arm wrap if it strains — a gentle squat twist is plenty."
+  }
+]

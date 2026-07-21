@@ -1,0 +1,687 @@
+[
+  {
+    "id": "legs-up-the-wall",
+    "english": "Legs-Up-the-Wall",
+    "sanskrit": "Viparita Karani",
+    "sanskritDevanagari": "विपरीत करणी",
+    "animalName": "",
+    "emoji": "🧘",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Rests tired legs",
+      "Helps you feel calm",
+      "Gentle upside-down time"
+    ],
+    "funFact": "Astronauts feel like this all day — in space, blood floats up to your head too!",
+    "story": "After a big mountain hike, a little explorer found a magic resting wall. Feet up, eyes soft, and all the tiredness drained away like water.",
+    "description": "Scoot your bottom close to the wall and lie back. 🧘 Swing your legs up so they rest on the wall like two tall towers. Let your arms flop, breathe slow... ahhh. You're upside down AND resting!",
+    "duration": 20
+  },
+  {
+    "id": "waterfall-legs",
+    "english": "Waterfall Legs",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💦",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes legs and feet",
+      "Calms your body",
+      "Easy upside-down fun"
+    ],
+    "funFact": "The tallest waterfall on Earth, Angel Falls, drops water almost one kilometer down!",
+    "story": "Imagine your legs are a sparkling waterfall pouring up into the sky — the only waterfall in the world that flows UP!",
+    "description": "Lie on your back and float your legs straight up to the sky. 💦 Wiggle your toes like splashing water. Now let your legs be still and tall. Breathe slow and enjoy your waterfall!",
+    "duration": 20
+  },
+  {
+    "id": "gorilla-peek",
+    "english": "Gorilla Peek",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Gorilla",
+    "emoji": "🦍",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches legs and back",
+      "Wakes up your brain",
+      "Makes you giggle"
+    ],
+    "funFact": "Gorillas are gentle giants — they mostly munch plants all day long.",
+    "story": "A curious gorilla heard footsteps behind her. Instead of turning around, she bent over and peeked between her own legs — hee hee, the world looks funny upside down!",
+    "description": "Stand with your feet wide like a big strong gorilla. 🦍 Bend forward and let your head hang down. Now peek between your legs — who's behind you? Wave hello upside down!",
+    "duration": 10
+  },
+  {
+    "id": "upside-down-explorer",
+    "english": "Upside-Down Explorer",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🙃",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Fresh blood to your brain",
+      "Stretches your back",
+      "Sparks imagination"
+    ],
+    "funFact": "When you hang your head down, your brain gets a whoosh of fresh, oxygen-rich blood!",
+    "story": "The Upside-Down Explorer discovered a secret: if you look at the world between your knees, the floor becomes the sky and clouds become puddles!",
+    "description": "Stand with your back near a wall for a cozy safe spot. 🙃 Fold forward, hang your head, and look at your upside-down world. What do you see? Ceilings are the new floors! Slowly roll up when you're done.",
+    "duration": 10
+  },
+  {
+    "id": "sleepy-sloth-hang",
+    "english": "Sleepy Sloth Hang",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Sloth",
+    "emoji": "🦥",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Relaxes neck and back",
+      "Stretches legs",
+      "Helps you feel calm"
+    ],
+    "funFact": "Sloths can hang upside down for hours — even while they sleep!",
+    "story": "A sleepy sloth let go of everything — arms, head, worries — and just dangled in the warm jungle breeze, smiling slowly.",
+    "description": "Stand tall, then flop forward like a super sleepy sloth. 🦥 Let your arms dangle, let your head hang heavy. Sway gently side to side... sooo relaxing. Roll up slowly, one bone at a time!",
+    "duration": 15
+  },
+  {
+    "id": "rolling-bridge-lift",
+    "english": "Rolling Bridge Lift",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌉",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs and back",
+      "Wakes up your spine",
+      "Gentle heart-above-head time"
+    ],
+    "funFact": "Some real bridges lift up and down to let tall boats sail through!",
+    "story": "The magic bridge rises slooowly to let a sailboat pass, then rolls back down, one stone at a time, until the road is flat again.",
+    "description": "Lie on your back, bend your knees, feet flat on the floor. 🌉 Press your feet down and roll your hips up, up, up — you're a lifting bridge! Now roll down slooowly, one back-bump at a time. Boat's through — lift again!",
+    "duration": 10
+  },
+  {
+    "id": "down-dog-at-wall",
+    "english": "Down Dog at the Wall",
+    "sanskrit": "Ardha Adho Mukha Shvanasana",
+    "sanskritDevanagari": "अर्ध अधोमुखश्वानासन",
+    "animalName": "Dog",
+    "emoji": "🐶",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches back and shoulders",
+      "Gentle for beginners",
+      "Builds strong arms"
+    ],
+    "funFact": "Dogs stretch like this every time they wake up from a nap — it's called a play bow!",
+    "story": "A little puppy wanted to do the big-dog stretch, so she put her paws on the wall and made her very first upside-down V. Woof!",
+    "description": "Stand facing the wall and press your paws flat on it. 🐶 Walk your feet back and bow forward until your body makes a big letter L. Push the wall away and stretch that puppy back — woof woof!",
+    "duration": 10
+  },
+  {
+    "id": "bear-walk",
+    "english": "Bear Walk",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Bear",
+    "emoji": "🐻",
+    "category": "inversion",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds strong arms and legs",
+      "Head-down fun",
+      "Great for energy"
+    ],
+    "funFact": "Bears can run faster than the fastest human — even walking on all fours!",
+    "story": "Big Bear lumbered through the forest looking for berries, bottom up, head down, sniffing the ground with every giant step.",
+    "description": "Put your hands and feet on the floor and push your bottom high in the air. 🐻 Now WALK, big bear! Right paw, left foot, stomp stomp. Keep your head down and growl a friendly GRRR!",
+    "duration": 8
+  },
+  {
+    "id": "dolphin-prep",
+    "english": "Dolphin Pose",
+    "sanskrit": "Ardha Pincha Mayurasana",
+    "sanskritDevanagari": "अर्ध पिञ्चमयूरासन",
+    "animalName": "Dolphin",
+    "emoji": "🐬",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens shoulders",
+      "Stretches back and legs",
+      "Gets you ready for big inversions"
+    ],
+    "funFact": "Dolphins sleep with one half of their brain awake so they remember to swim up and breathe!",
+    "story": "A young dolphin practiced diving nose-first through the waves, forearms like flippers, ready for the big ocean show.",
+    "description": "Kneel down and put your forearms on the floor like flat flippers. 🐬 Tuck your toes, lift your hips high, and make a pointy dolphin dive shape. Press your flippers down and peek at your feet. Eee-ee-ee!",
+    "duration": 10
+  },
+  {
+    "id": "dolphin-walk",
+    "english": "Dolphin Walk",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dolphin",
+    "emoji": "🐬",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds shoulder strength",
+      "Stretches legs",
+      "Fun moving inversion"
+    ],
+    "funFact": "Dolphins can swim up to 60 kilometers per hour when they're excited!",
+    "story": "Splash! The little dolphin tip-toed her tail closer and closer to her nose, getting ready to leap through the sparkly hoop.",
+    "description": "Start in Dolphin Pose with forearms down and hips high. 🐬 Now tip-toe your feet toward your elbows — tiny steps, splash splash! Hips go higher with every step. Then walk back out and try again!",
+    "duration": 8
+  },
+  {
+    "id": "down-dog-three-leg",
+    "english": "Three-Legged Down Dog",
+    "sanskrit": "Eka Pada Adho Mukha Shvanasana",
+    "sanskritDevanagari": "एकपाद अधोमुखश्वानासन",
+    "animalName": "Dog",
+    "emoji": "🐕",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds balance",
+      "Strengthens arms",
+      "Stretches whole body"
+    ],
+    "funFact": "Dogs really do stand on three legs sometimes — usually to say hello to a fire hydrant!",
+    "story": "Rocket the dog smelled adventure in the sky, so he lifted one leg high like a furry rocket ship counting down to blast off!",
+    "description": "Make your upside-down V: hands down, hips up, head relaxed. 🐕 Now float one leg up to the sky — three-legged dog! Point your toes like a rocket. Hold it... and switch legs. Blast off!",
+    "duration": 10
+  },
+  {
+    "id": "down-dog-tail-wag",
+    "english": "Down Dog Tail Wag",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dog",
+    "emoji": "🐕‍🦺",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Loosens hips and back",
+      "Strengthens arms",
+      "Silly and fun"
+    ],
+    "funFact": "A dog wagging its tail to the right side usually means it's extra happy!",
+    "story": "When Biscuit the dog heard the word W-A-L-K, her tail wagged so hard her whole upside-down body wiggled with joy!",
+    "description": "Get into your Down Dog V — hands down, tail up! 🐕 Now wag that happy tail! Wiggle your hips left and right, left and right. Someone said WALKIES! Keep those arms strong while you wag!",
+    "duration": 8
+  },
+  {
+    "id": "wide-leg-fold-crown-down",
+    "english": "Wide-Leg Fold, Crown Down",
+    "sanskrit": "Prasarita Padottanasana",
+    "sanskritDevanagari": "प्रसारित पादोत्तानासन",
+    "animalName": "",
+    "emoji": "🔻",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Stretches legs deeply",
+      "Calms your mind",
+      "Safe upside-down feeling"
+    ],
+    "funFact": "The very top of your head is called the crown — like where a king wears his hat!",
+    "story": "A young wizard learned that pointing the crown of your head at the earth charges you up with quiet, sparkly calm.",
+    "description": "Step your feet super wide like a giant triangle. 🔻 Fold forward slowly and let the top of your head sink toward the floor. Hands on the ground for balance. You're a mighty upside-down mountain — breathe!",
+    "duration": 15
+  },
+  {
+    "id": "half-shoulderstand",
+    "english": "Half Shoulderstand",
+    "sanskrit": "Ardha Sarvangasana",
+    "sanskritDevanagari": "अर्ध सर्वाङ्गासन",
+    "animalName": "",
+    "emoji": "🕯️",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Calms your body",
+      "Strengthens tummy",
+      "Gentle upside-down practice"
+    ],
+    "funFact": "Yogis call shoulderstand poses 'all-limb poses' because your whole body works together as a team.",
+    "story": "A little firefly practiced glowing at half-brightness first — legs tilted like a cozy lantern — before shining at full beam.",
+    "description": "Lie on your back and swing your legs up and over a little, lifting your hips off the floor. 🕯️ Hold your lower back with your hands like a shelf. Let your legs lean over your face like a half-lit candle. Breathe softly!",
+    "duration": 10,
+    "safetyNote": "Keep your weight on your shoulders and arms, not your neck, and keep your head still — no looking side to side."
+  },
+  {
+    "id": "supported-shoulderstand",
+    "english": "Supported Shoulderstand",
+    "sanskrit": "Salamba Sarvangasana",
+    "sanskritDevanagari": "सालम्ब सर्वाङ्गासन",
+    "animalName": "",
+    "emoji": "🛏️",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Restful upside-down time",
+      "Helps you feel calm",
+      "Supports tired legs"
+    ],
+    "funFact": "Resting with your legs above your heart helps your body feel fresh, like plugging in to recharge.",
+    "story": "The sleepy dragon stacked soft pillows under her hips, floated her legs to the sky, and dreamed of flying without flapping once.",
+    "description": "Lie back with a folded blanket or cushion under your hips. 🛏️ Float your legs up to the sky and let the cushion do the holding. Arms rest on the floor. You're upside down the comfy way!",
+    "duration": 15,
+    "safetyNote": "Keep your head and neck relaxed on the floor and your chin pointing up — no turning your head."
+  },
+  {
+    "id": "backwards-bear-walk",
+    "english": "Backwards Bear Walk",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Bear",
+    "emoji": "🐻‍❄️",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds coordination",
+      "Strengthens arms and core",
+      "Head-down challenge"
+    ],
+    "funFact": "Polar bears have black skin under all that white fur to soak up the warm sun!",
+    "story": "The polar bear cub found her own paw prints in the snow and followed them backwards, all the way home to her cozy den.",
+    "description": "Hands and feet on the floor, bottom high — bear shape! 🐻‍❄️ Now walk BACKWARDS: foot back, paw back, slow and steady. Peek under your arm to see where you're going. Careful bear steps!",
+    "duration": 8
+  },
+  {
+    "id": "bunny-hop-tail-up",
+    "english": "Bunny Hop, Tail Up",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Rabbit",
+    "emoji": "🐰",
+    "category": "inversion",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds arm strength",
+      "Practices being upside down",
+      "Hoppy fun energy"
+    ],
+    "funFact": "A rabbit's powerful back legs can hop nearly three meters in one jump!",
+    "story": "The bravest bunny in the meadow practiced her happy hops — hands planted, fluffy tail bouncing to the sky — training for the Great Carrot Games.",
+    "description": "Crouch down and plant your hands flat like strong bunny paws. 🐰 Look at the floor between your hands. Now hop your feet up behind you — boing! Little hops, tail to the sky! Land soft on quiet feet.",
+    "duration": 8
+  },
+  {
+    "id": "dolphin-leg-lift",
+    "english": "Dolphin Leg Lift",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dolphin",
+    "emoji": "🐬",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Strong shoulders and core",
+      "Balance practice",
+      "Gets you ready for forearm stand"
+    ],
+    "funFact": "Dolphins leap out of the water partly just for fun — scientists think they love to play!",
+    "story": "One flick of her tail and the show-dolphin lifted her flukes high above the waves while the crowd cheered, 'Eee-eee-hooray!'",
+    "description": "Start in Dolphin Pose, forearms pressing down like strong flippers. 🐬 Tip-toe your feet in, then float ONE leg way up to the sky. Point your toes like a dolphin tail! Hold... then switch. Splash!",
+    "duration": 10,
+    "safetyNote": "Practice on a soft mat with lots of space, and keep both forearms pressing down the whole time."
+  },
+  {
+    "id": "down-dog-l-at-wall",
+    "english": "L-Shape Dog at the Wall",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dog",
+    "emoji": "🦮",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds upside-down confidence",
+      "Strong arms and shoulders",
+      "Handstand practice the safe way"
+    ],
+    "funFact": "Your arms can hold up your whole body — they get stronger every single time you practice!",
+    "story": "The clever mountain dog found a cliff wall and walked his paws right up it, making a perfect letter L that all the other dogs admired.",
+    "description": "Sit with your feet touching the wall, then flip to hands and knees facing away. 🦮 Press your hands down and walk your feet UP the wall until your legs are straight out — you're a big letter L! Strong arms, happy dog!",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up spotter close by. Use a soft mat under your hands and walk down slowly when you're done."
+  },
+  {
+    "id": "shoulderstand",
+    "english": "Shoulderstand",
+    "sanskrit": "Sarvangasana",
+    "sanskritDevanagari": "सर्वाङ्गासन",
+    "animalName": "",
+    "emoji": "🕯️",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Calms your whole body",
+      "Strengthens core and back",
+      "Classic upside-down pose"
+    ],
+    "funFact": "Yogis nickname this pose 'the candle' because your body stands straight up like a tall flame.",
+    "story": "When the sun went down, the little yogi became a candle — feet flickering high like a golden flame lighting up the whole room.",
+    "description": "Lie on your back and roll your legs up and over. 🕯️ Hold your back with both hands like a strong shelf, then stretch your legs straight up to the sky. You're a tall glowing candle! Breathe slow and steady.",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up helping. Keep weight on your shoulders and arms — never on your neck alone — and never turn your head while up."
+  },
+  {
+    "id": "plow-pose-inve",
+    "english": "Plow Pose",
+    "sanskrit": "Halasana",
+    "sanskritDevanagari": "हलासन",
+    "animalName": "",
+    "emoji": "🚜",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Deep back stretch",
+      "Calms busy minds",
+      "Stretches shoulders"
+    ],
+    "funFact": "A plow is a farm tool that folds the soil over — just like your body folds over in this pose!",
+    "story": "The friendly farmer's plow folded neatly over the field at sunset, tucking the seeds in for the night like a big earthy blanket.",
+    "description": "Lie on your back and roll your legs up and alllll the way over your head. 🚜 Let your toes reach toward the floor behind you. Keep your arms pressing into the mat. You're a folding farm plow — beep beep!",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up helping, on a soft mat. Keep weight on your shoulders — never on your neck alone — and keep your head perfectly still."
+  },
+  {
+    "id": "tripod-egg",
+    "english": "Tripod Egg",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥚",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Teaches safe head placement",
+      "Builds balance and core",
+      "First step toward headstand"
+    ],
+    "funFact": "A tripod has three legs — your two hands and head make three strong points, like a camera stand!",
+    "story": "Inside its cozy shell, the little egg balanced perfectly on its nest of three twigs, waiting for the magical moment to hatch.",
+    "description": "Crouch down and make a triangle: head gently on the mat in front, hands flat beside it. 🥚 Slooowly rest your knees on your bent elbows like little shelves. Tuck up tight — you're a balancing egg! Hold... and come down softly.",
+    "duration": 10,
+    "safetyNote": "Only with a grown-up spotter on a soft mat. Most of your weight stays in your hands and arms — never press hard on your head or neck."
+  },
+  {
+    "id": "donkey-kicks",
+    "english": "Donkey Kicks",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Donkey",
+    "emoji": "🐴",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds arm strength",
+      "Practices hips-over-head",
+      "Big silly energy"
+    ],
+    "funFact": "Donkeys kick their back legs up when they're feeling playful and frisky!",
+    "story": "Pepito the donkey was SO excited about carrot day that he kicked his back hooves at the clouds — hee-haw, hee-HAW!",
+    "description": "Hands flat on the mat, look between them. 🐴 Now kick your back hooves up behind you — hee-haw! One quick kick, land soft. Again! Let your hips fly a little higher each time, arms strong like fence posts.",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up spotter, on a soft mat with lots of clear space around you. Small kicks first!"
+  },
+  {
+    "id": "wheelbarrow-with-helper",
+    "english": "Wheelbarrow Walk",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛞",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Super arm strength",
+      "Teamwork with a partner",
+      "Head-down giggles"
+    ],
+    "funFact": "Wheelbarrows were invented in ancient China more than 1,800 years ago!",
+    "story": "The garden gnomes loaded their wheelbarrow with giggles instead of dirt, and it rolled all the way across the yard on two strong little hands.",
+    "description": "Put your hands on the floor and let your helper gently hold your ankles. 🛞 Now walk on your hands — step, step, step! You're a wiggly wheelbarrow full of giggles. Tell your helper when you want to land!",
+    "duration": 8,
+    "safetyNote": "Only with a careful grown-up holding your legs, on a soft surface. Stop and rest the moment your arms feel tired."
+  },
+  {
+    "id": "standing-splits-inve",
+    "english": "Standing Splits",
+    "sanskrit": "Urdhva Prasarita Eka Padasana",
+    "sanskritDevanagari": "ऊर्ध्वप्रसारितैकपादासन",
+    "animalName": "Flamingo",
+    "emoji": "🦩",
+    "category": "inversion",
+    "difficulty": "hard",
+    "benefits": [
+      "Big leg stretch",
+      "Balance practice",
+      "Head-down strength"
+    ],
+    "funFact": "Flamingos can balance on one leg even while they're fast asleep!",
+    "story": "The fanciest flamingo in the lagoon took a bow so deep that one pink leg lifted all the way to the sky — ta-daaa!",
+    "description": "Stand tall, then fold forward and put your fingertips on the floor. 🦩 Now float one leg up behind you, higher and higher! Head hangs down, leg reaches for the clouds. Wobbling is part of the fun — switch sides!",
+    "duration": 10,
+    "safetyNote": "Practice near a wall for balance, with a grown-up nearby and space around you."
+  },
+  {
+    "id": "ear-pressure-pose-inve",
+    "english": "Ear Pressure Pose",
+    "sanskrit": "Karnapidasana",
+    "sanskritDevanagari": "कर्णपीडासन",
+    "animalName": "",
+    "emoji": "🐌",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deep back stretch",
+      "Super quiet and calm",
+      "Folds you up cozy"
+    ],
+    "funFact": "With your knees hugging your ears, the whole world goes whisper-quiet — like your own secret sound-proof room!",
+    "story": "The little snail curled all the way into her shell, knees to ears, and listened to the softest, quietest quiet she had ever heard.",
+    "description": "From Plow Pose, bend your knees sloooowly down beside your ears. 🐌 Let your knees give your ears a gentle hug — shhh, everything goes quiet! Curl up like a cozy snail and take soft breaths.",
+    "duration": 10,
+    "safetyNote": "Advanced pose — only with a grown-up spotter on a soft mat. Weight stays on shoulders, never on your neck alone, and keep your head totally still."
+  },
+  {
+    "id": "headstand",
+    "english": "Headstand",
+    "sanskrit": "Salamba Shirshasana",
+    "sanskritDevanagari": "सालम्ब शीर्षासन",
+    "animalName": "",
+    "emoji": "👑",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Big balance and focus",
+      "Strong shoulders and core",
+      "The king of upside-down poses"
+    ],
+    "funFact": "Yogis call headstand the 'king of poses' — kings and queens both love wearing their crowns upside down!",
+    "story": "High in the mountain temple, the young yogi finally balanced like a still, upside-down mountain — and felt like royalty of the whole sky.",
+    "description": "Clasp your hands, put your forearms down, and cradle the back of your head. 👑 Tuck your toes, walk your feet in, and let a grown-up help float your legs up. Press your forearms down hard — they carry you, like a royal throne!",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter, on a soft mat, near a wall. Your forearms carry the weight, never your neck alone. Skip it if your head or neck hurts."
+  },
+  {
+    "id": "tripod-headstand",
+    "english": "Tripod Headstand",
+    "sanskrit": "Mukta Hasta Shirshasana",
+    "sanskritDevanagari": "मुक्तहस्त शीर्षासन",
+    "animalName": "",
+    "emoji": "📷",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Strong arms and wrists",
+      "Sharp focus",
+      "Balance mastery"
+    ],
+    "funFact": "Photographers use tripods because three points of contact make the steadiest stand!",
+    "story": "Click! The upside-down photographer turned herself into a human tripod, so steady that not one picture came out blurry.",
+    "description": "Make your triangle: head gently down in front, hands flat beside it like camera legs. 📷 With your grown-up helping, lift your legs straight up from Tripod Egg. Push the floor away with strong hands. Steady... say cheese!",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter on a soft mat. Hands and arms carry most of the weight, never your neck alone. Come down at the first wobble you can't fix."
+  },
+  {
+    "id": "headstand-split-legs",
+    "english": "Headstand Split Legs",
+    "sanskrit": "Eka Pada Shirshasana",
+    "sanskritDevanagari": "एकपाद शीर्षासन",
+    "animalName": "",
+    "emoji": "✂️",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Next-level balance",
+      "Strong core control",
+      "Leg flexibility"
+    ],
+    "funFact": "Moving one leg at a time upside down teaches your brain amazing body maps!",
+    "story": "The upside-down acrobat opened her legs like giant scissors, snip-snip, cutting ribbons of cloud in the circus sky.",
+    "description": "From your steady headstand with a grown-up close, slooowly lower one leg toward the floor while the other reaches up. ✂️ Open like careful scissors... then float back together and switch. Slow is strong!",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter on a soft mat, after headstand feels steady. Forearms carry the weight, never your neck alone."
+  },
+  {
+    "id": "forearm-stand",
+    "english": "Forearm Stand",
+    "sanskrit": "Pincha Mayurasana",
+    "sanskritDevanagari": "पिञ्चमयूरासन",
+    "animalName": "Peacock",
+    "emoji": "🦚",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Powerful shoulders",
+      "Amazing balance",
+      "Big upside-down courage"
+    ],
+    "funFact": "This pose is named for a peacock lifting its dazzling tail feathers to the sky!",
+    "story": "The proud peacock swept his shimmering tail feathers straight up to the sun, and the whole garden gasped at the upside-down rainbow.",
+    "description": "Start in Dolphin Pose, forearms pressed down strong. 🦚 With your grown-up spotting you, kick your legs up like glorious peacock feathers! Squeeze your legs together, point your toes, and shine!",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter, on a soft mat near a wall. Keep forearms pressing down; come down softly the moment you tire."
+  },
+  {
+    "id": "forearm-stand-at-wall",
+    "english": "Forearm Stand at the Wall",
+    "sanskrit": "Pincha Mayurasana",
+    "sanskritDevanagari": "पिञ्चमयूरासन",
+    "animalName": "Peacock",
+    "emoji": "🦚",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Builds forearm-stand confidence",
+      "Strong shoulders",
+      "Safe way to practice"
+    ],
+    "funFact": "Even circus performers practice against walls first — every expert starts with a helper!",
+    "story": "The young peacock practiced his grand feather-lift beside the garden wall, letting it catch his heels until his balance grew show-ready.",
+    "description": "Set up Dolphin Pose with your fingertips near the wall. 🦚 With your grown-up helping, kick your heels up to rest gently on the wall. Press those forearms down! The wall is your friendly catcher — breathe and balance.",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter and a soft mat. Kick up gently so your heels land softly, and come down slowly one leg at a time."
+  },
+  {
+    "id": "handstand",
+    "english": "Handstand",
+    "sanskrit": "Adho Mukha Vrikshasana",
+    "sanskritDevanagari": "अधोमुखवृक्षासन",
+    "animalName": "",
+    "emoji": "🤸",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Whole-body strength",
+      "Fearless balance",
+      "Super focus"
+    ],
+    "funFact": "The Sanskrit name means 'upside-down tree' — your hands are the roots and your feet are the branches!",
+    "story": "In the topsy-turvy forest, one brave tree decided to grow the other way — roots to the sky, branches in the earth — and it became the most famous tree of all.",
+    "description": "Plant your hands like strong roots, shoulder-width apart. 🤸 With your grown-up spotting, kick up one leg, then the other, and grow tall like an upside-down tree! Squeeze everything tight and look at your root-hands.",
+    "duration": 8,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter, on a soft mat with clear space. Learn to safely step or cartwheel out before holding it."
+  },
+  {
+    "id": "handstand-at-wall",
+    "english": "Handstand at the Wall",
+    "sanskrit": "Adho Mukha Vrikshasana",
+    "sanskritDevanagari": "अधोमुखवृक्षासन",
+    "animalName": "",
+    "emoji": "🧗",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Builds handstand confidence",
+      "Strong arms and shoulders",
+      "Safe upside-down practice"
+    ],
+    "funFact": "Gymnasts spend years practicing wall handstands — the wall is the world's most patient teacher!",
+    "story": "Every morning, the little climber high-fived the wall and flipped upside down beside it, and every morning she balanced one blink longer.",
+    "description": "Put your hands on the mat a small step from the wall. 🧗 With your grown-up helping, kick your heels up to rest on the wall. Push the floor away, strong arms! The wall's got your back — breathe and count your balance blinks!",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter and a soft mat. Kick up gently and come down one leg at a time, slow and controlled."
+  },
+  {
+    "id": "scorpion-at-wall",
+    "english": "Scorpion at the Wall",
+    "sanskrit": "Vrishchikasana",
+    "sanskritDevanagari": "वृश्चिकासन",
+    "animalName": "Scorpion",
+    "emoji": "🦂",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Deep back flexibility",
+      "Elite balance",
+      "Big brave energy"
+    ],
+    "funFact": "A scorpion curls its tail up over its back — and glows under ultraviolet light!",
+    "story": "The desert scorpion curled her tail over her head like a glowing question mark, asking the moon, 'How high can I bend tonight?'",
+    "description": "Start in your wall forearm stand with your grown-up spotting. 🦂 Slooowly bend your knees and let your toes creep down the wall toward your head — a curling scorpion tail! Tiny moves only. Then straighten up and float down.",
+    "duration": 8,
+    "safetyNote": "Very advanced — ONLY for experienced kids with a grown-up spotter, soft mat, and wall. Tiny bends only; stop right away if your back or neck feels pinchy."
+  },
+  {
+    "id": "headstand-butterfly-legs",
+    "english": "Headstand Butterfly Legs",
+    "sanskrit": "Baddha Kona Shirshasana",
+    "sanskritDevanagari": "बद्धकोण शीर्षासन",
+    "animalName": "Butterfly",
+    "emoji": "🦋",
+    "category": "inversion",
+    "difficulty": "advanced",
+    "benefits": [
+      "Playful balance control",
+      "Opens hips",
+      "Upside-down creativity"
+    ],
+    "funFact": "Butterflies taste with their feet — imagine tasting the sky upside down!",
+    "story": "An upside-down butterfly folded her wings into a diamond and hovered perfectly still, sipping sunshine from the clouds below her feet.",
+    "description": "From your steady headstand with your grown-up close, press the soles of your feet together and let your knees open wide. 🦋 Your legs make butterfly wings in the sky! Flutter gently... then float your legs back up.",
+    "duration": 10,
+    "safetyNote": "Advanced — ONLY with a grown-up spotter on a soft mat, after headstand feels easy and steady. Forearms carry the weight, never your neck alone."
+  }
+]

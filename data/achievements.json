@@ -1,0 +1,44 @@
+[
+  { "id": "first-pose",      "name": "First Steps",       "icon": "🌱", "desc": "Complete your very first pose",              "condition": { "type": "counter", "stat": "posesCompleted", "gte": 1 } },
+  { "id": "ten-poses",       "name": "Getting Bendy",     "icon": "🤸", "desc": "Complete 10 poses",                          "condition": { "type": "counter", "stat": "posesCompleted", "gte": 10 } },
+  { "id": "fifty-poses",     "name": "Pose Explorer",     "icon": "🧭", "desc": "Complete 50 poses",                          "condition": { "type": "counter", "stat": "posesCompleted", "gte": 50 } },
+  { "id": "hundred-poses",   "name": "Century Yogi",      "icon": "💯", "desc": "Complete 100 poses",                         "condition": { "type": "counter", "stat": "posesCompleted", "gte": 100 } },
+  { "id": "fivehundred",     "name": "Pose Master",       "icon": "👑", "desc": "Complete 500 poses",                         "condition": { "type": "counter", "stat": "posesCompleted", "gte": 500 } },
+
+  { "id": "streak-3",        "name": "On a Roll",         "icon": "🔥", "desc": "Pass 3 poses in a row",                      "condition": { "type": "streak", "gte": 3 } },
+  { "id": "streak-5",        "name": "Unstoppable",       "icon": "⚡", "desc": "Pass 5 poses in a row",                      "condition": { "type": "streak", "gte": 5 } },
+  { "id": "streak-10",       "name": "Superstar Streak",  "icon": "🌟", "desc": "Pass 10 poses in a row",                     "condition": { "type": "streak", "gte": 10 } },
+
+  { "id": "perfect-session", "name": "Perfect Practice",  "icon": "✨", "desc": "Finish a game passing every pose",           "condition": { "type": "session", "check": "perfect" } },
+  { "id": "big-session",     "name": "Marathon Mover",    "icon": "🏃", "desc": "Do 10 poses in one game",                    "condition": { "type": "session", "check": "posesGte", "value": 10 } },
+
+  { "id": "cat-standing",    "name": "Mountain Climber",  "icon": "🏔️", "desc": "Pass 10 standing poses",                     "condition": { "type": "category-counter", "category": "standing", "gte": 10 } },
+  { "id": "cat-balance",     "name": "Steady Wobbler",    "icon": "🤹", "desc": "Pass 10 balance poses",                      "condition": { "type": "category-counter", "category": "balance", "gte": 10 } },
+  { "id": "cat-backbend",    "name": "Rainbow Maker",     "icon": "🌈", "desc": "Pass 10 backbend poses",                     "condition": { "type": "category-counter", "category": "backbend", "gte": 10 } },
+  { "id": "cat-animal",      "name": "Animal Whisperer",  "icon": "🦁", "desc": "Pass 15 animal poses",                       "condition": { "type": "category-counter", "category": "animal-play", "gte": 15 } },
+  { "id": "cat-restorative", "name": "Calm Champion",     "icon": "😌", "desc": "Pass 10 calm & quiet poses",                 "condition": { "type": "category-counter", "category": "restorative", "gte": 10 } },
+
+  { "id": "explorer-5",      "name": "Well Rounded",      "icon": "🎨", "desc": "Try poses from 5 different groups",          "condition": { "type": "distinct-categories", "gte": 5 } },
+  { "id": "explorer-all",    "name": "Try Everything",    "icon": "🌍", "desc": "Try poses from every group",                 "condition": { "type": "distinct-categories", "gte": 12 } },
+
+  { "id": "day-streak-3",    "name": "Three-Day Glow",    "icon": "📅", "desc": "Practice 3 days in a row",                   "condition": { "type": "day-streak", "gte": 3 } },
+  { "id": "day-streak-7",    "name": "Weekly Warrior",    "icon": "🗓️", "desc": "Practice 7 days in a row",                   "condition": { "type": "day-streak", "gte": 7 } },
+
+  { "id": "mode-animal",     "name": "Jungle Explorer",   "icon": "🌴", "desc": "Finish an Animal Adventure",                 "condition": { "type": "mode", "mode": "animal", "sessionsGte": 1 } },
+  { "id": "mode-story",      "name": "Story Time",        "icon": "📖", "desc": "Finish a Story Adventure",                   "condition": { "type": "mode", "mode": "story", "sessionsGte": 1 } },
+  { "id": "mode-daily",      "name": "Daily Doer",        "icon": "🎯", "desc": "Complete a Daily Challenge",                 "condition": { "type": "mode", "mode": "daily", "sessionsGte": 1 } },
+  { "id": "daily-5",         "name": "Habit Hero",        "icon": "🏅", "desc": "Complete 5 Daily Challenges",                "condition": { "type": "mode", "mode": "daily", "sessionsGte": 5 } },
+
+  { "id": "belt-green",      "name": "Green Grown-Up",    "icon": "💚", "desc": "Earn your Green Belt",                       "condition": { "type": "belt", "belt": "green" } },
+  { "id": "belt-blue",       "name": "True Blue",         "icon": "💙", "desc": "Earn your Blue Belt",                        "condition": { "type": "belt", "belt": "blue" } },
+  { "id": "belt-black",      "name": "Black Belt Yogi",   "icon": "🥋", "desc": "Earn the legendary Black Belt",              "condition": { "type": "belt", "belt": "black" } },
+
+  { "id": "coins-100",       "name": "Coin Collector",    "icon": "🪙", "desc": "Earn 100 coins",                             "condition": { "type": "counter", "stat": "coinsTotal", "gte": 100 } },
+  { "id": "coins-500",       "name": "Treasure Keeper",   "icon": "💰", "desc": "Earn 500 coins",                             "condition": { "type": "counter", "stat": "coinsTotal", "gte": 500 } },
+  { "id": "minutes-30",      "name": "Half-Hour Hero",    "icon": "⏰", "desc": "Practice for 30 minutes total",              "condition": { "type": "counter", "stat": "minutesPracticed", "gte": 30 } },
+  { "id": "minutes-120",     "name": "Two-Hour Titan",    "icon": "⌛", "desc": "Practice for 2 hours total",                 "condition": { "type": "counter", "stat": "minutesPracticed", "gte": 120 } },
+  { "id": "sessions-10",     "name": "Regular Rockstar",  "icon": "🎸", "desc": "Play 10 games",                              "condition": { "type": "counter", "stat": "sessionsPlayed", "gte": 10 } },
+  { "id": "sessions-25",     "name": "Yoga Devotee",      "icon": "🧘", "desc": "Play 25 games",                              "condition": { "type": "counter", "stat": "sessionsPlayed", "gte": 25 } },
+  { "id": "brave-hard",      "name": "Brave Bender",      "icon": "💪", "desc": "Pass 5 hard poses",                          "condition": { "type": "difficulty-counter", "difficulty": "hard", "gte": 5 } },
+  { "id": "comeback",        "name": "Never Give Up",     "icon": "🌻", "desc": "Pass a pose you needed to practice before",  "condition": { "type": "session", "check": "comeback" } }
+]

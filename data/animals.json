@@ -1,0 +1,39 @@
+{
+  "habitats": [
+    {
+      "id": "jungle",
+      "name": "Sunny Jungle",
+      "emoji": "🌴",
+      "intro": "The jungle animals are hiding! Strike each pose to make a new friend appear.",
+      "animals": ["Lion", "Monkey", "Tiger", "Snake", "Frog", "Elephant", "Gorilla", "Cheetah", "Parrot", "Sloth"]
+    },
+    {
+      "id": "ocean",
+      "name": "Deep Blue Ocean",
+      "emoji": "🌊",
+      "intro": "Dive under the waves! Every pose helps a sea creature swim home.",
+      "animals": ["Dolphin", "Fish", "Shark", "Octopus", "Crab", "Seal", "Jellyfish", "Starfish", "Turtle", "Whale"]
+    },
+    {
+      "id": "farm",
+      "name": "Cozy Farm",
+      "emoji": "🚜",
+      "intro": "The farm is waking up! Do each pose to say good morning to an animal.",
+      "animals": ["Cow", "Cat", "Dog", "Duck", "Horse", "Pig", "Rooster", "Rabbit", "Sheep", "Goat"]
+    },
+    {
+      "id": "forest",
+      "name": "Whispering Forest",
+      "emoji": "🌲",
+      "intro": "Tiptoe through the forest and meet its shy, wonderful creatures.",
+      "animals": ["Bear", "Deer", "Owl", "Fox", "Squirrel", "Hedgehog", "Wolf", "Swan", "Butterfly", "Bumblebee"]
+    },
+    {
+      "id": "sky",
+      "name": "Big Bright Sky",
+      "emoji": "☁️",
+      "intro": "Spread your wings! Each pose sends a flying friend soaring into the sky.",
+      "animals": ["Eagle", "Flamingo", "Crow", "Heron", "Dragonfly", "Ladybug", "Penguin", "Peacock", "Firefly", "Bat"]
+    }
+  ]
+}

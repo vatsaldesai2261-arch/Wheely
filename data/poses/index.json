@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "shards": [
+    "standing.json",
+    "seated.json",
+    "balance.json",
+    "backbend.json",
+    "forward-fold.json",
+    "twist.json",
+    "core.json",
+    "inversion.json",
+    "animal-play.json",
+    "partner-group.json",
+    "restorative.json",
+    "warmup-fun.json"
+  ],
+  "categories": [
+    { "id": "standing",      "name": "Standing",       "emoji": "🏔️" },
+    { "id": "seated",        "name": "Seated",         "emoji": "🪷" },
+    { "id": "balance",       "name": "Balance",        "emoji": "🤸" },
+    { "id": "backbend",      "name": "Backbends",      "emoji": "🌈" },
+    { "id": "forward-fold",  "name": "Forward Folds",  "emoji": "🙇" },
+    { "id": "twist",         "name": "Twists",         "emoji": "🌀" },
+    { "id": "core",          "name": "Core Power",     "emoji": "🚀" },
+    { "id": "inversion",     "name": "Upside Down",    "emoji": "🙃" },
+    { "id": "animal-play",   "name": "Animal Friends", "emoji": "🦁" },
+    { "id": "partner-group", "name": "Together Time",  "emoji": "🤝" },
+    { "id": "restorative",   "name": "Calm & Quiet",   "emoji": "😌" },
+    { "id": "warmup-fun",    "name": "Warm-Up Fun",    "emoji": "☀️" }
+  ]
+}

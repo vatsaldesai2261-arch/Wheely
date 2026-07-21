@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <title>Yoga Adventure Wheel</title>
+  <meta name="description" content="Spin the wheel, strike a pose! A joyful offline yoga game for kids." />
+  <meta name="theme-color" content="#2d6a4f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Yoga Wheel" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./css/tokens.css" />
+  <link rel="stylesheet" href="./css/base.css" />
+  <link rel="stylesheet" href="./css/components.css" />
+  <link rel="stylesheet" href="./css/screens.css" />
+  <link rel="stylesheet" href="./css/animations.css" />
+</head>
+<body>
+  <div id="app">
+    <main id="screen-root" aria-live="off"></main>
+  </div>
+
+  <div id="rotate-overlay" role="status">
+    <div class="rotate-icon" aria-hidden="true">📱</div>
+    <div>Turn your iPad sideways to play!</div>
+  </div>
+
+  <div id="toast-root" aria-live="polite" aria-atomic="false"></div>
+  <div id="announcer" class="sr-only" aria-live="polite"></div>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center">Yoga Adventure Wheel needs JavaScript to play. 🧘</p>
+  </noscript>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

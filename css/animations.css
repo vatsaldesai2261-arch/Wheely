@@ -1,0 +1,44 @@
+/* Keyframes + motion. All gated by prefers-reduced-motion in base.css. */
+
+@keyframes gentle-spin { to { transform: rotate(360deg); } }
+
+@keyframes pop-in {
+  0% { transform: scale(0.4); opacity: 0; }
+  70% { transform: scale(1.12); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fade-out { to { opacity: 0; } }
+
+@keyframes pulse-scale {
+  0% { transform: scale(0.6); opacity: 0; }
+  50% { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.countdown-num.pulse { animation: pulse-scale 0.5s var(--ease-pop); }
+
+@keyframes float-up {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-4deg); }
+  75% { transform: rotate(4deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Reward numbers float and fade */
+.reward-fly span { animation: float-up 1.4s var(--ease-out) 0.4s both; }
+
+/* Screen transition base handled in base.css .screen */
+
+/* Reduce heavy loops when reduced-motion (belt/backup safe) */
+@media (prefers-reduced-motion: reduce) {
+  .splash-wheel, .logo-wheel { animation: none !important; }
+}

@@ -1,0 +1,774 @@
+[
+  {
+    "id": "table-top",
+    "english": "Table Top",
+    "sanskrit": "Bharmanasana",
+    "sanskritDevanagari": "भर्मणासन",
+    "animalName": "",
+    "emoji": "🛋️",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds a strong middle",
+      "Steadies shoulders and hips",
+      "Great starting shape"
+    ],
+    "funFact": "Your spine has 33 little bones that stack up like building blocks!",
+    "story": "A tiny tea party needed a table, so one clever kid turned into the sturdiest table in the land — not even a stack of teacups could wobble it.",
+    "description": "Hands and knees on the floor — let's build a table! 🛋️ Hands under your shoulders, knees under your hips. Make your back flat as a tabletop. Shhh... steady! Could a teacup balance on your back?",
+    "duration": 10
+  },
+  {
+    "id": "crab-pose",
+    "english": "Crab Pose",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Crab",
+    "emoji": "🦀",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens arms and tummy",
+      "Opens the chest",
+      "Wakes up your whole body"
+    ],
+    "funFact": "Real crabs walk sideways because their legs bend that way — try a sideways scuttle!",
+    "story": "Down on the sunny beach, Coco the Crab lifted her shell high and scuttled sideways to guard her favorite shiny pebble.",
+    "description": "Sit down, hands behind you, feet flat in front. Now press down and lift your bottom up — snip snip! 🦀 Push your belly toward the sky. Can you take three sideways crab steps?",
+    "duration": 10
+  },
+  {
+    "id": "rocking-chair",
+    "english": "Rocking Chair",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪑",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Massages your back",
+      "Wakes up tummy muscles",
+      "Super fun energy booster"
+    ],
+    "funFact": "Rocking on your back gives your spine a gentle massage, like tiny rolling waves.",
+    "story": "Grandma Bear's rocking chair creaked back and forth on the porch, rocking faster and faster until it almost rocked right up to standing!",
+    "description": "Sit down and hug your knees like a cozy package. 🪑 Tuck your chin, round your back like a banana... and rock! Back and forth, wheee! Can you rock all the way back up to sitting?",
+    "duration": 8
+  },
+  {
+    "id": "flying-superhero",
+    "english": "Flying Superhero",
+    "sanskrit": "Viparita Shalabhasana",
+    "sanskritDevanagari": "विपरीत शलभासन",
+    "animalName": "",
+    "emoji": "🦸",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens your back",
+      "Powers up your core",
+      "Makes you feel brave"
+    ],
+    "funFact": "The muscles along your spine work like superhero cables holding you tall all day long.",
+    "story": "High above the city, a young superhero zoomed through the clouds, cape flapping, off to rescue a kitten stuck in a tree.",
+    "description": "Lie on your tummy, arms stretched out front like you're flying! 🦸 Take a big breath and lift your arms, chest, and legs off the floor. WHOOSH! You're soaring! Hold on, hero... and gently land.",
+    "duration": 10
+  },
+  {
+    "id": "half-superhero",
+    "english": "Half Superhero",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦸",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Gentle back strengthener",
+      "Teaches balance",
+      "Builds body awareness"
+    ],
+    "funFact": "Lifting your opposite arm and leg makes both sides of your brain work together!",
+    "story": "Every superhero starts with flying school — first one arm and the opposite leg, then swap sides, until zoom-day arrives.",
+    "description": "Lie on your tummy like a napping hero. Now lift just your RIGHT arm and LEFT leg — halfway flying! 🦸 Lower down softly... and swap sides. One wing at a time!",
+    "duration": 10
+  },
+  {
+    "id": "rocket-ship",
+    "english": "Rocket Ship",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚀",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs and tummy",
+      "Boosts energy",
+      "Practices squatting safely"
+    ],
+    "funFact": "Real rockets have to zoom faster than 40,000 kilometers per hour to leave Earth!",
+    "story": "Mission control counted down as the little rocket crouched on the launch pad, engines rumbling, ready to blast off to the sparkly moon.",
+    "description": "Crouch down small, hands pressed together in front like a rocket nose. 🚀 Squeeze your tummy tight — that's your engine! Count down: 3... 2... 1... BLAST OFF! Jump up tall, arms to the stars!",
+    "duration": 8
+  },
+  {
+    "id": "starfish-stretch",
+    "english": "Starfish Stretch",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Starfish",
+    "emoji": "⭐",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches your whole body",
+      "Opens the chest",
+      "Helps you feel big and brave"
+    ],
+    "funFact": "A starfish can regrow a whole arm if it loses one — how amazing is that?",
+    "story": "On the ocean floor, Stella the Starfish stretched all five points as wide as she could to catch the warm rays of sunshine wiggling through the water.",
+    "description": "Lie on your back and spread out W-I-D-E! ⭐ Arms out, legs out — you're a giant starfish! Squeeze every finger and toe out long. Take a big starfish breath... ahhh.",
+    "duration": 15
+  },
+  {
+    "id": "drawbridge",
+    "english": "Drawbridge",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏰",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens tummy and hips",
+      "Wakes up your legs",
+      "Fun with a friend"
+    ],
+    "funFact": "Castle drawbridges were pulled up with giant chains to keep the castle safe at night.",
+    "story": "The castle guard shouted 'Ships ahoy!' and the mighty drawbridge slowly lifted to let the boats sail underneath.",
+    "description": "Lie on your back, knees bent, feet flat. 🏰 Press your feet down and lift your hips up — the drawbridge is opening! Creeeak! Hold it high... then slowly lower the bridge back down.",
+    "duration": 10
+  },
+  {
+    "id": "happy-beetle",
+    "english": "Happy Beetle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Beetle",
+    "emoji": "🪲",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Gently works your tummy",
+      "Protects your back",
+      "Improves coordination"
+    ],
+    "funFact": "Beetles are the biggest animal family on Earth — there are more kinds of beetles than any other creature!",
+    "story": "A cheerful little beetle rolled onto its back in the grass and waved its legs at the clouds, giggling as they tickled the breeze.",
+    "description": "Lie on your back and lift your arms and legs up like a wiggly beetle! 🪲 Keep your back snuggled into the floor. Now slowly reach one arm back and the opposite leg long... and switch! Wiggle wiggle!",
+    "duration": 10
+  },
+  {
+    "id": "balloon-belly",
+    "english": "Balloon Belly",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🎈",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches belly breathing",
+      "Helps you feel calm",
+      "Connects breath and tummy"
+    ],
+    "funFact": "Your biggest breathing muscle, the diaphragm, sits under your lungs like a trampoline.",
+    "story": "At the birthday party, one magic balloon puffed up big and round, then let its air out slooowly with the tiniest happy whistle.",
+    "description": "Lie on your back and put your hands on your tummy. 🎈 Breathe in through your nose and puff your belly up like a big balloon! Now breathe out slowly... pfffff... balloon goes flat. Again!",
+    "duration": 20
+  },
+  {
+    "id": "baby-plank",
+    "english": "Baby Plank",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🐻",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds arm and tummy strength",
+      "Perfect plank practice",
+      "Protects your back"
+    ],
+    "funFact": "Practicing a little plank every day makes your muscles remember it — that's called muscle memory!",
+    "story": "Before the big bear could hold the log bridge steady, the little cub practiced on a shorter bridge — and got stronger every single day.",
+    "description": "Start on hands and knees, then walk your hands forward a little. 🐻 Keep your knees down and make a straight line from head to knees. Squeeze your tummy — you're a strong baby plank! Hold it, superstar!",
+    "duration": 10
+  },
+  {
+    "id": "waiter-table",
+    "english": "Waiter Table",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍽️",
+    "category": "core",
+    "difficulty": "easy",
+    "benefits": [
+      "Improves balance",
+      "Strengthens shoulders",
+      "Sharpens focus"
+    ],
+    "funFact": "Fancy waiters can carry three plates on one arm without dropping a single pea!",
+    "story": "In the busiest restaurant in town, the world's steadiest waiter glided between tables balancing a tall wobbly cake — and never dropped a crumb.",
+    "description": "Start in Table Top, nice and steady. 🍽️ Now lift one arm out in front like you're carrying a pizza tray! Keep your back flat and tummy tight. Hold... and switch arms. Order up!",
+    "duration": 10
+  },
+  {
+    "id": "boat-pose-core",
+    "english": "Boat Pose",
+    "sanskrit": "Navasana",
+    "sanskritDevanagari": "नावासन",
+    "animalName": "",
+    "emoji": "⛵",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens tummy muscles",
+      "Improves balance",
+      "Builds focus"
+    ],
+    "funFact": "The word 'nava' means boat in Sanskrit — sailors in India used boats like this thousands of years ago!",
+    "story": "A brave little sailboat pushed off from the harbor, tipped back its sail, and balanced perfectly on the sparkly waves all the way to Treasure Island.",
+    "description": "Sit down, knees bent, and hold on behind your knees. ⛵ Lean back a little and lift your feet up — you're floating! Feeling strong? Stretch your legs and arms out like sails! Rock steady, captain!",
+    "duration": 10
+  },
+  {
+    "id": "half-boat-core",
+    "english": "Half Boat",
+    "sanskrit": "Ardha Navasana",
+    "sanskritDevanagari": "अर्ध नावासन",
+    "animalName": "",
+    "emoji": "🛶",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Gentle tummy strengthener",
+      "Great boat practice",
+      "Builds steadiness"
+    ],
+    "funFact": "'Ardha' means half in Sanskrit — lots of poses have a half version to learn first!",
+    "story": "Before sailing the seven seas, every little boat learns to float in the calm harbor with its sails halfway up.",
+    "description": "Sit tall, knees bent, feet on the floor. 🛶 Hold behind your knees, lean back a bit, and lift your feet so your shins are flat like a little deck. Tummy strong! You're floating in the harbor!",
+    "duration": 10
+  },
+  {
+    "id": "plank",
+    "english": "Plank Pose",
+    "sanskrit": "Phalakasana",
+    "sanskritDevanagari": "फलकासन",
+    "animalName": "",
+    "emoji": "🌉",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens your whole body",
+      "Builds arm power",
+      "Grows patience"
+    ],
+    "funFact": "'Phalaka' means plank of wood — your body becomes one strong, straight board!",
+    "story": "When the river washed the bridge away, one strong kid stretched out like a wooden plank so the ants could march safely across.",
+    "description": "Start on hands and knees, then step your feet back and straighten your legs. 🌉 Make one straight line from head to heels — strong like a bridge! Squeeze your tummy tight. Don't let the ants fall! Hold... hold... you did it!",
+    "duration": 10
+  },
+  {
+    "id": "forearm-plank",
+    "english": "Forearm Plank",
+    "sanskrit": "Makara Phalakasana",
+    "sanskritDevanagari": "मकर फलकासन",
+    "animalName": "Crocodile",
+    "emoji": "🐊",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Super core strengthener",
+      "Easy on the wrists",
+      "Builds endurance"
+    ],
+    "funFact": "Crocodiles can float perfectly still in the water for hours — that's champion stillness!",
+    "story": "A sneaky crocodile lay low and flat in the river, still as a log, waiting for the perfect moment to splash its friends.",
+    "description": "Come down onto your forearms, elbows under your shoulders. 🐊 Step your feet back and make your body one long, low line — you're a floating crocodile! Belly tight, breathe slow... still as a log!",
+    "duration": 10
+  },
+  {
+    "id": "side-plank-knee",
+    "english": "Side Plank with Knee Down",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "📐",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens side tummy muscles",
+      "Steadies shoulders",
+      "Great side plank practice"
+    ],
+    "funFact": "You have tummy muscles on your sides called obliques — they help you twist and bend!",
+    "story": "The little sailboat practiced leaning into the wind with one anchor down, getting ready for the day it would sail free.",
+    "description": "Start on hands and knees. Keep one knee down and stretch the other leg out to the side. 📐 Now reach your top arm to the sky and open up sideways! Strong and steady... then switch sides!",
+    "duration": 10
+  },
+  {
+    "id": "tiger-pose",
+    "english": "Tiger Pose",
+    "sanskrit": "Vyaghrasana",
+    "sanskritDevanagari": "व्याघ्रासन",
+    "animalName": "Tiger",
+    "emoji": "🐯",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens back and core",
+      "Stretches the tummy",
+      "Improves balance"
+    ],
+    "funFact": "Every tiger has its own stripe pattern, just like your fingerprint belongs only to you!",
+    "story": "Deep in the jungle, a young tiger stretched one strong back leg high into the leaves, showing the whole jungle its beautiful stripes.",
+    "description": "Start in Table Top, paws strong. 🐯 Now sweep one leg up and back behind you, toes to the sky! Lift your chin like a proud tiger. Grrr! Hold it... then switch legs, jungle cat!",
+    "duration": 10
+  },
+  {
+    "id": "knee-to-nose",
+    "english": "Knee-to-Nose",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🐌",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Wakes up deep tummy muscles",
+      "Links breath and movement",
+      "Stretches the back"
+    ],
+    "funFact": "Rounding your back like this gives your spine a lovely stretch in the opposite direction of sitting.",
+    "story": "A curious snail curled up tight inside its shell to say hello to its own nose, then stretched out long to keep exploring the garden.",
+    "description": "Start in Table Top. Breathe out and pull one knee toward your nose while you round your back like a shell! 🐌 Squeeze your tummy — can your knee and nose almost touch? Stretch the leg back out... and again!",
+    "duration": 10
+  },
+  {
+    "id": "running-dog",
+    "english": "Running Dog",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dog",
+    "emoji": "🐕",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds core power",
+      "Warms up the whole body",
+      "Connects breath to movement"
+    ],
+    "funFact": "Dogs stretch just like this every time they wake up from a nap — it's called a play bow!",
+    "story": "A happy puppy dreamed it was chasing a bouncy red ball, and its legs started running even in Downward Dog!",
+    "description": "Start in Downward Dog, bottom high like a mountain. 🐕 Lift one leg up, then swoosh your knee forward toward your nose! Send it back up... and again! You're a dog running in a dream! Switch legs!",
+    "duration": 8
+  },
+  {
+    "id": "bird-dog",
+    "english": "Bird Dog",
+    "sanskrit": "Dandayamana Bharmanasana",
+    "sanskritDevanagari": "दण्डायमान भर्मणासन",
+    "animalName": "Dog",
+    "emoji": "🐦",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Improves balance",
+      "Strengthens back and tummy",
+      "Builds concentration"
+    ],
+    "funFact": "Pointer dogs really do stand like this — one paw up, nose forward — when they spot a bird!",
+    "story": "In the tall golden grass, a clever dog froze like a statue, one paw lifted, pointing the way to a bright blue bird.",
+    "description": "Start in Table Top. Now stretch your RIGHT arm forward and your LEFT leg back — point like a bird dog! 🐦 Flat back, tight tummy, steady... steady... Now swap sides. Woof! Tweet!",
+    "duration": 10
+  },
+  {
+    "id": "reverse-table-top",
+    "english": "Reverse Table Top",
+    "sanskrit": "Ardha Purvottanasana",
+    "sanskritDevanagari": "अर्ध पूर्वोत्तानासन",
+    "animalName": "",
+    "emoji": "🛝",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms and core",
+      "Opens the chest",
+      "Wakes up the back of your body"
+    ],
+    "funFact": "This pose is the upside-down twin of Table Top — your belly becomes the tabletop!",
+    "story": "The playground tables flipped over at midnight and discovered they made excellent slides for the toys.",
+    "description": "Sit with knees bent, feet flat, hands behind you with fingers pointing toward your feet. 🛝 Press down and lift your hips until your tummy is flat like a table! Let your heart shine up. Strong table!",
+    "duration": 10
+  },
+  {
+    "id": "starfish-crunch",
+    "english": "Starfish Crunch",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Starfish",
+    "emoji": "🌟",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens the whole core",
+      "Improves coordination",
+      "Fun cross-body challenge"
+    ],
+    "funFact": "Starfish don't have a brain, but they can still move all five arms — your brain controls all four of yours!",
+    "story": "When the tide tickled her tummy, Stella the Starfish folded two of her points together to catch a passing bubble, then stretched wide again.",
+    "description": "Lie back in your big starfish X. 🌟 Now crunch! Reach your right hand across to touch your left foot up high. Stretch back out wide... and switch sides! Fold and sparkle, fold and sparkle!",
+    "duration": 10
+  },
+  {
+    "id": "banana-rock",
+    "english": "Banana Rock",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🍌",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds deep core strength",
+      "Teaches whole-body squeezing",
+      "Fun and silly"
+    ],
+    "funFact": "Gymnasts practice this exact banana shape to get strong enough for flips!",
+    "story": "One silly banana rolled out of the fruit bowl and rocked happily on the kitchen floor, giggling with every wobble.",
+    "description": "Lie on your back and lift your arms and legs a little bit off the floor — you're a banana! 🍌 Squeeze your tummy so your back stays cozy on the ground. Now rock gently, tip to tip! Silly banana!",
+    "duration": 8
+  },
+  {
+    "id": "swimming-superhero",
+    "english": "Swimming Superhero",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏊",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens your back",
+      "Builds endurance",
+      "Improves coordination"
+    ],
+    "funFact": "Swimmers flutter-kick just like this — tiny fast kicks move them through the water!",
+    "story": "The superhero dove into the sparkling sea to rescue a drifting beach ball, flutter-kicking like a speedboat.",
+    "description": "Lie on your tummy and lift your arms and legs like a flying hero. 🏊 Now flutter! Little kicks with your legs, little paddles with your arms — swim, hero, swim! Keep breathing... and rest.",
+    "duration": 8
+  },
+  {
+    "id": "plank-high-five",
+    "english": "Plank High-Five",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🖐️",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds core stability",
+      "Strengthens shoulders",
+      "Improves balance"
+    ],
+    "funFact": "When you lift one hand in plank, your tummy muscles work double to keep you from tipping!",
+    "story": "Two strong bridges stood side by side over the river and gave each other a high-five every time a boat sailed under.",
+    "description": "Get into your strong plank. 🖐️ Keep your hips super still... now lift one hand and tap your other shoulder — high-five yourself! Put it back, switch hands. Tap, tap, steady as a statue!",
+    "duration": 8
+  },
+  {
+    "id": "wheelbarrow-walk",
+    "english": "Wheelbarrow Walk-Out",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛞",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms and core",
+      "Stretches the back of your legs",
+      "Big-time fun"
+    ],
+    "funFact": "This move is called an inchworm too — inchworms really do walk by scrunching and stretching!",
+    "story": "The gardener's wheelbarrow rolled itself out to the vegetable patch every morning, front wheel first, wheels squeaking a happy song.",
+    "description": "Stand tall, then fold down and put your hands on the floor. 🛞 Walk your hands forward, step by step, until you're in a long plank — you're the wheelbarrow! Now walk your hands back and stand up. Again!",
+    "duration": 8
+  },
+  {
+    "id": "bear-hover",
+    "english": "Bear Hover",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Bear",
+    "emoji": "🐻",
+    "category": "core",
+    "difficulty": "medium",
+    "benefits": [
+      "Fires up deep core muscles",
+      "Strengthens legs and arms",
+      "Builds stillness"
+    ],
+    "funFact": "Bears look slow, but they can sprint faster than the fastest human!",
+    "story": "A quiet bear cub hovered low over the berry bushes, knees floating, trying not to squash a single berry.",
+    "description": "Start in Table Top, toes tucked under. 🐻 Now press into your paws and float your knees just a tiny bit off the floor — hover like a sneaky bear! Tummy tight, breathe... hold that hover!",
+    "duration": 8
+  },
+  {
+    "id": "low-boat",
+    "english": "Low Boat",
+    "sanskrit": "Ardha Navasana",
+    "sanskritDevanagari": "अर्ध नावासन",
+    "animalName": "",
+    "emoji": "🚤",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Deep tummy strength",
+      "Builds endurance",
+      "Powers up your posture"
+    ],
+    "funFact": "The lower a boat floats, the more its 'engine' — your tummy — has to work!",
+    "story": "The speedboat skimmed low over the waves, almost touching the water, engine humming with all its might.",
+    "description": "Lie back, then lift your shoulders AND legs just a little off the floor — low and long like a speedboat! 🚤 Reach your arms toward your toes. Engine on, tummy strong! Hold... vrrrmmm... and rest.",
+    "duration": 8,
+    "safetyNote": "Keep your lower back pressed toward the floor. Rest the moment your back wants to arch."
+  },
+  {
+    "id": "rocking-boat-core",
+    "english": "Rocking Boat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌊",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Super core challenge",
+      "Builds control",
+      "Strengthens hips and tummy"
+    ],
+    "funFact": "Sailors get 'sea legs' — their bodies learn to balance on rocking waves, just like yours is learning now!",
+    "story": "A storm of giggles rolled across the sea, and the brave little boat rocked low into the waves and back up tall, never ever tipping over.",
+    "description": "Float in Boat Pose, arms out like sails. 🌊 Now lower your body and legs toward the floor — big wave! — and lift back up to boat! Down like a wave, up like a sail. Can you ride three waves?",
+    "duration": 8,
+    "safetyNote": "Move slowly with your breath. If your back arches off the boat, make the rocking smaller."
+  },
+  {
+    "id": "side-plank",
+    "english": "Side Plank",
+    "sanskrit": "Vasisthasana",
+    "sanskritDevanagari": "वसिष्ठासन",
+    "animalName": "",
+    "emoji": "🏄",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens side core muscles",
+      "Builds arm and wrist power",
+      "Improves balance"
+    ],
+    "funFact": "This pose is named after Vasistha, a wise teacher from ancient Indian stories.",
+    "story": "A daring surfer tipped their board sideways on the biggest wave of the day and rode it all the way to shore with one arm reaching for the sun.",
+    "description": "Start in plank, strong and straight. 🏄 Roll onto one hand and the side of your feet, stacking your body sideways. Reach your top arm to the sky! You're surfing! Hold steady... then switch sides.",
+    "duration": 10,
+    "safetyNote": "Keep your bottom hand right under your shoulder. Drop your bottom knee down any time you need."
+  },
+  {
+    "id": "forearm-side-plank",
+    "english": "Forearm Side Plank",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛷️",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Strong side muscles",
+      "Kind to wrists",
+      "Builds endurance"
+    ],
+    "funFact": "Your side tummy muscles help you every time you carry a heavy backpack on one shoulder.",
+    "story": "The skier leaned into the mountainside, one arm braced on the snow, holding strong while the wind whooshed past.",
+    "description": "Lie on your side, propped up on your forearm, elbow under your shoulder. ⛷️ Stack your feet and lift your hips high — one strong sideways line! Top arm up! Hold... whoosh... then switch sides.",
+    "duration": 10,
+    "safetyNote": "Keep your elbow under your shoulder. Lower your hips and rest if your shoulder gets tired."
+  },
+  {
+    "id": "reverse-plank",
+    "english": "Reverse Plank",
+    "sanskrit": "Purvottanasana",
+    "sanskritDevanagari": "पूर्वोत्तानासन",
+    "animalName": "",
+    "emoji": "🌅",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens the back of your body",
+      "Opens chest and shoulders",
+      "Builds arm power"
+    ],
+    "funFact": "'Purva' means east — this pose stretches the front of your body toward the rising sun!",
+    "story": "As the sun rose over the sea, one strong kid turned into an upside-down bridge so the morning light could sparkle across their whole front.",
+    "description": "Sit with legs long, hands behind you, fingers pointing to your toes. 🌅 Press down and lift your hips waaay up — your whole body is one straight sunny ramp! Point your toes and shine! Hold... and lower gently.",
+    "duration": 10,
+    "safetyNote": "Keep your chin gently tucked instead of dropping your head all the way back. Skip if wrists hurt."
+  },
+  {
+    "id": "one-arm-plank",
+    "english": "One-Arm Plank",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💪",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Serious core strength",
+      "Shoulder stability",
+      "Laser focus"
+    ],
+    "funFact": "Balancing on one arm makes your tummy muscles work twice as hard to keep you level!",
+    "story": "The bridge keeper held the whole bridge steady with one mighty arm while waving hello to the boats with the other.",
+    "description": "Make your strongest plank, feet a little wider. 💪 Squeeze your tummy tight... now stretch one arm straight out in front like a superhero! Keep your hips level — no tipping! Hold... and switch arms.",
+    "duration": 8,
+    "safetyNote": "Widen your feet for balance and keep hips level. Rest your knees down if you start to sag."
+  },
+  {
+    "id": "one-leg-plank",
+    "english": "One-Leg Plank",
+    "sanskrit": "Eka Pada Phalakasana",
+    "sanskritDevanagari": "एक पाद फलकासन",
+    "animalName": "",
+    "emoji": "🦵",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Core and leg strength",
+      "Builds balance",
+      "Grows grit"
+    ],
+    "funFact": "'Eka pada' means one foot in Sanskrit — lots of one-legged poses share this name!",
+    "story": "The strong plank bridge lifted one end to let a family of ducks waddle underneath, and never wobbled once.",
+    "description": "Start in your best plank. 🦵 Squeeze everything strong... now float one leg up off the floor! Keep your body in one straight line, hips steady. Hold... breathe... switch legs, champion!",
+    "duration": 8,
+    "safetyNote": "Lift the leg only a little — keeping a straight back matters more than lifting high."
+  },
+  {
+    "id": "pendulum-pose",
+    "english": "Pendulum Pose",
+    "sanskrit": "Lolasana",
+    "sanskritDevanagari": "लोलासन",
+    "animalName": "",
+    "emoji": "🕰️",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Big arm and core strength",
+      "Teaches body lifting",
+      "Builds courage"
+    ],
+    "funFact": "'Lola' means swinging like a pendulum — the swinging part of a grandfather clock!",
+    "story": "Inside the great clock tower, the golden pendulum swung tick... tock... lifting itself with magic clockwork muscles.",
+    "description": "Sit on your heels, hands flat on the floor beside your hips. 🕰️ Press down hard, squeeze your tummy, and try to lift your knees and feet off the ground — even a tiny hop counts! Tick-tock! Can you swing?",
+    "duration": 8,
+    "safetyNote": "Use yoga blocks under your hands to make lifting easier. Tiny lifts are a big win — no swinging high."
+  },
+  {
+    "id": "side-plank-star",
+    "english": "Star Side Plank",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "✨",
+    "category": "core",
+    "difficulty": "hard",
+    "benefits": [
+      "Advanced side strength",
+      "Full-body balance",
+      "Big confidence boost"
+    ],
+    "funFact": "Opening your arms and legs wide in balance poses actually helps some people steady themselves, like a tightrope walker's pole!",
+    "story": "As night fell, the surfer's board turned into a shooting star, and they stretched out a leg and an arm to sparkle across the sky.",
+    "description": "Come into your strong Side Plank. ✨ Now lift your top leg up high and reach your top arm to the sky — you're a shining star! Press the floor away, hold that sparkle... and gently come down. Switch sides!",
+    "duration": 8,
+    "safetyNote": "Master regular Side Plank first. Keep the bottom hand under your shoulder and come down slowly."
+  },
+  {
+    "id": "scale-pose",
+    "english": "Scale Pose",
+    "sanskrit": "Tolasana",
+    "sanskritDevanagari": "तोलासन",
+    "animalName": "",
+    "emoji": "⚖️",
+    "category": "core",
+    "difficulty": "advanced",
+    "benefits": [
+      "Powerful arms and core",
+      "Deep focus",
+      "Amazing body control"
+    ],
+    "funFact": "'Tola' means a weighing scale — your whole body balances between your two hands like treasure being weighed!",
+    "story": "In the marketplace of a golden city, a magical scale lifted itself into the air to weigh a single feather against a wish.",
+    "description": "Sit with crossed legs, hands flat beside your hips. ⚖️ Take a big breath, press the floor away, squeeze your tummy... and lift your whole seat off the ground! Floating! Hold... and land softly like a feather.",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up nearby. Use blocks under your hands, keep a simple cross-legged seat, and skip full lotus."
+  },
+  {
+    "id": "l-sit",
+    "english": "L-Sit",
+    "sanskrit": "Brahmacharyasana",
+    "sanskritDevanagari": "ब्रह्मचर्यासन",
+    "animalName": "",
+    "emoji": "🔤",
+    "category": "core",
+    "difficulty": "advanced",
+    "benefits": [
+      "Elite core strength",
+      "Strong arms and wrists",
+      "Incredible control"
+    ],
+    "funFact": "Gymnasts hold L-sits on rings and bars — it's one of the toughest shapes in gymnastics!",
+    "story": "The letter L jumped right off the alphabet poster and balanced proudly on its own two hands to show everyone how strong letters can be.",
+    "description": "Sit with your legs straight out, hands flat beside your hips. 🔤 Press down with all your might, tummy super tight... and lift your seat AND legs off the floor — you're a flying letter L! Even one second counts!",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up spotter. Practice on yoga blocks first, and lift just your seat before trying to lift your legs."
+  },
+  {
+    "id": "superhero-plank",
+    "english": "Superhero Plank",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦅",
+    "category": "core",
+    "difficulty": "advanced",
+    "benefits": [
+      "Ultimate core control",
+      "Total-body balance",
+      "Champion focus"
+    ],
+    "funFact": "Lifting an opposite arm and leg in plank leaves only two corners holding you up — that's why your tummy has to be the boss!",
+    "story": "On the tallest rooftop, the greatest superhero balanced on one hand and one foot, cape rippling, watching over the sleeping city.",
+    "description": "Make your strongest plank, feet wide. 🦅 Squeeze everything... now lift your RIGHT arm forward and your LEFT leg up at the same time! Two corners flying, two corners strong! Hold... land... switch sides, hero!",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up spotter after One-Arm and One-Leg Plank feel easy. Keep lifts small and come down the moment you wobble."
+  }
+]

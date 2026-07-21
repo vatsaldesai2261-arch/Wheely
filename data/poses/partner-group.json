@@ -1,0 +1,774 @@
+[
+  {
+    "id": "partner-tree",
+    "english": "Partner Tree",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌳",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Builds balance",
+      "Teaches teamwork",
+      "Strengthens legs"
+    ],
+    "funFact": "Real trees in a forest hold each other up by weaving their roots together underground!",
+    "story": "Two little trees grew side by side in a sunny meadow. When the wind blew, they held branches so neither one would tip over.",
+    "description": "Stand next to your buddy and hold hands! 🌳 Each of you press your outside foot onto your other leg. Now reach your free arms up like tall branches. Two trees are stronger than one — sway together in the breeze!",
+    "duration": 10
+  },
+  {
+    "id": "partner-seesaw",
+    "english": "Partner Seesaw Fold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⚖️",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches hamstrings",
+      "Builds trust",
+      "Gentle on the back"
+    ],
+    "funFact": "Seesaws work because of a lever — one of the oldest machines humans ever invented!",
+    "story": "At the playground of stretchy friends, the seesaw never stops — when one friend leans back, the other glides forward, up and down all day long.",
+    "description": "Sit facing your buddy with legs wide and feet touching. ⚖️ Hold hands tight! One friend leans gently back while the other folds forward — wheee! Now switch. Up and down like a slow, squishy seesaw!",
+    "duration": 15
+  },
+  {
+    "id": "back-to-back-twist",
+    "english": "Back-to-Back Twist",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🔄",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Wakes up the spine",
+      "Improves posture",
+      "Builds connection"
+    ],
+    "funFact": "Your spine has 33 bones stacked like blocks, and gentle twists help keep them happy!",
+    "story": "Two secret agents sat back to back, twisting left and right to check for sneaky giggles coming from every direction.",
+    "description": "Sit criss-cross with your backs touching like two puzzle pieces! 🔄 Breathe in and grow tall. Breathe out and twist to your right — reach for your buddy's knee behind you! Can you see each other? Peek-a-boo! Now twist the other way.",
+    "duration": 10
+  },
+  {
+    "id": "partner-butterfly",
+    "english": "Partner Butterfly",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Butterfly",
+    "emoji": "🦋",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the hips",
+      "Feels calming",
+      "Stretches inner legs"
+    ],
+    "funFact": "Butterflies taste with their feet — imagine tasting a cookie with your toes!",
+    "story": "Two butterflies landed on the same flower and flapped their wings in perfect rhythm, sending sparkly pollen into the sunshine.",
+    "description": "Sit facing your buddy and press the bottoms of your feet together. 🦋 Hold hands over your knees. Now flap your leg-wings gently — flutter flutter! Breathe in as wings lift, breathe out as they float down.",
+    "duration": 15
+  },
+  {
+    "id": "partner-sandwich",
+    "english": "Partner Sandwich Fold",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🥪",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the whole back body",
+      "Encourages gentle breathing",
+      "Builds patience"
+    ],
+    "funFact": "The sandwich was named after the Earl of Sandwich, a real person from long ago!",
+    "story": "Two slices of silly bread decided to become the world's stretchiest sandwich, folding slowly over their yummy legs of jam.",
+    "description": "Sit facing your buddy, legs long, feet gently touching. 🥪 Hold hands and breathe in taaall. Now both fold forward slowly like bread folding over jam. Squish! You made a friendship sandwich — hold and breathe.",
+    "duration": 15
+  },
+  {
+    "id": "sunflower-circle",
+    "english": "Sunflower Circle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌻",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches sides and arms",
+      "Group teamwork",
+      "Boosts happy energy"
+    ],
+    "funFact": "Young sunflowers really do turn their faces to follow the sun across the sky all day!",
+    "story": "A whole garden of sunflowers woke up at sunrise, stretched their petals together, and turned to follow the warm golden sun.",
+    "description": "Stand in a circle with your friends and hold hands! 🌻 Breathe in and lift your arms up together like petals opening. Breathe out and lower them down. You're one giant blooming sunflower — grow toward the sun!",
+    "duration": 10
+  },
+  {
+    "id": "group-star",
+    "english": "Group Star",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⭐",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens legs and arms",
+      "Big group energy",
+      "Improves posture"
+    ],
+    "funFact": "The star shapes we draw have five points, but real stars are actually giant round balls of glowing gas!",
+    "story": "One night the stars got lonely up in the sky, so a group of friends made their own constellation right in the living room.",
+    "description": "Everyone stand in a circle! ⭐ Jump your feet wide and stretch your arms out to touch your neighbors' hands. Stand tall and shine bright — you just made a giant twinkling star! Sparkle, sparkle!",
+    "duration": 10
+  },
+  {
+    "id": "human-mandala",
+    "english": "Human Mandala",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌀",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Group coordination",
+      "Stretches legs",
+      "Calms and focuses"
+    ],
+    "funFact": "A mandala is a beautiful circle pattern — some artists make them from colored sand, one tiny grain at a time!",
+    "story": "From high above, a friendly cloud looked down and gasped — the kids below had turned themselves into a beautiful spinning flower pattern!",
+    "description": "Lie on your backs in a circle with your feet pointing to the middle! 🌀 Gently lift your legs up so everyone's toes float toward the center. Now hold your neighbors' hands. Look at the amazing pattern you made together!",
+    "duration": 15
+  },
+  {
+    "id": "wave-circle",
+    "english": "Wave Circle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌊",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Teaches rhythm and timing",
+      "Gentle full-body movement",
+      "Group listening skills"
+    ],
+    "funFact": "Ocean waves can travel thousands of miles across the sea before they ever reach a beach!",
+    "story": "The ocean invited everyone to become part of one giant rolling wave that traveled around and around and never wanted to stop.",
+    "description": "Stand in a circle, everyone! 🌊 One friend starts by reaching up and swooshing down — then the next friend, then the next! Let the wave roll all the way around the circle. Whoooosh! Can it go around twice?",
+    "duration": 15
+  },
+  {
+    "id": "mirror-me-statues",
+    "english": "Mirror-Me Statues",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪞",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Sharpens focus",
+      "Builds body awareness",
+      "Silly fun with a friend"
+    ],
+    "funFact": "Your brain has special mirror cells that fire when you copy someone else's movements!",
+    "story": "In the museum of magical mirrors, one statue discovered its reflection could move — and they played the copying game all night long.",
+    "description": "Face your buddy — one of you is the leader, one is the mirror! 🪞 The leader makes a slow yoga shape... and the mirror copies it exactly. Freeze like statues! Now swap jobs. Can you move so smoothly no one can tell who's leading?",
+    "duration": 15
+  },
+  {
+    "id": "mirror-me-slow-motion",
+    "english": "Mirror-Me Slow Motion",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🐌",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Practices slow control",
+      "Deepens focus",
+      "Calms busy bodies"
+    ],
+    "funFact": "Astronauts move in slow motion in space because there is almost no gravity to pull them down!",
+    "story": "Two astronauts floated outside their spaceship, copying each other's slow, dreamy moves among the twinkling stars.",
+    "description": "Face your buddy and pretend you're floating in space! 🐌 The leader moves suuuper slowly — lifting an arm, bending a knee — and the mirror follows like a shadow. Slower... slower... Can you breathe slowly together too?",
+    "duration": 20
+  },
+  {
+    "id": "partner-gate",
+    "english": "Partner Gate",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚪",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Stretches the side body",
+      "Opens the ribs for big breaths",
+      "Partner connection"
+    ],
+    "funFact": "Stretching the sides of your body gives your lungs extra room to fill up with air!",
+    "story": "Two friendly castle gates stood side by side and leaned toward each other to make a golden archway for the parade to march through.",
+    "description": "Kneel side by side with your buddy, a little space between you. 🚪 Each stretch your outside leg away. Now lean toward each other and touch hands up high — you built a magic gateway! Breathe and hold it open.",
+    "duration": 10
+  },
+  {
+    "id": "group-caterpillar",
+    "english": "Group Caterpillar",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Caterpillar",
+    "emoji": "🐛",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Group rhythm",
+      "Gentle back stretch",
+      "Wiggly fun"
+    ],
+    "funFact": "A caterpillar has more than 4,000 muscles — you only have about 600!",
+    "story": "The longest caterpillar in the garden was actually a team of little caterpillars who learned to wiggle as one.",
+    "description": "Everyone kneel in a line, hands on the floor, like train cars! 🐛 Now round your back up high... then scoop it down low. Wiggle the wave from the front of the line to the back. Inch, inch, wiggle, wiggle!",
+    "duration": 15
+  },
+  {
+    "id": "back-to-back-breathing",
+    "english": "Back-to-Back Breathing Buddies",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🫁",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Calms the body",
+      "Teaches deep breathing",
+      "Quiet connection"
+    ],
+    "funFact": "When you sit with a friend, your breathing can slowly sync up all by itself!",
+    "story": "Two sleepy koalas leaned back to back in their favorite tree, and soon their breaths rose and fell together like one gentle song.",
+    "description": "Sit criss-cross with your backs resting together. 🫁 Close your eyes if you like. Breathe in slowly and feel your buddy's back grow big... breathe out and feel it soften. Can your breaths match like magic?",
+    "duration": 20
+  },
+  {
+    "id": "partner-rowboat",
+    "english": "Partner Rowboat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚣",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up the body",
+      "Stretches legs and back",
+      "Teamwork rhythm"
+    ],
+    "funFact": "Rowing is one of the oldest ways humans ever traveled across water!",
+    "story": "Two explorers rowed their little boat across Giggle Lake, singing as they pulled the oars together — splish, splash!",
+    "description": "Sit facing your buddy with legs wide, feet touching, holding hands. 🚣 Now row your boat! Lean forward, lean back, pull those oars together. Sing 'Row, Row, Row Your Boat' while you go — splish splash!",
+    "duration": 15
+  },
+  {
+    "id": "partner-star",
+    "english": "Partner Star",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌟",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Strengthens the whole body",
+      "Side stretch",
+      "Shared balance"
+    ],
+    "funFact": "Two stars that circle each other in space are called binary stars — star buddies!",
+    "story": "Two little stars held hands in the night sky so they could shine twice as bright as any star alone.",
+    "description": "Stand side by side and hold your buddy's hand! 🌟 Both jump your feet wide and stretch your free arms way out. Now lean gently away from each other — whoa! Two points of one giant shining star!",
+    "duration": 10
+  },
+  {
+    "id": "group-flower",
+    "english": "Group Flower",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌸",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Opens the hips",
+      "Calm group moment",
+      "Gentle balance"
+    ],
+    "funFact": "Some flowers close their petals every night to go to sleep, just like you close your eyes!",
+    "story": "In the middle of the meadow bloomed the biggest flower anyone had ever seen — and every petal was a smiling friend.",
+    "description": "Sit in a tight circle with your feet pressed together in the middle like butterfly legs. 🌸 Hold your neighbors' hands. Breathe in and lift your linked hands high — the flower blooms! Breathe out and lower them — the flower rests.",
+    "duration": 15
+  },
+  {
+    "id": "high-five-trees",
+    "english": "High-Five Trees",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🙌",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Balance practice",
+      "Playful focus",
+      "Celebrates teamwork"
+    ],
+    "funFact": "Standing on one leg is easier when you press your foot down like a root — try it!",
+    "story": "Two trees grew so close together that every time the wind blew, their branches slapped a leafy high five.",
+    "description": "Face your buddy and stand like trees — one foot pressed on your other leg. 🙌 Steady? Now sloooowly reach out and give a gentle high five without tipping! Wobbling is part of the fun. High five, tree friend!",
+    "duration": 10
+  },
+  {
+    "id": "partner-cat-cow",
+    "english": "Mirror Cat-Cow",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Cat",
+    "emoji": "🐱",
+    "category": "partner-group",
+    "difficulty": "easy",
+    "benefits": [
+      "Warms up the spine",
+      "Syncs breath with movement",
+      "Silly partner fun"
+    ],
+    "funFact": "Cats stretch their backs every single time they wake up — that's why they're so bendy!",
+    "story": "Two cats woke up from a nap at the exact same moment and did their morning stretches nose to nose, meowing at each other.",
+    "description": "Get on hands and knees facing your buddy, close enough to see their face! 🐱 Breathe in, drop your belly, and look up — MOO like a cow! Breathe out, round your back up high — MEOW like a cat! Match each other, moo and meow!",
+    "duration": 15
+  },
+  {
+    "id": "double-boat",
+    "english": "Double Boat",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "⛵",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens the belly",
+      "Builds balance together",
+      "Teaches cooperation"
+    ],
+    "funFact": "A catamaran is a boat with two hulls — twice the boat, just like you two!",
+    "story": "Two little boats tied their ropes together and discovered they could sail through the stormiest giggle-waves without tipping.",
+    "description": "Sit facing your buddy and hold hands outside your legs. ⛵ Press the bottoms of your feet against theirs. Now lift your feet up, up, up together! Straighten your legs if you can. You're one big sailboat — don't let the giggle-waves tip you!",
+    "duration": 10
+  },
+  {
+    "id": "back-to-back-chair",
+    "english": "Back-to-Back Chair",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪑",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds trust",
+      "Teaches balanced pushing"
+    ],
+    "funFact": "When you push back to back, your friend's push is exactly what holds you up — that's physics!",
+    "story": "Two builders forgot to bring chairs to their picnic, so they leaned back to back and became each other's chair!",
+    "description": "Stand back to back with your buddy and press your backs together. 🪑 Link arms if you like! Now walk your feet forward and sloooowly slide down until you're sitting on an invisible chair. Push into each other to stay strong! Hold it... you ARE the chair!",
+    "duration": 10
+  },
+  {
+    "id": "lizard-on-a-rock",
+    "english": "Lizard on a Rock",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Lizard",
+    "emoji": "🦎",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Gentle back stretch for one, cozy rest for the other",
+      "Builds trust",
+      "Very calming"
+    ],
+    "funFact": "Real lizards lie on warm rocks to soak up heat, because their bodies can't make their own warmth!",
+    "story": "A smooth round rock in the desert loved nap time most, because that's when a friendly lizard would stretch out on top for a sunny snooze.",
+    "description": "One buddy curls into a little rock — child's pose, forehead down, nice and round. 🦎 The lizard gently sits beside the rock and slowly leans back over their buddy's back, arms stretching open to the sun. Breathe together, warm and cozy. Then switch!",
+    "duration": 20,
+    "safetyNote": "Lean back gently and slowly — no plopping! The rock says 'squish' if it's too heavy, and the lizard climbs right off."
+  },
+  {
+    "id": "double-downward-dog",
+    "english": "Double Downward Dog",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Dog",
+    "emoji": "🐶",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms and shoulders",
+      "Stretches the whole body",
+      "Partner coordination"
+    ],
+    "funFact": "Dogs really do this stretch every morning — it's how they wake up their legs!",
+    "story": "A big dog and a little dog invented a brand-new trick: stacking their stretches to make a doggy mountain with two peaks!",
+    "description": "Buddy one makes a strong downward dog — hands and feet down, tail up high! 🐶 Buddy two makes a dog in front, then carefully steps one foot, then the other, onto their partner's lower back near the hips — heels resting gently. Two dogs, one mountain! Woof woof!",
+    "duration": 10,
+    "safetyNote": "Do this on a soft mat with a grown-up watching. Feet go low on the partner's hips, never the middle of the back, and step down slowly the moment anyone says 'down please!'"
+  },
+  {
+    "id": "high-five-warriors",
+    "english": "High-Five Warriors",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🤝",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Builds brave energy",
+      "Partner power"
+    ],
+    "funFact": "Warrior poses are named after Virabhadra, a mighty hero from an old Indian story.",
+    "story": "Two brave warriors met on the mountaintop, and instead of battling, they stretched into their strongest pose and high-fived for peace.",
+    "description": "Face your buddy a big step apart. 🤝 Both bend your front knee and stretch your arms wide like brave warriors — front arms reaching toward each other. Now... HIGH FIVE! Hold your warrior shape strong. You're a peace team!",
+    "duration": 10
+  },
+  {
+    "id": "elevator-squats",
+    "english": "Elevator Squats",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛗",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs",
+      "Teaches teamwork timing",
+      "Gets hearts pumping"
+    ],
+    "funFact": "The first elevators were pulled up by ropes and strong arms — no buttons at all!",
+    "story": "The friendship elevator only works when both riders push their backs together — first floor, second floor, going up!",
+    "description": "Stand back to back and press together, arms linked. 🛗 Ding! Slide down together to the first floor — a low squat. Ding! Push into each other and rise back up to the top floor. Down and up, down and up — what floor next?",
+    "duration": 8,
+    "safetyNote": "Keep your backs pressed the whole ride and move slowly together — if the elevator wobbles, just sit down gently and laugh."
+  },
+  {
+    "id": "team-bridge-tunnel",
+    "english": "Team Bridge Tunnel",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🌉",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs and back",
+      "Group cooperation",
+      "Crawling fun"
+    ],
+    "funFact": "The longest bridge in the world is over 100 miles long — it would take a lot of friends to build that one!",
+    "story": "The tiny turtle needed to cross the river, so all the kids lifted their bridges in a row and made the most wonderful tunnel in town.",
+    "description": "Most friends lie on their backs and push their hips up high — strong bridges in a row! 🌉 One friend is the train and crawls carefully through the tunnel underneath. Choo choo! When you pop out, build your bridge and let the next train through!",
+    "duration": 15,
+    "safetyNote": "Crawl through gently without bumping the bridges, and bridges may lower slowly any time they get tired — just call 'bridge closing!' first."
+  },
+  {
+    "id": "trust-statue",
+    "english": "Trust Statue",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🗽",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Builds deep trust",
+      "Improves balance",
+      "Calms and focuses"
+    ],
+    "funFact": "Your body has special balance sensors in your ears that work even with your eyes closed!",
+    "story": "In the garden of statues, one statue learned it could lean like the Tower of Pisa — because its best friend never let it fall.",
+    "description": "Stand facing your buddy and hold each other's wrists nice and firm. 🗽 One of you stands stiff like a statue and slooowly leans back while your buddy holds you steady. Trust your friend! Come back up and switch. You caught each other!",
+    "duration": 10,
+    "safetyNote": "Hold wrists tight, lean back only a little, and keep a grown-up nearby on a soft surface. Only lean as far as feels comfy!"
+  },
+  {
+    "id": "human-knot",
+    "english": "Human Knot",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🪢",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Problem-solving together",
+      "Gentle stretching",
+      "Lots of laughing"
+    ],
+    "funFact": "Sailors invented hundreds of knots, and every single one can be untied — just like yours!",
+    "story": "The friendship rope got itself into a great big tangle, and only by wiggling, giggling, and working together could it become a circle again.",
+    "description": "Stand in a small circle and reach across to hold two different friends' hands. 🪢 Look — you're a big tangled knot! Now, without letting go, step over, duck under, and twist arooound until the knot becomes a circle. Team power!",
+    "duration": 20
+  },
+  {
+    "id": "leaning-tower",
+    "english": "Leaning Tower",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🗼",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens legs and grip",
+      "Counter-balance skills",
+      "Builds trust"
+    ],
+    "funFact": "The Leaning Tower of Pisa has been tilting for over 800 years and still hasn't fallen!",
+    "story": "Two towers stood face to face and discovered a magic trick: if they both leaned away at the same time, neither one could tumble.",
+    "description": "Face your buddy, toes close, and grab each other's wrists. 🗼 Now both leeean back slowly with straight arms — whoa! Your buddy's weight holds you up! Bend your knees and sink into a sitting shape, then pull each other back up. Magic!",
+    "duration": 10,
+    "safetyNote": "Grip wrists firmly, lean back slowly at the same time, and practice over a soft mat in case you both sit down with a bump."
+  },
+  {
+    "id": "partner-drawbridge",
+    "english": "Partner Drawbridge",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🏰",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens belly and legs",
+      "Partner coordination",
+      "Improves balance"
+    ],
+    "funFact": "Castle drawbridges were pulled up with giant chains to keep dragons out — probably!",
+    "story": "The castle gates spotted a friendly dragon coming to visit, so the two guards raised the drawbridge legs together — creeeak!",
+    "description": "Sit facing your buddy, knees bent, toes touching. 🏰 Hold hands underneath your legs. Now press the soles of your feet together and slooowly raise the drawbridge — legs lifting up, up, up! Creeeak! Hold it high, then lower the bridge for visitors.",
+    "duration": 10
+  },
+  {
+    "id": "warrior-three-buddies",
+    "english": "Warrior 3 Buddies",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦸",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Big balance challenge",
+      "Strengthens legs and back",
+      "Partner support"
+    ],
+    "funFact": "Airplanes balance in the sky using their tail — your lifted leg is your tail!",
+    "story": "Two superheroes practiced their flying pose on a rooftop, holding hands so neither would drift away before the big rescue.",
+    "description": "Face your buddy and hold both hands. 🦸 Both of you slooowly tip forward, lifting one leg straight back like superhero flyers. Hold on tight to each other — your buddy is your balance power! Fly steady... then switch legs!",
+    "duration": 10
+  },
+  {
+    "id": "double-plank-high-five",
+    "english": "Double Plank High-Five",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💪",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms and belly",
+      "Balance challenge",
+      "Team spirit"
+    ],
+    "funFact": "Holding a plank uses more than 20 muscles at once — you're a whole muscle team!",
+    "story": "Two strong bridges stood side by side over the river, and every morning they tapped hands to say hello before the boats sailed under.",
+    "description": "Get in strong plank position side by side with your buddy — hands under shoulders, body straight like a board! 💪 Now each lift your inside hand and... HIGH FIVE! Back down, hold strong. Can you do three high fives without wobbling?",
+    "duration": 8
+  },
+  {
+    "id": "crab-high-five",
+    "english": "Crab High-Five",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "Crab",
+    "emoji": "🦀",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens arms and legs",
+      "Opens the chest",
+      "Playful coordination"
+    ],
+    "funFact": "Crabs walk sideways because their legs bend that way — try walking like one!",
+    "story": "Two crabs met at the beach and invented the world's first underwater high five — with their feet!",
+    "description": "Sit facing your buddy, put your hands behind you, and lift your hips up — crab pose! 🦀 Now lift one foot and tap your buddy's foot in the air. Foot five! Switch feet. Can you do a double foot-five without sitting down? Scuttle scuttle!",
+    "duration": 8
+  },
+  {
+    "id": "boat-circle",
+    "english": "Boat Party Circle",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛶",
+    "category": "partner-group",
+    "difficulty": "medium",
+    "benefits": [
+      "Strengthens the belly",
+      "Group balance",
+      "Team focus"
+    ],
+    "funFact": "A group of boats sailing together is called a flotilla — that's you!",
+    "story": "All the little boats in the harbor tied themselves together for a party and bobbed on the waves as one big floating ring.",
+    "description": "Sit in a circle with your friends, holding your neighbors' hands. 🛶 Lean back a little, then lift your feet up toward the middle — every boat sets sail at once! Press feet with your neighbors if you can. Hold steady, sailors!",
+    "duration": 10
+  },
+  {
+    "id": "flying-airplane",
+    "english": "Flying Airplane",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "✈️",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds core strength and trust",
+      "Feels like real flying",
+      "Deep grown-up bonding"
+    ],
+    "funFact": "Airplanes fly because air moves faster over the top of their wings — you'll feel the wind too!",
+    "story": "The littlest airplane was nervous for its first flight, until the big strong runway lifted it gently into the sky for the smoothest takeoff ever.",
+    "description": "The grown-up lies on their back and lifts their feet up like landing gear. ✈️ The kid leans their hips onto the grown-up's feet, holds hands, and stretches out flat — arms wide like wings! Zoooom! You're flying! Keep your body straight and strong.",
+    "duration": 10,
+    "safetyNote": "ONLY a grown-up may be the base — never another kid. Fly over a soft mat or carpet, hold hands the whole time, and land slowly feet-first the moment anyone says 'landing!'"
+  },
+  {
+    "id": "flying-superman",
+    "english": "Flying Superman",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🦸‍♂️",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Strengthens back and core",
+      "Builds courage and trust",
+      "Super-fun bonding"
+    ],
+    "funFact": "Skydivers really do arch their bodies just like this to fly steady through the air!",
+    "story": "High above the city, a young superhero learned the secret of flight: a strong helper below and brave arms reaching for the clouds.",
+    "description": "The grown-up lies down and lifts their feet to press on the kid's hips. 🦸‍♂️ Holding hands first, the kid tips forward until they're flying flat. Now let go one hand at a time and stretch your arms forward like a superhero! Body strong and straight — up, up, and away!",
+    "duration": 10,
+    "safetyNote": "ONLY a grown-up base, always on a soft surface. Start holding both hands, let go only when steady, and grab hands again to land gently. Stop right away if anything hurts."
+  },
+  {
+    "id": "flying-throne",
+    "english": "Flying Throne",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "👑",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Balance and core strength",
+      "Royal amounts of trust",
+      "Giggly grown-up time"
+    ],
+    "funFact": "Long ago, kings and queens were carried on thrones lifted high — yours flies even better!",
+    "story": "The royal kid was crowned ruler of the living room and rode the magical flying throne all the way to Pillow Kingdom.",
+    "description": "The grown-up lies back with knees bent and shins flat like a chair seat. 👑 The kid sits back onto the grown-up's shins, holding hands tight. Slowly the throne lifts — sit up tall, Your Majesty! Wave to your kingdom below!",
+    "duration": 10,
+    "safetyNote": "ONLY a grown-up may be the base. Use a soft mat, keep holding hands the whole ride, and lower the throne slowly to let the royal rider step off feet-first."
+  },
+  {
+    "id": "wheelbarrow-walk-part",
+    "english": "Wheelbarrow Walk",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🛞",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Builds strong arms and shoulders",
+      "Core power",
+      "Teamwork and laughs"
+    ],
+    "funFact": "Walking on your hands makes your arms work like legs — your body figures it out fast!",
+    "story": "The garden gnomes had a race with a very silly rule: one gnome had to be the wheelbarrow, and the other had to steer!",
+    "description": "One buddy puts their hands on the floor in plank. 🛞 The helper gently lifts their ankles and holds on. Now the wheelbarrow walks forward on strong hands — one, two, one, two! Keep your belly tight and your body straight. Beep beep, wheelbarrow coming through!",
+    "duration": 8,
+    "safetyNote": "Only with a grown-up or careful big helper holding your legs, on soft ground. Hold at the ankles or knees, walk slowly, and set legs down gently the second arms get tired."
+  },
+  {
+    "id": "back-to-back-stand-up",
+    "english": "Back-to-Back Stand-Up",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "🚀",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Strong legs and core",
+      "Perfect-timing teamwork",
+      "Big sense of triumph"
+    ],
+    "funFact": "This challenge is used by real astronauts and sports teams to practice working as one!",
+    "story": "The two rocket boosters could only launch if they pushed off at the exact same second — three, two, one, LIFTOFF!",
+    "description": "Sit on the floor back to back with your buddy and link your arms tight. 🚀 Bend your knees, press your feet down and your backs together. Ready? Three... two... one... PUSH and stand up as a team! Liftoff! Now try sitting back down together — even trickier!",
+    "duration": 10,
+    "safetyNote": "Practice on a soft mat with space around you. Keep backs pressed the whole way — if you slip, just sit down with a giggle and count down again."
+  },
+  {
+    "id": "double-dancer",
+    "english": "Double Dancer",
+    "sanskrit": "",
+    "sanskritDevanagari": "",
+    "animalName": "",
+    "emoji": "💃",
+    "category": "partner-group",
+    "difficulty": "hard",
+    "benefits": [
+      "Big balance challenge",
+      "Stretches chest and legs",
+      "Graceful partner focus"
+    ],
+    "funFact": "Ballet dancers balance by staring at one still spot — try staring into your buddy's eyes!",
+    "story": "Two dancers on the moonlit stage discovered that holding hands turned their wobbliest move into their most beautiful one.",
+    "description": "Face your buddy and press your palms together or hold hands. 💃 Each of you grab your ankle behind you and slooowly kick your foot back and up, leaning forward like graceful dancers. Look into each other's eyes to stay steady. You're a dancing duet!",
+    "duration": 10,
+    "safetyNote": "Keep clear space around you and come out slowly if you wobble — let go of your foot before your hands so you both land standing."
+  }
+]

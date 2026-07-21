@@ -1,0 +1,59 @@
+/* Design tokens — Yoga Adventure Wheel.
+   Contrast-checked pairs (AA, normal text): ink on cream/mint/sun/sky ≥ 7:1;
+   white on forest/coral ≥ 4.6:1. Yellow & mint are backgrounds only, never text. */
+:root {
+  /* Palette */
+  --forest: #2d6a4f;
+  --forest-deep: #1b4332;
+  --mint: #95d5b2;
+  --mint-soft: #d8f3dc;
+  --cream: #fff8e7;
+  --cream-warm: #fdf0d5;
+  --sky: #89c2d9;
+  --sky-soft: #cae9f5;
+  --sun: #ffd166;
+  --sun-soft: #ffe8b3;
+  --coral: #e85d75;
+  --coral-soft: #ffccd5;
+  --white: #ffffff;
+  --ink: #1b4332;
+  --ink-soft: #40604f;
+
+  /* Difficulty colors */
+  --diff-easy: #2d6a4f;
+  --diff-medium: #1d6f9e;
+  --diff-hard: #b4530a;
+  --diff-advanced: #ac2f4d;
+
+  /* Typography */
+  --font-display: 'Fredoka', 'Baloo 2', ui-rounded, 'Arial Rounded MT Bold', system-ui, sans-serif;
+  --font-body: 'Baloo 2', 'Fredoka', ui-rounded, system-ui, sans-serif;
+
+  /* Shape & depth */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 2px 6px rgba(27, 67, 50, 0.12);
+  --shadow-md: 0 6px 18px rgba(27, 67, 50, 0.16);
+  --shadow-lg: 0 12px 32px rgba(27, 67, 50, 0.22);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-blur: 14px;
+
+  /* Spacing scale */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px;
+  --sp-5: 24px; --sp-6: 32px; --sp-7: 48px; --sp-8: 64px;
+
+  /* Touch */
+  --touch-min: 56px;
+
+  /* Motion */
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 160ms;
+  --dur-med: 320ms;
+  --dur-slow: 600ms;
+}
