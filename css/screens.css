@@ -498,3 +498,39 @@
 .match-card.is-done .match-front { background: var(--mint-soft); }
 
 @media (max-width: 520px) { .match-grid { max-width: 340px; } .game-figure { width: 160px; height: 160px; } }
+
+/* ---- Mini-game score topbar + player chip ---- */
+.game-topbar { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); width: 100%; max-width: 620px; margin: 0 auto var(--sp-2); flex-wrap: wrap; }
+.game-player-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: var(--radius-pill); border: none; font-family: var(--font-body); }
+.game-player-chip .chip-av { font-size: 20px; }
+.game-player-chip .chip-name { font-weight: 600; color: var(--forest-deep); }
+.game-player-chip .chip-caret { color: var(--ink-soft); }
+.game-score { font-family: var(--font-display); font-weight: 700; color: var(--forest); background: var(--sun-soft); padding: 4px 12px; border-radius: var(--radius-pill); }
+.player-pick-list { display: flex; flex-direction: column; gap: var(--sp-2); }
+.pp-row { display: flex; align-items: center; gap: 10px; justify-content: flex-start; }
+
+/* Pose Rush */
+.rush-clock { font-family: var(--font-display); font-weight: 700; font-size: 40px; color: var(--forest); }
+.rush-clock.low { color: var(--coral); animation: wobble 0.4s var(--ease-pop) infinite; }
+.rush-figure { width: 190px; height: 190px; display: flex; align-items: center; justify-content: center; }
+
+/* Red Light Green Light */
+.rl-light { font-size: 44px; line-height: 1; }
+.rl-green { background: radial-gradient(circle at 50% 30%, #d8f0d8, var(--glass-bg) 70%); }
+.rl-red { background: radial-gradient(circle at 50% 30%, var(--coral-soft), var(--glass-bg) 70%); }
+
+/* Yoga Bingo */
+.bingo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-2); width: 100%; max-width: 420px; }
+.bingo-cell { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: var(--sp-2); border-radius: var(--radius-md); border: 3px solid transparent; background: var(--white); box-shadow: var(--shadow-sm); aspect-ratio: 1; }
+.bingo-cell.is-done { background: var(--mint-soft); border-color: var(--forest); }
+.bingo-fig svg { width: 64px; height: 64px; }
+.bingo-name { font-size: 11px; font-weight: 600; color: var(--forest-deep); text-align: center; line-height: 1.1; }
+.bingo-stamp { position: absolute; top: 4px; right: 6px; font-size: 20px; }
+
+/* Copycat Mirror */
+.copycat-options { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-2); width: 100%; max-width: 440px; }
+.copycat-opt { padding: var(--sp-2); border-radius: var(--radius-md); border: 3px solid transparent; background: var(--white); box-shadow: var(--shadow-sm); }
+.copycat-opt svg { width: 100%; height: auto; }
+.copycat-opt.is-right { border-color: var(--forest); background: var(--mint-soft); }
+.copycat-opt.is-wrong { border-color: var(--coral); background: var(--coral-soft); }
+@media (max-width: 520px) { .copycat-options { grid-template-columns: repeat(2, 1fr); } }

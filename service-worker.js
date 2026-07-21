@@ -1,7 +1,7 @@
 // Yoga Adventure Wheel — offline service worker.
 // Cache-first for the app shell + data; navigation falls back to cached index.
 // RELEASE CHECKLIST: bump CACHE_VERSION whenever any precached file changes.
-const CACHE_VERSION = 'wheely-v7';
+const CACHE_VERSION = 'wheely-v8';
 
 const PRECACHE_URLS = [
   './',
@@ -116,6 +116,10 @@ const PRECACHE_URLS = [
   './js/ui/screens/game-pose-dice.js',
   './js/ui/screens/game-pose-match.js',
   './js/ui/screens/game-feelings.js',
+  './js/ui/screens/game-pose-rush.js',
+  './js/ui/screens/game-red-light.js',
+  './js/ui/screens/game-yoga-bingo.js',
+  './js/ui/screens/game-copycat.js',
   './js/ui/screens/admin-dashboard.js',
   './js/ui/screens/admin-goals.js',
   './js/ui/screens/admin-players.js',

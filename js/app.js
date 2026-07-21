@@ -42,6 +42,10 @@ import gameGuessPose from './ui/screens/game-guess-pose.js';
 import gamePoseDice from './ui/screens/game-pose-dice.js';
 import gamePoseMatch from './ui/screens/game-pose-match.js';
 import gameFeelings from './ui/screens/game-feelings.js';
+import gamePoseRush from './ui/screens/game-pose-rush.js';
+import gameRedLight from './ui/screens/game-red-light.js';
+import gameYogaBingo from './ui/screens/game-yoga-bingo.js';
+import gameCopycat from './ui/screens/game-copycat.js';
 import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
@@ -54,6 +58,7 @@ const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
   achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen, journeyScreen, galleryScreen, calmScreen,
   gameYogiSays, gameFreezeDance, gamePoseMemory, gameBalanceStatue, gameBreathing, gameSunFlow, gameGuessPose, gamePoseDice, gamePoseMatch, gameFeelings,
+  gamePoseRush, gameRedLight, gameYogaBingo, gameCopycat,
   adminDashboard, adminPlayers, adminPoses, adminWheels, adminGoals, adminSettings, adminBackup,
 ];
 

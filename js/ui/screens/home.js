@@ -78,6 +78,10 @@ export default {
       el('h2.home-section-title', {}, '🧘 Mini-Games'),
       el('p.home-section-sub', {}, 'Quick yoga games — no wheel, just play!'),
       el('nav.home-tiles', { 'aria-label': 'Mini-Games' }, [
+        tile('⏱️', 'Pose Rush', 'pose-rush'),
+        tile('🚦', 'Red Light Green Light', 'red-light'),
+        tile('🅱️', 'Yoga Bingo', 'yoga-bingo'),
+        tile('🪞', 'Copycat Mirror', 'copycat'),
         tile('🙊', 'Yogi Says', 'yogi-says'),
         tile('🕺', 'Freeze Dance', 'freeze-dance'),
         tile('🧠', 'Pose Memory', 'pose-memory'),
