@@ -4,7 +4,7 @@ import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import { burst } from '../components/confetti.js';
-import { ready, kidPoses, shuffle, randOf, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, shuffle, randOf, figure, gameShell, homeBtn, rewardPose, endPlay } from './game-kit.js';
 
 const ROUNDS = 8;
 let state = null;
@@ -18,7 +18,7 @@ export default {
     state = { round: 0, score: 0, pool: kidPoses() };
     intro(stage);
   },
-  onLeave() { speech.stop(); state = null; },
+  onLeave() { endPlay(); speech.stop(); state = null; },
 };
 
 function intro(stage) {
@@ -54,7 +54,7 @@ function pick(stage, btn, correct, answer) {
   if (correct) {
     btn.classList.add('is-right');
     state.score++;
-    audio.play('coin');
+    rewardPose(answer);
     burst({ count: 30, origin: { x: 0.5, y: 0.4 } });
   } else {
     btn.classList.add('is-wrong');

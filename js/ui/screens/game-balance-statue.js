@@ -5,7 +5,7 @@ import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import settings from '../../core/settings.js';
 import { burst } from '../components/confetti.js';
-import { ready, kidPoses, randOf, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, randOf, figure, gameShell, homeBtn, rewardPose, endPlay } from './game-kit.js';
 
 let ticker = null;
 let poses = [];
@@ -21,7 +21,7 @@ export default {
     poses = kidPoses({ categories: ['balance'] });
     intro(stage);
   },
-  onLeave() { stopTicker(); speech.stop(); },
+  onLeave() { stopTicker(); speech.stop(); endPlay(); },
 };
 
 function best() { return Number(settings.getSetting('statueBest')) || 0; }
@@ -61,6 +61,7 @@ function stop(stage, pose, secs) {
   const s = Math.floor(secs);
   const record = s > best();
   if (record) settings.setSetting('statueBest', s);
+  rewardPose(pose, { multiplier: Math.min(3, 0.5 + s / 10) }); // longer hold → more XP
   audio.play(record ? 'fanfare' : 'ding');
   if (record) burst({ count: 90, origin: { x: 0.5, y: 0.35 } });
   clear(stage);

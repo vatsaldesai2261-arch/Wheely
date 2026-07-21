@@ -3,7 +3,7 @@
 import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
-import { ready, kidPoses, randOf, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, randOf, figure, gameShell, homeBtn, rewardPose, endPlay } from './game-kit.js';
 
 const FEELINGS = [
   { emoji: '😊', name: 'Happy', cats: ['animal-play', 'balance'], msg: 'Yay! Let\'s bounce that happy energy into a fun pose!' },
@@ -21,7 +21,7 @@ export default {
     await ready();
     menu(stage);
   },
-  onLeave() { speech.stop(); },
+  onLeave() { endPlay(); speech.stop(); },
 };
 
 function menu(stage) {
@@ -48,6 +48,7 @@ function choose(stage, f) {
     figure(pose, 190),
     el('h3', {}, `Try: ${pose.english}`),
     el('div.game-actions', {}, [
+      el('button.btn.btn-primary', { type: 'button', onClick: (e) => { rewardPose(pose); e.currentTarget.disabled = true; e.currentTarget.textContent = 'Well done! ⭐'; } }, 'I tried it! ⭐'),
       el('button.btn.btn-secondary', { type: 'button', onClick: () => menu(stage) }, '← Another feeling'),
       homeBtn(),
     ]),

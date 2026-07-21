@@ -5,7 +5,7 @@ import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import { mascot } from '../components/mascot.js';
 import { createTimer } from '../../game/timer.js';
-import { ready, kidPoses, randOf, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, randOf, figure, gameShell, homeBtn, rewardPose, endPlay } from './game-kit.js';
 
 let alive = false;
 let danceT = null;
@@ -22,7 +22,7 @@ export default {
     alive = true;
     intro(stage, kidPoses());
   },
-  onLeave() { alive = false; clearTimers(); audio.stopMusic(); speech.stop(); },
+  onLeave() { alive = false; clearTimers(); audio.stopMusic(); speech.stop(); endPlay(); },
 };
 
 function intro(stage, poses) {
@@ -69,7 +69,7 @@ function freeze(stage, poses, round) {
     ring,
     el('button.btn.btn-secondary', { type: 'button', onClick: () => dance(stage, poses, round + 1) }, 'Dance again 🎶'),
   ]));
-  holdTimer = createTimer({ seconds: 6, onTick: (n) => { num.textContent = String(n); ring.style.setProperty('--pct', String((6 - n) / 6)); }, onDone: () => { if (alive) { audio.play('cheer'); dance(stage, poses, round + 1); } } });
+  holdTimer = createTimer({ seconds: 6, onTick: (n) => { num.textContent = String(n); ring.style.setProperty('--pct', String((6 - n) / 6)); }, onDone: () => { if (alive) { audio.play('cheer'); rewardPose(pose); dance(stage, poses, round + 1); } } });
   holdTimer.start();
   // Home/Done option in the header already exists; add an end button too.
   stage.append(el('div.game-actions', {}, [homeBtn('Stop 🏠')]));

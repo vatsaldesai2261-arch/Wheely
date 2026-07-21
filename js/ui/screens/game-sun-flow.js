@@ -4,7 +4,7 @@ import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import { burst } from '../components/confetti.js';
-import { figure, gameShell, homeBtn } from './game-kit.js';
+import { figure, gameShell, homeBtn, rewardPose, endPlay } from './game-kit.js';
 
 // Synthetic poses ({shape,english}) drive the yogi figure directly.
 const FLOW = [
@@ -29,7 +29,7 @@ export default {
     i = 0;
     intro(stage);
   },
-  onLeave() { speech.stop(); },
+  onLeave() { endPlay(); speech.stop(); },
 };
 
 function intro(stage) {
@@ -49,7 +49,7 @@ function step(stage, idx) {
   clear(stage);
   audio.play('pop');
   speech.speak(`${s.english}. ${s.cue}`, { force: true });
-  const dots = el('div.flow-dots', {}, FLOW.map((_, n) => el('span.flow-dot', { class: n === idx ? 'on' : (n < idx ? 'done' : '') })));
+  const dots = el('div.flow-dots', {}, FLOW.map((_, n) => el('span.flow-dot' + (n === idx ? '.on' : (n < idx ? '.done' : '')))));
   stage.append(el('div.game-panel', {}, [
     el('div.game-progress', {}, `Pose ${idx + 1} of ${FLOW.length}`),
     figure(s, 200),
@@ -58,7 +58,7 @@ function step(stage, idx) {
     dots,
     el('div.game-actions', {}, [
       idx > 0 ? el('button.btn.btn-ghost', { type: 'button', onClick: () => step(stage, idx - 1) }, '← Back') : null,
-      el('button.btn.btn-primary.btn-xl', { type: 'button', onClick: () => step(stage, idx + 1) }, idx === FLOW.length - 1 ? 'Finish 🙏' : 'Next →'),
+      el('button.btn.btn-primary.btn-xl', { type: 'button', onClick: () => { rewardPose(s); step(stage, idx + 1); } }, idx === FLOW.length - 1 ? 'Finish 🙏' : 'Next →'),
     ]),
   ]));
 }

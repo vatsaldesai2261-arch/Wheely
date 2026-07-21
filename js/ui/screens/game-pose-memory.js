@@ -5,7 +5,7 @@ import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import settings from '../../core/settings.js';
 import { burst } from '../components/confetti.js';
-import { ready, kidPoses, shuffle, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, shuffle, figure, gameShell, homeBtn, rewardFlat, endPlay } from './game-kit.js';
 
 let state = null;
 
@@ -18,7 +18,7 @@ export default {
     state = { seq: [], pool: shuffle(kidPoses()), round: 0 };
     intro(stage);
   },
-  onLeave() { speech.stop(); state = null; },
+  onLeave() { endPlay(); speech.stop(); state = null; },
 };
 
 function best() { return Number(settings.getSetting('memoryBest')) || 0; }
@@ -77,6 +77,7 @@ function won(stage) {
   const len = state.seq.length;
   if (len > best()) settings.setSetting('memoryBest', len);
   audio.play('levelup');
+  rewardFlat(len * 3, len); // longer remembered sequence → bigger reward
   burst({ count: 40, origin: { x: 0.5, y: 0.4 } });
   nextRound(stage);
 }

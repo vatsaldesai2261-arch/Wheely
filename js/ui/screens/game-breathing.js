@@ -4,7 +4,7 @@ import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import { breathe } from '../components/breathing.js';
-import { gameShell, homeBtn } from './game-kit.js';
+import { gameShell, homeBtn, rewardFlat, endPlay } from './game-kit.js';
 
 const BREATHS = [
   { emoji: '🎈', name: 'Balloon Breath', say: 'Breathe in and fill your tummy like a big balloon. Then let it all go.', breaths: 5, inhale: 4000, exhale: 4200 },
@@ -21,7 +21,7 @@ export default {
     const stage = gameShell(container, '🌬️ Breathing Games', 'Pick a fun breathing game! Follow the growing circle — breathe in as it grows, breathe out as it shrinks. A calm, happy way to relax the body and mind.');
     menu(stage);
   },
-  onLeave() { speech.stop(); },
+  onLeave() { endPlay(); speech.stop(); },
 };
 
 function menu(stage) {
@@ -43,6 +43,7 @@ async function run(stage, b) {
   stage.append(el('div.game-panel', {}, [el('div.game-emoji', {}, b.emoji), el('h2', {}, b.name)]));
   await breathe(stage, { breaths: b.breaths, inhale: b.inhale, exhale: b.exhale });
   clear(stage);
+  rewardFlat(5, 1); // calm, focused breathing earns a gentle reward
   audio.play('ding');
   stage.append(el('div.game-panel', {}, [
     el('div.game-emoji', {}, '😌'),

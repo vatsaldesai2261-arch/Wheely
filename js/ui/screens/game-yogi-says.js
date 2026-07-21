@@ -4,7 +4,7 @@ import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
 import { burst } from '../components/confetti.js';
-import { ready, kidPoses, randOf, figure, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, randOf, figure, gameShell, homeBtn, rewardPose, rewardFlat, endPlay } from './game-kit.js';
 
 const ROUNDS = 8;
 let state = null;
@@ -18,7 +18,7 @@ export default {
     state = { round: 0, score: 0, poses: kidPoses() };
     intro(stage);
   },
-  onLeave() { speech.stop(); state = null; },
+  onLeave() { endPlay(); speech.stop(); state = null; },
 };
 
 function intro(stage) {
@@ -44,20 +44,23 @@ function nextRound(stage) {
   stage.append(el('div.game-panel', {}, [
     el('div.game-progress', {}, `Round ${state.round} of ${ROUNDS}`),
     figure(pose, 180),
-    el('h2.ys-call', { class: yogiSays ? 'is-say' : 'is-trick' }, call),
+    el('h2.ys-call.' + (yogiSays ? 'is-say' : 'is-trick'), {}, call),
     el('p.game-hint', {}, 'Did you do the right thing?'),
     el('div.game-actions', {}, [
-      el('button.btn.btn-primary', { type: 'button', onClick: () => judge(stage, yogiSays, true) }, 'We did the pose! ✅'),
-      el('button.btn.btn-secondary', { type: 'button', onClick: () => judge(stage, yogiSays, false) }, 'We stayed still 🧊'),
+      el('button.btn.btn-primary', { type: 'button', onClick: () => judge(stage, yogiSays, true, pose) }, 'We did the pose! ✅'),
+      el('button.btn.btn-secondary', { type: 'button', onClick: () => judge(stage, yogiSays, false, pose) }, 'We stayed still 🧊'),
     ]),
   ]));
 }
 
-function judge(stage, yogiSays, didIt) {
+function judge(stage, yogiSays, didIt, pose) {
   const correct = yogiSays === didIt;
-  if (correct) { state.score++; audio.play('coin'); }
-  else audio.play('encourage');
-  const banner = el('div.ys-feedback', { class: correct ? 'ok' : 'no' }, correct ? '⭐ Nice listening!' : (yogiSays ? 'Yogi DID say — that one was real!' : 'Trick! Yogi didn\'t say that one.'));
+  if (correct) {
+    state.score++;
+    if (yogiSays && didIt) rewardPose(pose); // they actually struck the pose
+    else rewardFlat(3, 1);                    // good listening on a trick
+  } else audio.play('encourage');
+  const banner = el('div.ys-feedback.' + (correct ? 'ok' : 'no'), {}, correct ? '⭐ Nice listening!' : (yogiSays ? 'Yogi DID say — that one was real!' : 'Trick! Yogi didn\'t say that one.'));
   const existing = stage.querySelector('.game-actions');
   if (existing) clear(existing);
   stage.append(banner);

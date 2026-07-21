@@ -4,7 +4,7 @@ import { el, clear } from '../../core/dom.js';
 import audio from '../../core/audio.js';
 import { burst } from '../components/confetti.js';
 import { yogiSVG } from '../../data/yogi.js';
-import { ready, kidPoses, shuffle, gameShell, homeBtn } from './game-kit.js';
+import { ready, kidPoses, shuffle, gameShell, homeBtn, rewardPose, rewardFlat, endPlay } from './game-kit.js';
 
 const PAIRS = 6;
 let board = null;
@@ -18,7 +18,7 @@ export default {
     await ready();
     intro(stage);
   },
-  onLeave() { if (flipTimer) { clearTimeout(flipTimer); flipTimer = null; } board = null; },
+  onLeave() { if (flipTimer) { clearTimeout(flipTimer); flipTimer = null; } endPlay(); board = null; },
 };
 
 function intro(stage) {
@@ -61,9 +61,9 @@ function flip(stage, card, c) {
   stage.querySelector('.match-moves').textContent = `Moves: ${board.moves}`;
   const a = board.first; board.first = null;
   if (a.c.p.id === c.p.id) {
-    audio.play('coin');
     a.card.classList.add('is-done'); card.classList.add('is-done');
     board.matched++;
+    rewardPose(c.p); // found the pair → earn the pose
     if (board.matched === PAIRS) return win(stage);
   } else {
     board.busy = true;
@@ -74,6 +74,7 @@ function flip(stage, card, c) {
 
 function win(stage) {
   audio.play('fanfare');
+  rewardFlat(10, 3); // clear-the-board bonus
   burst({ count: 100, origin: { x: 0.5, y: 0.35 } });
   const moves = board.moves;
   setTimeout(() => {
