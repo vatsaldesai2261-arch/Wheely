@@ -8,6 +8,7 @@ import { MODE_LIST, getMode } from '../../game/modes/index.js';
 import engine from '../../game/engine.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
+import { requireUnlock } from '../../admin/gate.js';
 import daily from '../../game/modes/daily.js';
 import storyMode from '../../game/modes/story.js';
 
@@ -119,8 +120,8 @@ function togglePlayer(id, btn) {
 
 function quickAddPlayer() {
   audio.play('tap');
-  router.go('admin-players');
-  // If not unlocked, guard sends home; but player add is friendly, keep it in admin.
+  // Player management lives in the grown-up area; ask for the password, then go.
+  requireUnlock(() => router.go('admin-players'));
 }
 
 function renderWheels() {

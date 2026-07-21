@@ -95,6 +95,20 @@ export function afterSpin() {
   setState(S.POSE_REVEAL, { player: currentPlayer(session), pose: session.currentPose });
 }
 
+/** Swap the current pose for a different one from the pool (no repeat). */
+export function reroll() {
+  if (state !== S.POSE_REVEAL) return;
+  const player = currentPlayer(session);
+  const pool = session.poolsByPlayer.get(player.id);
+  if (!pool || pool.source.length < 2) return;
+  const old = session.currentPose;
+  const newId = mode.nextDraw(session, pool);
+  if (!newId) return;
+  if (old) returnToPool(pool, old.id); // put the skipped pose back
+  session.currentPose = poseLoader.byId(newId);
+  setState(S.POSE_REVEAL, { player, pose: session.currentPose });
+}
+
 /** Called when the kid taps "I'm ready — start". */
 export function startPoseTimer() {
   if (state !== S.POSE_REVEAL) return;
@@ -211,5 +225,5 @@ function buildSummary() {
 export const STATES = S;
 export default {
   start, begin, getState, getSession, getMode, getLastSummary, afterCountdown, afterSpin, startPoseTimer,
-  poseTimerDone, decide, afterReaction, pause, resume, quit, pauseIfPlaying, STATES: S,
+  poseTimerDone, decide, afterReaction, reroll, pause, resume, quit, pauseIfPlaying, STATES: S,
 };

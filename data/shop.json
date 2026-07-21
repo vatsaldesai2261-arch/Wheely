@@ -1,0 +1,24 @@
+{
+  "hats": [
+    { "id": "hat-crown", "name": "Golden Crown", "emoji": "👑", "cost": 60, "slot": "hat" },
+    { "id": "hat-party", "name": "Party Hat", "emoji": "🎉", "cost": 30, "slot": "hat" },
+    { "id": "hat-wizard", "name": "Wizard Hat", "emoji": "🧙", "cost": 50, "slot": "hat" },
+    { "id": "hat-flower", "name": "Flower Crown", "emoji": "🌸", "cost": 35, "slot": "hat" },
+    { "id": "hat-cap", "name": "Cool Cap", "emoji": "🧢", "cost": 25, "slot": "hat" },
+    { "id": "hat-bow", "name": "Ribbon Bow", "emoji": "🎀", "cost": 20, "slot": "hat" }
+  ],
+  "pets": [
+    { "id": "pet-cat", "name": "Kitty", "emoji": "🐱", "cost": 80, "slot": "pet" },
+    { "id": "pet-dog", "name": "Puppy", "emoji": "🐶", "cost": 80, "slot": "pet" },
+    { "id": "pet-dragon", "name": "Baby Dragon", "emoji": "🐲", "cost": 150, "slot": "pet" },
+    { "id": "pet-unicorn", "name": "Unicorn", "emoji": "🦄", "cost": 150, "slot": "pet" },
+    { "id": "pet-bunny", "name": "Bunny", "emoji": "🐰", "cost": 70, "slot": "pet" },
+    { "id": "pet-panda", "name": "Panda", "emoji": "🐼", "cost": 120, "slot": "pet" }
+  ],
+  "frames": [
+    { "id": "frame-stars", "name": "Star Frame", "emoji": "⭐", "cost": 40, "slot": "frame" },
+    { "id": "frame-rainbow", "name": "Rainbow Frame", "emoji": "🌈", "cost": 55, "slot": "frame" },
+    { "id": "frame-hearts", "name": "Hearts Frame", "emoji": "💗", "cost": 40, "slot": "frame" },
+    { "id": "frame-fire", "name": "Fire Frame", "emoji": "🔥", "cost": 65, "slot": "frame" }
+  ]
+}

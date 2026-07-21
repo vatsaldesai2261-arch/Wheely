@@ -6,6 +6,9 @@ import engine from '../../game/engine.js';
 import stats from '../../stats/stats.js';
 import achievements from '../../rewards/achievements.js';
 import { burst } from '../components/confetti.js';
+import shop from '../../rewards/shop.js';
+import goals from '../../rewards/goals.js';
+import store from '../../core/store.js';
 import { t } from '../../core/strings.js';
 
 export default {
@@ -44,10 +47,28 @@ function stars(n) {
     [1, 2, 3].map((i) => el('span.star', { class: i <= n ? 'star on' : 'star' }, i <= n ? '⭐' : '☆')));
 }
 
+function avatarStack(playerId, avatar) {
+  const cos = shop.equippedItems ? shop.equippedItems(playerId) : {};
+  return el('span.avatar-stack.rc-avatar', {}, [
+    el('span', {}, avatar || '🧘'),
+    cos.hat ? el('span.avatar-hat', {}, cos.hat.emoji) : null,
+    cos.pet ? el('span.avatar-pet', {}, cos.pet.emoji) : null,
+  ]);
+}
+
+function goalChip(playerId) {
+  const player = store.get('players').find((x) => x.id === playerId);
+  if (!player?.goal) return null;
+  const pr = goals.progress(player);
+  if (!pr) return null;
+  return el('div.goal-chip', {}, pr.reached ? `🏆 Goal reached: ${player.goal.reward || 'Yay!'}` : `🎯 Goal: ${pr.value}/${pr.target}`);
+}
+
 function playerResult(p) {
   return el('div.result-card.glass', {}, [
-    el('div.rc-head', {}, [el('span.rc-avatar', {}, p.avatar || '🧘'), el('span.rc-name', {}, p.name)]),
+    el('div.rc-head', {}, [avatarStack(p.id, p.avatar), el('span.rc-name', {}, p.name)]),
     stars(p.stars),
+    goalChip(p.id),
     el('div.rc-stats', {}, [
       el('span', {}, `✅ ${p.completed}`),
       el('span', {}, `💪 ${p.missed}`),

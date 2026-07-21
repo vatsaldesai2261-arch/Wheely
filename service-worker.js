@@ -1,7 +1,7 @@
 // Yoga Adventure Wheel — offline service worker.
 // Cache-first for the app shell + data; navigation falls back to cached index.
 // RELEASE CHECKLIST: bump CACHE_VERSION whenever any precached file changes.
-const CACHE_VERSION = 'wheely-v1';
+const CACHE_VERSION = 'wheely-v2';
 
 const PRECACHE_URLS = [
   './',
@@ -35,6 +35,7 @@ const PRECACHE_URLS = [
   // Data
   './js/data/pose-loader.js',
   './js/data/pose-art.js',
+  './js/data/yogi.js',
   // Game
   './js/game/session.js',
   './js/game/pool.js',
@@ -51,10 +52,15 @@ const PRECACHE_URLS = [
   // Rewards / stats
   './js/rewards/rewards.js',
   './js/rewards/achievements.js',
+  './js/rewards/goals.js',
+  './js/rewards/shop.js',
+  './js/rewards/quests.js',
+  './js/rewards/stickers.js',
   './js/stats/stats.js',
   // Admin
   './js/admin/auth.js',
   './js/admin/backup.js',
+  './js/admin/gate.js',
   // UI components
   './js/ui/components/modal.js',
   './js/ui/components/toast.js',
@@ -63,6 +69,8 @@ const PRECACHE_URLS = [
   './js/ui/components/countdown.js',
   './js/ui/components/avatar-picker.js',
   './js/ui/components/breathing.js',
+  './js/ui/components/mascot.js',
+  './js/ui/components/mystery-box.js',
   // UI screens
   './js/ui/screens/splash.js',
   './js/ui/screens/home.js',
@@ -74,6 +82,8 @@ const PRECACHE_URLS = [
   './js/ui/screens/achievements.js',
   './js/ui/screens/statistics.js',
   './js/ui/screens/settings.js',
+  './js/ui/screens/shop.js',
+  './js/ui/screens/album.js',
   './js/ui/screens/admin-dashboard.js',
   './js/ui/screens/admin-players.js',
   './js/ui/screens/admin-poses.js',

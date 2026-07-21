@@ -4,10 +4,10 @@
 import { emit } from './bus.js';
 
 const PREFIX = 'wheely.v1.';
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2;
 
 const DOMAINS = {
-  settings:     { poseTimer: 10, gameTimer: 15, sound: true, narration: false, theme: 'forest', includeAdvanced: false, tutorialSeen: false, reducedMotion: 'auto' },
+  settings:     { poseTimer: 10, gameTimer: 15, sound: true, narration: false, theme: 'forest', includeAdvanced: false, tutorialSeen: false, reducedMotion: 'auto', descTiming: 'before' },
   players:      [],
   wheels:       [],
   progress:     {},   // pools + daily marks, keyed by player/wheel/mode
@@ -15,6 +15,10 @@ const DOMAINS = {
   achievements: {},   // per-player unlocked ids
   poseOverrides:{ edited: {}, added: {}, hidden: [] },
   admin:        { passHash: null, seeded: false },
+  shop:         {},   // playerId -> { owned:[itemId], equipped:{slot:itemId} }
+  stickers:     {},   // playerId -> [stickerId]
+  quests:       {},   // weekKey -> { ids:[], progress:{}, claimed:[] }
+  mystery:      {},   // playerId -> [claimed trigger ids]
   meta:         { schemaVersion: SCHEMA_VERSION },
 };
 
@@ -119,8 +123,8 @@ export function importAll(envelope) {
 export function seedDefaults() {
   const meta = get('meta');
   if (!meta || meta.schemaVersion !== SCHEMA_VERSION) {
+    // Additive migration: new domains simply seed below; existing data is kept.
     set('meta', { schemaVersion: SCHEMA_VERSION });
-    // migrate() hook would run here for future versions
   }
   for (const domain of Object.keys(DOMAINS)) {
     if (rawGet(PREFIX + domain) == null) set(domain, clone(DOMAINS[domain]));

@@ -23,7 +23,9 @@ export default {
     for (const p of players) {
       const diffs = PRESET_DIFF[p.goalPreset] || wheelConfig.difficulties || ['easy', 'medium'];
       const includeAdvanced = wheelConfig.includeAdvanced && diffs.includes('advanced');
-      let ids = poseLoader.filterPoses({ categories: wheelConfig.categories, difficulties: diffs, includeAdvanced }).map((x) => x.id);
+      // Per-kid asana set: use the child's own categories if assigned, else the wheel's.
+      const cats = (p.categories && p.categories.length) ? p.categories : wheelConfig.categories;
+      let ids = poseLoader.filterPoses({ categories: cats, difficulties: diffs, includeAdvanced }).map((x) => x.id);
       if (!ids.length) ids = poseLoader.filterPoses({ difficulties: diffs, includeAdvanced }).map((x) => x.id);
       map.set(p.id, createPool(ids));
     }

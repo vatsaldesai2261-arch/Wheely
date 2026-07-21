@@ -4,6 +4,7 @@ import router from '../../core/router.js';
 import { on } from '../../core/bus.js';
 import audio from '../../core/audio.js';
 import speech from '../../core/speech.js';
+import settings from '../../core/settings.js';
 import engine from '../../game/engine.js';
 import { createWheel } from '../../game/wheel.js';
 import { createTimer } from '../../game/timer.js';
@@ -23,6 +24,7 @@ function cleanup() {
   unsub = [];
   poseTimer?.cancel(); poseTimer = null;
   wheel?.destroy?.(); wheel = null;
+  if (nextFallback) { clearTimeout(nextFallback); nextFallback = null; }
   speech.stop();
 }
 
@@ -106,7 +108,8 @@ async function renderSpin({ player, segments, winnerIndex }) {
   const mount = el('div.wheel-mount');
   wrap.append(playerBadge(player), mount, el('p.wheel-hint', {}, t('spinning')));
   stageEl.append(wrap);
-  wheel = createWheel(mount);
+  const sess = engine.getSession();
+  wheel = createWheel(mount, { mode: sess?.mode, story: sess?.wheelConfig?.story });
   wheel.setSegments(segments);
   announce(t('spinning'));
   await wheel.spinTo(winnerIndex);
@@ -116,15 +119,17 @@ async function renderSpin({ player, segments, winnerIndex }) {
 
 function renderReveal({ player, pose }) {
   clear(stageEl);
-  const card = poseCard(pose, { showBack: true });
+  const after = settings.getSetting('descTiming') === 'after';
+  const card = poseCard(pose, { showBack: true, hideDesc: after });
   const startBtn = el('button.btn.btn-primary.btn-xl', { type: 'button', onClick: () => { audio.play('select'); engine.startPoseTimer(); } }, t('startPose'));
+  const shuffle = el('button.btn.btn-ghost.reveal-shuffle', { type: 'button', 'aria-label': 'Get a different pose', onClick: () => { audio.play('whoosh'); engine.reroll(); } }, '🎲 Different pose');
   stageEl.append(el('div.reveal', {}, [
     playerBadge(player),
     el('div.reveal-card', {}, card),
-    startBtn,
+    el('div.reveal-actions', {}, [shuffle, startBtn]),
   ]));
-  announce(`${player.name}, your pose is ${pose.english}. ${pose.description}`);
-  speech.speak(`${pose.english}. ${pose.description}`);
+  announce(`${player.name}, your pose is ${pose.english}.${after ? '' : ' ' + pose.description}`);
+  speech.speak(after ? pose.english : `${pose.english}. ${pose.description}`);
 }
 
 function renderTimer({ player, pose, duration }) {
@@ -156,9 +161,12 @@ function renderTimer({ player, pose, duration }) {
 function renderDecision({ player, pose }) {
   clear(stageEl);
   announce(t('monitorPrompt'));
+  const after = settings.getSetting('descTiming') === 'after';
+  if (after) speech.speak(pose.description);
   stageEl.append(el('div.decision', {}, [
     playerBadge(player),
     el('div.decision-card', {}, poseCard(pose, { showBack: false, compact: true })),
+    after ? el('p.decision-desc', {}, `${pose.emoji || ''} ${pose.description}`) : null,
     el('p.decision-prompt', {}, t('monitorPrompt')),
     el('div.decision-btns', {}, [
       el('button.btn.btn-practice.btn-xl', { type: 'button', onClick: () => { audio.play('tap'); engine.decide('practice'); } }, [el('span.db-ico', {}, '💪'), t('needsPractice')]),
@@ -171,7 +179,7 @@ function onDecision({ awarded, result }) {
   // handled visually in celebration/encouragement states
 }
 
-async function renderCelebration({ player, pose, awarded, streak }) {
+function renderCelebration({ player, pose, awarded, streak }) {
   clear(stageEl);
   audio.play('cheer');
   burst({ count: 110, origin: { x: 0.5, y: 0.42 } });
@@ -186,13 +194,11 @@ async function renderCelebration({ player, pose, awarded, streak }) {
       el('span.reward-xp', {}, `+${awarded.xp} XP`),
       awarded.coins ? el('span.reward-coin', {}, `+${awarded.coins} 🪙`) : null,
     ]),
+    nextButton(),
   ]));
-  await wait(1700);
-  engine.afterReaction();
-  await maybeBreather();
 }
 
-async function renderEncouragement({ player, pose }) {
+function renderEncouragement({ player, pose }) {
   clear(stageEl);
   audio.play('encourage');
   announce(t('encourage'));
@@ -202,10 +208,17 @@ async function renderEncouragement({ player, pose }) {
     el('div.reaction-emoji', {}, '🌱'),
     el('h1.reaction-title', {}, t('encourage')),
     el('p.reaction-sub', {}, "We'll practice this one again soon!"),
+    nextButton(),
   ]));
-  await wait(1600);
-  engine.afterReaction();
-  await maybeBreather();
+}
+
+// Explicit Next button, with a gentle auto-advance fallback so it never stalls.
+let nextFallback = null;
+function nextButton() {
+  const advance = () => { if (nextFallback) { clearTimeout(nextFallback); nextFallback = null; } audio.play('select'); engine.afterReaction(); };
+  clearTimeout(nextFallback);
+  nextFallback = setTimeout(advance, 8000);
+  return el('button.btn.btn-primary.btn-xl.next-btn', { type: 'button', onClick: advance }, [t('next'), el('span', { 'aria-hidden': 'true' }, ' ▶')]);
 }
 
 async function maybeBreather() {

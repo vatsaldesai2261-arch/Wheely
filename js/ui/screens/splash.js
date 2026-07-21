@@ -3,6 +3,7 @@ import { el } from '../../core/dom.js';
 import router from '../../core/router.js';
 import audio from '../../core/audio.js';
 import poseLoader from '../../data/pose-loader.js';
+import settings from '../../core/settings.js';
 import { t } from '../../core/strings.js';
 
 export default {
@@ -27,7 +28,8 @@ export default {
       begin.disabled = true;
       begin.textContent = 'Loading poses…';
       try { await poseLoader.load(); } catch {}
-      router.go('home');
+      // First-ever launch → show How to Play; afterwards go Home.
+      router.go(settings.tutorialSeen() ? 'home' : 'tutorial');
     };
     begin.addEventListener('click', go);
   },

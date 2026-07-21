@@ -7,7 +7,7 @@ import audio from '../../core/audio.js';
 
 const DIFF_LABEL = { easy: 'Easy', medium: 'Medium', hard: 'Hard', advanced: 'Advanced' };
 
-export function poseCard(pose, { showBack = true, compact = false } = {}) {
+export function poseCard(pose, { showBack = true, compact = false, hideDesc = false } = {}) {
   const card = el(`div.pose-card.diff-${pose.difficulty}${compact ? '.compact' : ''}`);
 
   // Front
@@ -39,7 +39,8 @@ export function poseCard(pose, { showBack = true, compact = false } = {}) {
   ]);
   info.append(chips);
 
-  info.append(el('p.pose-desc', {}, pose.description));
+  if (!hideDesc) info.append(el('p.pose-desc', {}, pose.description));
+  else info.append(el('p.pose-desc pose-desc-hidden', {}, 'Strike the pose! You\'ll learn all about it next. 🤫'));
 
   if (pose.safetyNote && (pose.difficulty === 'hard' || pose.difficulty === 'advanced')) {
     info.append(el('div.safety-note', {}, [el('span.safety-ico', { 'aria-hidden': 'true' }, '⚠️'), el('span', {}, pose.safetyNote)]));

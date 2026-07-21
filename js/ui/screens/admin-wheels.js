@@ -57,12 +57,17 @@ function editWheel(existing) {
     return chip;
   }));
   const advanced = el('input', { type: 'checkbox', checked: existing?.includeAdvanced || false });
+  const quantity = el('select.select-input', {}, [
+    ['0', 'All poses in the wheel'], ['6', '6 poses'], ['8', '8 poses'], ['10', '10 poses'], ['12', '12 poses'], ['15', '15 poses'], ['20', '20 poses'],
+  ].map(([v, l]) => el('option', { value: v, selected: String(existing?.quantity || 0) === v }, l)));
 
   const body = el('div', {}, [
     el('label.field-label', {}, 'Name'), name,
     el('label.field-label', {}, 'Emoji'), emoji,
     el('label.field-label', {}, 'Groups (none = all)'), catGrid,
     el('label.field-label', {}, 'Difficulties'), diffGrid,
+    el('label.field-label', {}, 'How many poses in this wheel?'), quantity,
+    el('p.form-hint', {}, 'Limit the wheel to a set number of poses, or use them all.'),
     el('label.setting-row', {}, [el('span', {}, '⚠️ Include Advanced poses'), el('span.switch', {}, [advanced, el('span.switch-track')])]),
     el('p.form-hint', {}, 'Advanced poses (headstands, deep backbends) are off by default for safety.'),
   ]);
@@ -75,7 +80,7 @@ function editWheel(existing) {
         const nm = name.value.trim();
         if (!nm) { toast('Name required', { tone: 'warn' }); return true; }
         const diffs = [...selectedDiffs]; if (advanced.checked) diffs.push('advanced');
-        const wheel = { id: existing?.id || uid(), name: nm, emoji: emoji.value.trim() || '🎡', categories: [...selectedCats], difficulties: diffs.length ? diffs : ['easy', 'medium'], includeAdvanced: advanced.checked };
+        const wheel = { id: existing?.id || uid(), name: nm, emoji: emoji.value.trim() || '🎡', categories: [...selectedCats], difficulties: diffs.length ? diffs : ['easy', 'medium'], includeAdvanced: advanced.checked, quantity: +quantity.value || 0 };
         const poolSize = poseLoader.filterPoses({ categories: wheel.categories, difficulties: wheel.difficulties, includeAdvanced: wheel.includeAdvanced }).length;
         if (poolSize < 3) { toast('That wheel has too few poses. Add more groups/difficulties.', { tone: 'warn', duration: 4000 }); return true; }
         store.update('wheels', (l) => existing ? l.map((x) => x.id === existing.id ? wheel : x) : [...l, wheel]);

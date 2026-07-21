@@ -5,6 +5,7 @@ import router from '../../core/router.js';
 import audio from '../../core/audio.js';
 import store from '../../core/store.js';
 import auth from '../../admin/auth.js';
+import { requireUnlock } from '../../admin/gate.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
 import { t } from '../../core/strings.js';
@@ -22,30 +23,7 @@ function tile(icon, label, target, opts = {}) {
 }
 
 function openAdminLogin() {
-  const input = el('input.text-input', { type: 'password', placeholder: 'Password', autocomplete: 'off', inputmode: 'text', 'aria-label': 'Admin password' });
-  const err = el('p.form-error', { role: 'alert' }, '');
-  const body = el('div', {}, [
-    el('p', {}, 'This area is for grown-ups. Enter the password to continue.'),
-    input, err,
-  ]);
-  const controller = modal({
-    title: '🔒 Grown-Up Zone',
-    body,
-    actions: [
-      { label: t('cancel'), variant: 'btn-secondary' },
-      {
-        label: 'Unlock', variant: 'btn-primary', closeOnClick: false,
-        onClick: async () => {
-          const ok = await auth.tryUnlock(input.value);
-          if (ok) { audio.play('ding'); controller.close(); router.go('admin-dashboard'); }
-          else { err.textContent = 'Wrong password — try again.'; input.value = ''; input.focus(); audio.play('encourage'); }
-          return true;
-        },
-      },
-    ],
-  });
-  input.addEventListener('keydown', (e) => { if (e.key === 'Enter') body.parentElement.querySelector('.btn-primary').click(); });
-  setTimeout(() => input.focus(), 100);
+  requireUnlock(() => router.go('admin-dashboard'));
 }
 
 function handleLogoTap() {
@@ -76,9 +54,12 @@ export default {
         tile('📖', t('howToPlay'), 'tutorial'),
         tile('🏆', t('leaderboard'), 'leaderboard'),
         tile('🎖️', t('achievements'), 'achievements'),
+        tile('🛍️', 'Shop', 'shop'),
+        tile('📔', 'Stickers', 'album'),
         tile('📊', t('statistics'), 'statistics'),
         tile('⚙️', t('settings'), 'settings'),
       ]),
+      el('p.home-parent-hint', {}, '🔒 Grown-ups: tap the Yoga Wheel logo 5 times to open Setup.'),
     ]);
     container.append(view);
   },

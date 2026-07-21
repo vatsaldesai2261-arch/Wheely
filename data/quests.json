@@ -1,0 +1,10 @@
+[
+  { "id": "q-poses-15", "name": "Pose Explorer", "icon": "🤸", "desc": "Complete 15 poses this week", "type": "posesCompleted", "target": 15, "reward": 30 },
+  { "id": "q-balance-8", "name": "Steady Star", "icon": "⚖️", "desc": "Pass 8 balance poses", "type": "category", "category": "balance", "target": 8, "reward": 35 },
+  { "id": "q-animal-10", "name": "Animal Friend", "icon": "🦁", "desc": "Pass 10 animal poses", "type": "category", "category": "animal-play", "target": 10, "reward": 35 },
+  { "id": "q-sessions-4", "name": "Regular Yogi", "icon": "🎮", "desc": "Play 4 games", "type": "sessions", "target": 4, "reward": 40 },
+  { "id": "q-streak-5", "name": "Streak Star", "icon": "🔥", "desc": "Get a 5-pose streak", "type": "streak", "target": 5, "reward": 30 },
+  { "id": "q-calm-6", "name": "Calm Master", "icon": "😌", "desc": "Pass 6 calm poses", "type": "category", "category": "restorative", "target": 6, "reward": 30 },
+  { "id": "q-backbend-8", "name": "Rainbow Bender", "icon": "🌈", "desc": "Pass 8 backbend poses", "type": "category", "category": "backbend", "target": 8, "reward": 35 },
+  { "id": "q-minutes-20", "name": "Time Traveler", "icon": "⏰", "desc": "Practice 20 minutes", "type": "minutes", "target": 20, "reward": 40 }
+]

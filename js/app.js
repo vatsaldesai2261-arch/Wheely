@@ -6,8 +6,12 @@ import { on } from './core/bus.js';
 import poseLoader from './data/pose-loader.js';
 import auth from './admin/auth.js';
 import achievements from './rewards/achievements.js';
+import goals from './rewards/goals.js';
+import stickers from './rewards/stickers.js';
+import quests from './rewards/quests.js';
 import { toast } from './ui/components/toast.js';
 import { burst } from './ui/components/confetti.js';
+import { mysteryBox } from './ui/components/mystery-box.js';
 import { el } from './core/dom.js';
 
 import splash from './ui/screens/splash.js';
@@ -20,6 +24,8 @@ import leaderboard from './ui/screens/leaderboard.js';
 import achievementsScreen from './ui/screens/achievements.js';
 import statistics from './ui/screens/statistics.js';
 import settingsScreen from './ui/screens/settings.js';
+import shopScreen from './ui/screens/shop.js';
+import albumScreen from './ui/screens/album.js';
 import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
@@ -29,7 +35,7 @@ import adminBackup from './ui/screens/admin-backup.js';
 
 const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
-  achievementsScreen, statistics, settingsScreen,
+  achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen,
   adminDashboard, adminPlayers, adminPoses, adminWheels, adminSettings, adminBackup,
 ];
 
@@ -37,6 +43,9 @@ async function boot() {
   store.seedDefaults();
   await auth.init();
   await achievements.init();
+  goals.init();
+  stickers.init();
+  quests.loadPool().catch(() => {});
 
   const rootEl = document.getElementById('screen-root');
   router.init(rootEl);
@@ -67,6 +76,17 @@ async function boot() {
     burst({ count: 60, origin: { x: 0.5, y: 0.2 } });
   });
   on('player:levelup', ({ player, belt }) => beltCeremony(player, belt));
+  on('sticker:earned', ({ sticker }) => {
+    toast(`New sticker: ${sticker.name}!`, { icon: sticker.emoji, duration: 3200 });
+  });
+  on('shop:bought', ({ item }) => burst({ count: 40, origin: { x: 0.5, y: 0.5 } }));
+  on('quest:claimed', ({ quest }) => burst({ count: 50, origin: { x: 0.5, y: 0.3 } }));
+
+  // Custom per-kid goal reached → mystery box with the grown-up's reward.
+  on('goal:reached', ({ player, reward }) => {
+    mysteryBox({ reward: { emoji: '🏆', text: reward ? `${player.name}, you earned: ${reward}!` : `${player.name} reached their goal!` } });
+    toast(`${player.name} reached their goal! 🏆`, { icon: '🏆', duration: 4000 });
+  });
 
   // Load poses in the background; splash waits on it.
   poseLoader.load().catch((e) => { console.error('pose load failed', e); toast('Could not load poses.', { icon: '⚠️', tone: 'warn' }); });
