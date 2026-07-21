@@ -69,12 +69,34 @@ function beginTurn() {
 }
 
 /** Called by the view after the countdown animation finishes. */
+function hasPlayable(player) {
+  const pool = session.poolsByPlayer.get(player.id);
+  if (!pool) return false;
+  // Sequence pools (curated runs) are done once drained; standard pools refill.
+  return pool.sequence ? pool.remaining.length > 0 : pool.source.length > 0;
+}
+
+/** Current player is out of poses — hand the turn to the next kid who still has
+ *  some. Only finishes the game when nobody has poses left (fixes a premature
+ *  end() when players' sequence pools drain unevenly). */
+function skipToNextPlayable() {
+  const n = session.players.length;
+  for (let step = 1; step <= n; step++) {
+    const idx = session.turnIndex + step;
+    if (hasPlayable(session.players[idx % n])) {
+      session.turnIndex = idx;
+      return setState(S.COUNTDOWN, { player: currentPlayer(session) });
+    }
+  }
+  return end();
+}
+
 export function afterCountdown() {
   if (state !== S.COUNTDOWN) return;
   const player = currentPlayer(session);
   const pool = session.poolsByPlayer.get(player.id);
   const winnerId = mode.nextDraw(session, pool);
-  if (!winnerId) return end();
+  if (!winnerId) return skipToNextPlayable();
 
   const winner = poseLoader.byId(winnerId);
   session.currentPose = winner;

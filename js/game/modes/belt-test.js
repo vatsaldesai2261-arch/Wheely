@@ -2,7 +2,6 @@
 // groups; pass most of them to "pass your belt test" with a celebration and
 // bonus XP. Extends classic (shares draw/anti-repeat).
 import poseLoader from '../../data/pose-loader.js';
-import { createPool } from '../pool.js';
 import classic from './classic.js';
 
 const TEST_SIZE = 6;

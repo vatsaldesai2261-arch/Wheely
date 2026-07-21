@@ -35,6 +35,9 @@ export function sampleDecoys(pool, winnerId, n) {
 }
 
 export function returnToPool(pool, id) {
+  // Sequence pools (Belt Test, Daily, Around the World) are a fixed-length run —
+  // a failed pose must NOT come back, or the test grows past its intended size.
+  if (pool.sequence) return;
   if (pool.source.includes(id) && !pool.remaining.includes(id)) {
     // reinsert at a random spot so it isn't necessarily next
     const idx = (Math.random() * (pool.remaining.length + 1)) | 0;

@@ -96,9 +96,15 @@ async function selectMode(id, grid) {
     const stories = await storyMode.loadStories();
     pickStory(stories);
   }
-  // belt-test & daily use their own curated sets → group/wheel choice not needed
+  // Curated-set modes supply their own poses → the group/wheel choice is hidden
+  // and any earlier group pick is cleared so it can't leak into the config.
+  const curated = ['daily', 'story', 'belt-test', 'balance-boss', 'buddy', 'journey'];
   const gs = document.getElementById('group-section');
-  if (gs) gs.style.display = (id === 'daily' || id === 'story' || id === 'belt-test') ? 'none' : '';
+  if (gs) gs.style.display = curated.includes(id) ? 'none' : '';
+  if (curated.includes(id)) {
+    chosenWheel = null;
+    document.querySelectorAll('.group-card.is-selected, .wheel-card.is-selected').forEach((c) => c.classList.remove('is-selected'));
+  }
 }
 
 function pickStory(stories) {
@@ -188,6 +194,7 @@ function startGame() {
     : [{ id: 'guest', name: 'Guest', avatar: '🧘', xp: 0, coins: 0, belt: 'White Belt' }];
 
   if (chosenMode === 'story' && !chosenStory) { toast('Pick a story first! 📖', { icon: '📖', tone: 'warn' }); return; }
+  if (chosenMode === 'team' && players.length < 2) { toast('Team Match needs at least 2 players 🤝', { icon: '🤝', tone: 'warn' }); return; }
   if (chosenMode === 'daily') {
     // guest can't be blocked; scored-once handled in results
   }

@@ -92,12 +92,15 @@ function renderExtras(extras) {
     ]);
   }
   if (extras.type === 'team') {
+    const names = extras.names || { A: 'Team A', B: 'Team B' };
+    const scores = extras.scores || { A: 0, B: 0 };
+    const rosters = extras.rosters || {};
     return el('div.extras.glass', {}, [
-      el('h2', {}, `🏆 ${extras.winner}`),
+      el('h2', {}, `🏆 ${extras.winner || ''}`),
       el('div.team-scores', {}, [
-        el('div.team-score', {}, [el('span.ts-name', {}, extras.names.A), el('span.ts-pts', {}, `${extras.scores.A} pts`), el('span.ts-roster', {}, (extras.rosters.A || []).join(', '))]),
+        el('div.team-score', {}, [el('span.ts-name', {}, names.A), el('span.ts-pts', {}, `${scores.A || 0} pts`), el('span.ts-roster', {}, (rosters.A || []).join(', '))]),
         el('div.team-vs', {}, 'vs'),
-        el('div.team-score', {}, [el('span.ts-name', {}, extras.names.B), el('span.ts-pts', {}, `${extras.scores.B} pts`), el('span.ts-roster', {}, (extras.rosters.B || []).join(', '))]),
+        el('div.team-score', {}, [el('span.ts-name', {}, names.B), el('span.ts-pts', {}, `${scores.B || 0} pts`), el('span.ts-roster', {}, (rosters.B || []).join(', '))]),
       ]),
     ]);
   }
@@ -117,6 +120,26 @@ function renderExtras(extras) {
   }
   if (extras.type === 'daily') {
     return el('div.extras.glass', {}, [el('h2', {}, '🎯 Daily Challenge Complete!'), el('p', {}, `You did all ${extras.poses} poses today!`)]);
+  }
+  if (extras.type === 'freeze') {
+    return el('div.extras.glass', {}, [el('h2', {}, '🕺 Freeze Dance!'), el('p', {}, `You froze into ${extras.poses || 0} cool poses. What a dancer! 🥶`)]);
+  }
+  if (extras.type === 'balance') {
+    return el('div.extras.glass', {}, [el('h2', {}, '🦩 Balance Boss!'), el('p', {}, extras.steady > 2 ? `Super steady — ${extras.steady} balances in a row! 🌟` : 'Wibble wobble — keep practising your balance!')]);
+  }
+  if (extras.type === 'speedy') {
+    return el('div.extras.glass', {}, [el('h2', {}, '⚡ Speedy Flow!'), el('p', {}, `Zoom! You flowed through ${extras.poses || 0} quick poses. ⚡`)]);
+  }
+  if (extras.type === 'buddy') {
+    return el('div.extras.glass', {}, [el('h2', {}, '🧑‍🤝‍🧑 Buddy Up!'), el('p', {}, `You struck ${extras.poses || 0} poses together. Great teamwork! 💞`)]);
+  }
+  if (extras.type === 'journey') {
+    const stamps = extras.stamps || [];
+    return el('div.extras.glass', {}, [
+      el('h2', {}, '🌍 Passport Stamped!'),
+      el('p', {}, stamps.length ? `You visited ${stamps.length} lands around the world!` : 'Your yoga passport is ready for adventure!'),
+      el('div.passport', {}, stamps.map((s) => el('span.stamp', { title: s.name }, s.emoji))),
+    ]);
   }
   if (extras.group) {
     return el('div.extras.glass', {}, [el('h2', {}, extras.headline)]);
