@@ -85,6 +85,22 @@ function playerResult(p) {
 
 function renderExtras(extras) {
   if (!extras) return null;
+  if (extras.type === 'belt-test') {
+    return el('div.extras.glass', {}, [
+      el('h2', {}, extras.passed ? '🥋 Belt Test PASSED!' : '🥋 Belt Test'),
+      el('p', {}, extras.passed ? `Amazing! You passed ${extras.best} of ${extras.total} poses. On to the next belt! 🎉` : `You did ${extras.best} of ${extras.total}. So close — try again to pass!`),
+    ]);
+  }
+  if (extras.type === 'team') {
+    return el('div.extras.glass', {}, [
+      el('h2', {}, `🏆 ${extras.winner}`),
+      el('div.team-scores', {}, [
+        el('div.team-score', {}, [el('span.ts-name', {}, extras.names.A), el('span.ts-pts', {}, `${extras.scores.A} pts`), el('span.ts-roster', {}, (extras.rosters.A || []).join(', '))]),
+        el('div.team-vs', {}, 'vs'),
+        el('div.team-score', {}, [el('span.ts-name', {}, extras.names.B), el('span.ts-pts', {}, `${extras.scores.B} pts`), el('span.ts-roster', {}, (extras.rosters.B || []).join(', '))]),
+      ]),
+    ]);
+  }
   if (extras.type === 'animal-collection') {
     const groups = Object.entries(extras.rescued || {});
     if (!groups.length) return null;
