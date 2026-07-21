@@ -38,7 +38,25 @@
 
 /* Screen transition base handled in base.css .screen */
 
+/* Freeze Dance — full-stage "DANCE… FREEZE!" flash */
+.freeze-flash {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 50vh; text-align: center;
+  background: radial-gradient(circle at 50% 40%, var(--sun-soft), transparent 70%);
+  border-radius: var(--radius-lg);
+}
+.freeze-word {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(40px, 9vw, 84px); color: var(--forest-deep);
+  animation: freeze-bounce 0.8s var(--ease-pop) infinite;
+}
+.freeze-flash.is-freeze { background: radial-gradient(circle at 50% 40%, var(--sky-soft), transparent 70%); }
+.freeze-flash.is-freeze .freeze-word { animation: freeze-pop 0.4s var(--ease-pop) both; color: var(--diff-medium); }
+@keyframes freeze-bounce { 0%,100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-14px) rotate(3deg); } }
+@keyframes freeze-pop { 0% { transform: scale(0.5); } 60% { transform: scale(1.25); } 100% { transform: scale(1); } }
+
 /* Reduce heavy loops when reduced-motion (belt/backup safe) */
 @media (prefers-reduced-motion: reduce) {
   .splash-wheel, .logo-wheel { animation: none !important; }
+  .freeze-word { animation: none !important; }
 }

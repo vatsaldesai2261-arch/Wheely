@@ -21,6 +21,9 @@ let unsub = [];
 let stageEl, hudEl;
 let wheel = null;
 let poseTimer = null;
+let freezeTimer = null;
+
+function activeMode() { return engine.getMode() || {}; }
 
 function cleanup() {
   unsub.forEach((f) => f());
@@ -28,6 +31,8 @@ function cleanup() {
   poseTimer?.cancel(); poseTimer = null;
   wheel?.destroy?.(); wheel = null;
   if (nextFallback) { clearTimeout(nextFallback); nextFallback = null; }
+  if (freezeTimer) { clearTimeout(freezeTimer); freezeTimer = null; }
+  audio.stopMusic();
   speech.stop();
 }
 
@@ -50,6 +55,9 @@ export default {
 
     // If we arrived without an active session (e.g. refresh), bounce to setup.
     if (!engine.getSession()) { router.go('setup'); return; }
+
+    // Freeze Dance & friends play gentle background music throughout.
+    if (activeMode().music) audio.startMusic();
 
     // Kick off the first turn now that we're subscribed. If a game is already
     // mid-flight (e.g. returning from pause), re-render the live state instead.
@@ -124,15 +132,41 @@ async function renderSpin({ player, segments, winnerIndex }) {
 }
 
 function renderReveal({ player, pose }) {
+  // Freeze Dance: a quick "DANCE… FREEZE!" flash before the pose card appears.
+  if (activeMode().freeze) {
+    clear(stageEl);
+    const word = el('div.freeze-word', {}, '🕺 DANCE!');
+    const flash = el('div.freeze-flash', {}, [word]);
+    stageEl.append(flash);
+    audio.play('go');
+    freezeTimer = setTimeout(() => {
+      word.textContent = '🥶 FREEZE!';
+      flash.classList.add('is-freeze');
+      audio.play('ding');
+      freezeTimer = setTimeout(() => showRevealCard(player, pose), 750);
+    }, 800);
+    return;
+  }
+  showRevealCard(player, pose);
+}
+
+function showRevealCard(player, pose) {
+  freezeTimer = null;
   clear(stageEl);
   const after = settings.getSetting('descTiming') === 'after';
   const card = poseCard(pose, { showBack: true, hideDesc: after });
   const startBtn = el('button.btn.btn-primary.btn-xl', { type: 'button', onClick: () => { audio.play('select'); engine.startPoseTimer(); } }, t('startPose'));
-  const shuffle = el('button.btn.btn-ghost.reveal-shuffle', { type: 'button', 'aria-label': 'Get a different pose', onClick: () => { audio.play('whoosh'); engine.reroll(); } }, '🎲 Different pose');
+  const actions = [startBtn];
+  // Sequence modes (Belt Test, Around the World, Daily) are a fixed run — no reroll.
+  const seq = engine.getSession()?.poolsByPlayer.get(player.id)?.sequence;
+  if (!seq) {
+    const shuffle = el('button.btn.btn-ghost.reveal-shuffle', { type: 'button', 'aria-label': 'Get a different pose', onClick: () => { audio.play('whoosh'); engine.reroll(); } }, '🎲 Different pose');
+    actions.unshift(shuffle);
+  }
   stageEl.append(el('div.reveal', {}, [
     playerBadge(player),
     el('div.reveal-card', {}, card),
-    el('div.reveal-actions', {}, [shuffle, startBtn]),
+    el('div.reveal-actions', {}, actions),
   ]));
   announce(`${player.name}, your pose is ${pose.english}.${after ? '' : ' ' + pose.description}`);
   speech.speak(after ? pose.english : `${pose.english}. ${pose.description}`);

@@ -288,6 +288,16 @@
 .ts-roster { font-size: 12px; color: var(--ink-soft); text-align: center; }
 .team-vs { font-family: var(--font-display); color: var(--ink-soft); }
 
+/* Around the World — passport stamp row on results */
+.passport { display: flex; flex-wrap: wrap; gap: var(--sp-2); justify-content: center; margin-top: var(--sp-3); }
+.stamp {
+  font-size: 30px; width: 52px; height: 52px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--cream-warm);
+  border: 2px dashed var(--forest); box-shadow: var(--shadow-sm);
+  animation: pop-in 0.4s var(--ease-pop) both;
+}
+
 /* Aesthetic polish: springier cards + refined selected states */
 .mode-card, .group-card, .home-tile, .wheel-card, .player-pick { transition: transform var(--dur-fast) var(--ease-pop), box-shadow var(--dur-fast), border-color var(--dur-fast); }
 .mode-card:active, .group-card:active, .home-tile:active, .wheel-card:active, .player-pick:active { transform: scale(0.97); }
