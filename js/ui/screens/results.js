@@ -10,6 +10,7 @@ import shop from '../../rewards/shop.js';
 import goals from '../../rewards/goals.js';
 import store from '../../core/store.js';
 import { avatarEl } from '../components/avatar.js';
+import { printCertificate } from '../components/certificate.js';
 import { t } from '../../core/strings.js';
 
 export default {
@@ -70,6 +71,7 @@ function playerResult(p) {
     el('div.rc-head', {}, [avatarStack(p.id, p.avatar), el('span.rc-name', {}, p.name)]),
     stars(p.stars),
     goalChip(p.id),
+    p.id !== 'guest' ? el('button.btn.btn-ghost.cert-btn', { type: 'button', onClick: () => printCertificate(store.get('players').find((x) => x.id === p.id) || { name: p.name, xp: p.xp }) }, '🏅 Certificate') : null,
     el('div.rc-stats', {}, [
       el('span', {}, `✅ ${p.completed}`),
       el('span', {}, `💪 ${p.missed}`),

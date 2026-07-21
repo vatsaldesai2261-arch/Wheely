@@ -8,7 +8,17 @@ import auth from '../../admin/auth.js';
 import { requireUnlock } from '../../admin/gate.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
+import poseLoader from '../../data/pose-loader.js';
+import { svgSceneFor } from '../../data/pose-art.js';
 import { t } from '../../core/strings.js';
+
+function poseOfTheDay() {
+  const all = poseLoader.filterPoses({ difficulties: ['easy', 'medium'], includeAdvanced: false });
+  if (!all.length) return null;
+  const d = new Date();
+  const seed = d.getFullYear() * 1000 + (d.getMonth() + 1) * 40 + d.getDate();
+  return all[seed % all.length];
+}
 
 let tapTimes = [];
 
@@ -24,6 +34,20 @@ function tile(icon, label, target, opts = {}) {
 
 function openAdminLogin() {
   requireUnlock(() => router.go('admin-dashboard'));
+}
+
+function potdCard() {
+  const pose = poseOfTheDay();
+  if (!pose) return null;
+  const card = el('button.potd-card.glass', { type: 'button', onClick: () => { audio.play('select'); router.go('setup'); } }, [
+    el('div.potd-art', { html: svgSceneFor(pose) }),
+    el('div.potd-info', {}, [
+      el('span.potd-kicker', {}, '⭐ Pose of the Day'),
+      el('span.potd-name', {}, pose.english),
+      el('span.potd-sub', {}, 'Tap to practice!'),
+    ]),
+  ]);
+  return card;
 }
 
 function handleLogoTap() {
@@ -50,12 +74,15 @@ export default {
         ]),
         el('p.home-sub', {}, players.length ? `${players.length} yogi${players.length > 1 ? 's' : ''} ready to play!` : 'Add players in the Grown-Up Zone, or just start playing!'),
       ]),
+      potdCard(),
       el('nav.home-tiles', { 'aria-label': 'Menu' }, [
         tile('📖', t('howToPlay'), 'tutorial'),
+        tile('🗺️', 'Adventure Map', 'journey'),
         tile('🏆', t('leaderboard'), 'leaderboard'),
         tile('🎖️', t('achievements'), 'achievements'),
         tile('🛍️', 'Shop', 'shop'),
         tile('📔', 'Stickers', 'album'),
+        tile('🖼️', 'Photos', 'gallery'),
         tile('📊', t('statistics'), 'statistics'),
         tile('⚙️', t('settings'), 'settings'),
       ]),

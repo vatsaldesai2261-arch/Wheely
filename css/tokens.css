@@ -61,3 +61,17 @@
   --dur-med: 320ms;
   --dur-slow: 600ms;
 }
+
+/* Unlockable color themes — swap the background wash + a couple of accents. */
+:root[data-theme="ocean"] {
+  --cream: #eaf6fb; --cream-warm: #d6ecf5; --sky-soft: #cfeef7;
+  --forest: #0b6e8c; --forest-deep: #063a4d; --brand-olive: #0b6e8c; --mint: #7fc8e0; --mint-soft: #d5eef6;
+}
+:root[data-theme="candy"] {
+  --cream: #fff0f6; --cream-warm: #ffe0ec; --sun-soft: #ffe1f0;
+  --forest: #b23a76; --forest-deep: #7a2450; --brand-olive: #b23a76; --mint: #f4a6cd; --mint-soft: #ffe0ee;
+}
+:root[data-theme="space"] {
+  --cream: #ecebff; --cream-warm: #dcd9f7; --sky-soft: #ddd8fa;
+  --forest: #3b2a83; --forest-deep: #241653; --brand-olive: #3b2a83; --mint: #b3a4e3; --mint-soft: #e2dbfb;
+}

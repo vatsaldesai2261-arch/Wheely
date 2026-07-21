@@ -9,6 +9,8 @@ import achievements from './rewards/achievements.js';
 import goals from './rewards/goals.js';
 import stickers from './rewards/stickers.js';
 import quests from './rewards/quests.js';
+import theme from './core/theme.js';
+import settings from './core/settings.js';
 import { toast } from './ui/components/toast.js';
 import { burst } from './ui/components/confetti.js';
 import { mysteryBox } from './ui/components/mystery-box.js';
@@ -26,6 +28,8 @@ import statistics from './ui/screens/statistics.js';
 import settingsScreen from './ui/screens/settings.js';
 import shopScreen from './ui/screens/shop.js';
 import albumScreen from './ui/screens/album.js';
+import journeyScreen from './ui/screens/journey.js';
+import galleryScreen from './ui/screens/gallery.js';
 import adminDashboard from './ui/screens/admin-dashboard.js';
 import adminPlayers from './ui/screens/admin-players.js';
 import adminPoses from './ui/screens/admin-poses.js';
@@ -36,7 +40,7 @@ import adminBackup from './ui/screens/admin-backup.js';
 
 const SCREENS = [
   splash, home, tutorial, setup, game, results, leaderboard,
-  achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen,
+  achievementsScreen, statistics, settingsScreen, shopScreen, albumScreen, journeyScreen, galleryScreen,
   adminDashboard, adminPlayers, adminPoses, adminWheels, adminGoals, adminSettings, adminBackup,
 ];
 
@@ -47,6 +51,11 @@ async function boot() {
   goals.init();
   stickers.init();
   quests.loadPool().catch(() => {});
+  theme.init();
+
+  // Background music: start after the first gesture when enabled.
+  window.addEventListener('pointerdown', () => { if (settings.getSetting('music')) audio.startMusic(); }, { once: true });
+  on('settings:changed', ({ key, value }) => { if (key === 'music') value ? audio.startMusic() : audio.stopMusic(); });
 
   const rootEl = document.getElementById('screen-root');
   router.init(rootEl);

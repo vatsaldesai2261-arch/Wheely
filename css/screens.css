@@ -184,6 +184,53 @@
 .prr-add { font-family: var(--font-display); font-weight: 700; color: var(--forest); }
 .goal-assign-head { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-2); flex-wrap: wrap; }
 
+/* Pose of the day */
+.potd-card { display: flex; align-items: center; gap: var(--sp-4); padding: var(--sp-3); border-radius: var(--radius-lg); margin: 0 auto var(--sp-3); max-width: 460px; width: 100%; text-align: left; }
+.potd-art { width: 96px; height: 72px; border-radius: var(--radius-md); overflow: hidden; flex: none; position: relative; }
+.potd-art .pose-scene { position: absolute; inset: 0; }
+.potd-info { display: flex; flex-direction: column; }
+.potd-kicker { font-size: 13px; color: var(--brand-olive); font-weight: 600; }
+.potd-name { font-family: var(--font-display); font-weight: 700; font-size: 20px; color: var(--forest-deep); }
+.potd-sub { font-size: 13px; color: var(--ink-soft); }
+
+/* Journey map */
+.journey-total { text-align: center; font-family: var(--font-display); color: var(--forest-deep); }
+.journey-path { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: var(--sp-3); }
+.journey-stop { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: var(--sp-4) var(--sp-2); border-radius: var(--radius-lg); background: var(--white); box-shadow: var(--shadow-sm); text-align: center; }
+.journey-stop.is-locked { opacity: 0.5; filter: grayscale(0.5); }
+.journey-stop.is-current { outline: 3px solid var(--sun); background: var(--sun-soft); }
+.journey-emoji { font-size: 42px; }
+.journey-name { font-family: var(--font-display); font-weight: 600; font-size: 15px; }
+.journey-need { font-size: 12px; color: var(--ink-soft); }
+
+/* Gallery */
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--sp-3); }
+.gallery-cell { position: relative; aspect-ratio: 1; border-radius: var(--radius-lg); overflow: hidden; }
+.gallery-img { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 24px; background: var(--mint-soft); }
+.gallery-img img { width: 100%; height: 100%; object-fit: cover; }
+.gallery-del { position: absolute; top: 6px; right: 6px; width: 36px; height: 36px; border-radius: 50%; background: rgba(0,0,0,0.5); color: #fff; font-size: 16px; }
+.cert-btn { font-size: 14px; }
+
+/* Certificate (screen + print) */
+.cert-print-root { position: fixed; inset: 0; z-index: 400; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; padding: var(--sp-4); overflow: auto; }
+.certificate { width: min(720px, 100%); aspect-ratio: 1.4; background: #fff; border: 10px solid var(--brand-olive); border-radius: 12px; padding: 5%; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; box-shadow: var(--shadow-lg); }
+.cert-mark { width: 70px; }
+.cert-kicker { letter-spacing: 3px; text-transform: uppercase; color: var(--brand-olive); font-size: 13px; font-weight: 600; }
+.cert-title { font-family: var(--font-display); color: var(--forest-deep); margin: 0; }
+.cert-awarded { color: var(--ink-soft); margin: 0; }
+.cert-name { font-family: var(--font-display); font-size: clamp(28px, 5vw, 44px); color: var(--brand-olive); }
+.cert-body { max-width: 80%; color: var(--ink); }
+.cert-badges { display: flex; gap: var(--sp-4); flex-wrap: wrap; justify-content: center; font-weight: 600; }
+.cert-foot { display: flex; justify-content: space-between; width: 80%; margin-top: var(--sp-3); color: var(--ink-soft); border-top: 2px solid var(--mint-soft); padding-top: var(--sp-2); }
+.cert-sign { font-family: var(--font-display); color: var(--brand-olive); }
+
+@media print {
+  body * { visibility: hidden !important; }
+  .cert-print-root, .cert-print-root * { visibility: visible !important; }
+  .cert-print-root { position: absolute; inset: 0; background: #fff; padding: 0; }
+  .certificate { box-shadow: none; width: 100%; aspect-ratio: auto; height: 96vh; }
+}
+
 /* Settings rows */
 .settings-list { display: flex; flex-direction: column; gap: var(--sp-2); }
 .setting-row { display: flex; align-items: center; justify-content: space-between; gap: var(--sp-3); padding: var(--sp-3) var(--sp-4); border-radius: var(--radius-lg); }

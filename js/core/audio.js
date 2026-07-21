@@ -130,4 +130,44 @@ export function stopSpin() {
 
 export function setVolume(v) { if (master) master.gain.value = Math.max(0, Math.min(1, v)); }
 
-export default { unlock, play, startSpin, rampSpinDown, stopSpin, setVolume };
+// ---- Gentle background music: a slow synth pad chord loop, zero assets ----
+let musicNodes = null;
+export function startMusic() {
+  if (!unlocked || !ensureContext() || musicNodes) return;
+  const g = ctx.createGain();
+  g.gain.value = 0.0;
+  g.connect(master);
+  const filter = ctx.createBiquadFilter();
+  filter.type = 'lowpass'; filter.frequency.value = 900;
+  filter.connect(g);
+  // a soft major-9 pad
+  const freqs = [196, 246.94, 293.66, 392, 440];
+  const oscs = freqs.map((f, i) => {
+    const o = ctx.createOscillator();
+    o.type = i % 2 ? 'sine' : 'triangle';
+    o.frequency.value = f;
+    const og = ctx.createGain(); og.gain.value = 0.06 / freqs.length;
+    o.connect(og).connect(filter);
+    o.start();
+    // slow detune shimmer
+    const lfo = ctx.createOscillator(); lfo.frequency.value = 0.05 + i * 0.01;
+    const lg = ctx.createGain(); lg.gain.value = 1.5;
+    lfo.connect(lg).connect(o.detune); lfo.start();
+    return { o, lfo };
+  });
+  g.gain.setValueAtTime(0.0001, ctx.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.5, ctx.currentTime + 3);
+  musicNodes = { g, oscs, filter };
+}
+export function stopMusic() {
+  if (!musicNodes || !ctx) return;
+  const { g, oscs } = musicNodes;
+  try {
+    g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + 1.2);
+    oscs.forEach(({ o, lfo }) => { o.stop(ctx.currentTime + 1.4); lfo.stop(ctx.currentTime + 1.4); });
+  } catch {}
+  musicNodes = null;
+}
+export function musicPlaying() { return !!musicNodes; }
+
+export default { unlock, play, startSpin, rampSpinDown, stopSpin, setVolume, startMusic, stopMusic, musicPlaying };

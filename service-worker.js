@@ -35,6 +35,7 @@ const PRECACHE_URLS = [
   './js/core/speech.js',
   './js/core/strings.js',
   './js/core/media.js',
+  './js/core/theme.js',
   // Data
   './js/data/pose-loader.js',
   './js/data/pose-art.js',
@@ -76,6 +77,7 @@ const PRECACHE_URLS = [
   './js/ui/components/breathing.js',
   './js/ui/components/mascot.js',
   './js/ui/components/mystery-box.js',
+  './js/ui/components/certificate.js',
   // UI screens
   './js/ui/screens/splash.js',
   './js/ui/screens/home.js',
@@ -89,6 +91,8 @@ const PRECACHE_URLS = [
   './js/ui/screens/settings.js',
   './js/ui/screens/shop.js',
   './js/ui/screens/album.js',
+  './js/ui/screens/journey.js',
+  './js/ui/screens/gallery.js',
   './js/ui/screens/admin-dashboard.js',
   './js/ui/screens/admin-goals.js',
   './js/ui/screens/admin-players.js',

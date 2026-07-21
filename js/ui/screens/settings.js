@@ -5,6 +5,8 @@ import audio from '../../core/audio.js';
 import store from '../../core/store.js';
 import settings from '../../core/settings.js';
 import speech from '../../core/speech.js';
+import { THEMES } from '../../core/theme.js';
+import { LANGUAGES } from '../../core/strings.js';
 import { backHeader } from './leaderboard.js';
 
 export default {
@@ -13,7 +15,10 @@ export default {
     const view = el('div.subscreen', {}, [
       backHeader('⚙️ Settings'),
       el('div.settings-list', {}, [
-        toggleRow('sound', '🔊 Sounds', 'Fun sounds and music', settings.soundOn(), (v) => settings.setSetting('sound', v)),
+        toggleRow('sound', '🔊 Sounds', 'Fun game sounds', settings.soundOn(), (v) => settings.setSetting('sound', v)),
+        toggleRow('music', '🎵 Background Music', 'Gentle calming music', settings.getSetting('music') === true, (v) => settings.setSetting('music', v)),
+        selectRow('theme', '🎨 Theme', settings.getSetting('theme') || 'olive', THEMES.map((th) => [th.id, th.name]), (v) => settings.setSetting('theme', v)),
+        selectRow('lang', '🌐 Language', settings.getSetting('lang') || 'en', LANGUAGES.map((l) => [l.id, l.name]), (v) => { settings.setSetting('lang', v); location.reload(); }),
         toggleRow('narration', '🗣️ Read Poses Aloud', speech.available() ? 'The app speaks pose names & steps' : 'Not supported on this device', settings.narrationOn(), (v) => { settings.setSetting('narration', v); if (v) speech.speak('Hi! I will read the poses out loud for you.', { force: true }); }, !speech.available()),
         speech.available() ? voiceRow() : null,
         selectRow('descTiming', '📖 When to explain the pose', settings.getSetting('descTiming') || 'before', [

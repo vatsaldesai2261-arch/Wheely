@@ -1,5 +1,7 @@
-// Central UI string table. English only for now; structured so a second
-// language can be dropped in later without touching screen code.
+// Central UI string table with English + Hindi. Pose content stays English for
+// now; UI labels switch with the language setting.
+import { getSetting } from './settings.js';
+
 const en = {
   appName: 'kaya haus',
   productName: 'Yoga Adventure Wheel',
@@ -46,8 +48,56 @@ const en = {
   safety: 'Safety First',
 };
 
-let current = en;
+const hi = {
+  appName: 'kaya haus',
+  productName: 'योग एडवेंचर व्हील',
+  tagline: 'पहिया घुमाओ, आसन बनाओ!',
+  tapToBegin: 'शुरू करने के लिए टैप करें',
+  play: 'खेलें',
+  start: 'शुरू',
+  home: 'होम',
+  back: 'वापस',
+  next: 'आगे',
+  done: 'हो गया',
+  cancel: 'रद्द करें',
+  save: 'सहेजें',
+  close: 'बंद करें',
+  howToPlay: 'कैसे खेलें',
+  chooseMode: 'एक एडवेंचर चुनें',
+  choosePlayers: 'कौन खेल रहा है?',
+  spin: 'पहिया घुमाओ!',
+  spinning: 'घूम रहा है…',
+  getReady: 'तैयार हो जाओ',
+  holdPose: 'आसन को बनाए रखो!',
+  startPose: 'मैं तैयार हूँ — शुरू!',
+  pass: 'शाबाश! ⭐',
+  needsPractice: 'चलो अभ्यास करें 💪',
+  monitorPrompt: 'बड़े: यह कैसा रहा?',
+  celebrate: 'वाह!',
+  encourage: 'अच्छी कोशिश — जारी रखो!',
+  results: 'परिणाम',
+  playAgain: 'फिर से खेलें',
+  pause: 'रोकें',
+  resume: 'जारी रखें',
+  quit: 'खेल छोड़ें',
+  leaderboard: 'लीडरबोर्ड',
+  achievements: 'उपलब्धियाँ',
+  statistics: 'आँकड़े',
+  settings: 'सेटिंग्स',
+  admin: 'बड़ों का क्षेत्र',
+  poseLibrary: 'आसन संग्रह',
+  players: 'खिलाड़ी',
+  wheelBuilder: 'व्हील बिल्डर',
+  backup: 'बैकअप और पुनर्स्थापना',
+  funFact: 'मज़ेदार तथ्य',
+  benefits: 'लाभ',
+  safety: 'सुरक्षा पहले',
+};
 
-export function t(key) { return current[key] ?? key; }
-export function strings() { return current; }
-export default { t, strings };
+const TABLES = { en, hi };
+
+export function lang() { return getSetting('lang') === 'hi' ? 'hi' : 'en'; }
+export function t(key) { const table = TABLES[lang()] || en; return table[key] ?? en[key] ?? key; }
+export function strings() { return TABLES[lang()] || en; }
+export const LANGUAGES = [{ id: 'en', name: 'English' }, { id: 'hi', name: 'हिन्दी (Hindi)' }];
+export default { t, strings, lang, LANGUAGES };
