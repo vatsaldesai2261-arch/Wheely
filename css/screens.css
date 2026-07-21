@@ -270,6 +270,31 @@
 .rc-l { color: var(--ink); } .rc-v { font-family: var(--font-display); font-weight: 700; color: var(--forest-deep); }
 .report-note { text-align: center; margin-top: var(--sp-4); font-family: var(--font-display); color: var(--brand-olive); }
 
+/* Setup — category quick-pick + calm card */
+.section-hint { color: var(--ink-soft); font-size: 15px; margin: 0 0 var(--sp-3); }
+.group-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: var(--sp-3); margin-bottom: var(--sp-4); }
+.group-card { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: var(--sp-4) var(--sp-2); border-radius: var(--radius-lg); border: 3px solid transparent; }
+.group-card.is-selected { border-color: var(--forest); background: var(--mint-soft); }
+.group-emoji { font-size: 34px; }
+.group-name { font-family: var(--font-display); font-weight: 600; font-size: 15px; text-align: center; }
+.calm-card { border-color: transparent; }
+.calm-card.is-selected { border-color: var(--sky); }
+
+/* Team results */
+.team-scores { display: flex; align-items: center; justify-content: center; gap: var(--sp-4); flex-wrap: wrap; margin-top: var(--sp-2); }
+.team-score { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: var(--sp-3) var(--sp-4); background: var(--white); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); min-width: 130px; }
+.ts-name { font-family: var(--font-display); font-weight: 700; }
+.ts-pts { font-size: 22px; font-weight: 700; color: var(--forest); font-family: var(--font-display); }
+.ts-roster { font-size: 12px; color: var(--ink-soft); text-align: center; }
+.team-vs { font-family: var(--font-display); color: var(--ink-soft); }
+
+/* Aesthetic polish: springier cards + refined selected states */
+.mode-card, .group-card, .home-tile, .wheel-card, .player-pick { transition: transform var(--dur-fast) var(--ease-pop), box-shadow var(--dur-fast), border-color var(--dur-fast); }
+.mode-card:active, .group-card:active, .home-tile:active, .wheel-card:active, .player-pick:active { transform: scale(0.97); }
+.mode-card.is-selected { box-shadow: var(--shadow-md); }
+.home-tile:hover, .mode-card:hover, .group-card:hover { box-shadow: var(--shadow-md); }
+.glass { border-color: rgba(255,255,255,0.7); }
+
 @media print {
   body * { visibility: hidden !important; }
   .cert-print-root, .cert-print-root * { visibility: visible !important; }

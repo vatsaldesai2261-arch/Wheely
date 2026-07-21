@@ -7,7 +7,7 @@ const PREFIX = 'wheely.v1.';
 const SCHEMA_VERSION = 3;
 
 const DOMAINS = {
-  settings:     { poseTimer: 10, gameTimer: 15, sound: true, narration: false, theme: 'forest', includeAdvanced: false, tutorialSeen: false, reducedMotion: 'auto', descTiming: 'before' },
+  settings:     { poseTimer: 10, gameTimer: 15, sound: true, narration: false, theme: 'olive', includeAdvanced: false, tutorialSeen: false, reducedMotion: 'auto', descTiming: 'before' },
   players:      [],
   wheels:       [],
   progress:     {},   // pools + daily marks, keyed by player/wheel/mode
