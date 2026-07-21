@@ -77,7 +77,6 @@ export default {
       potdCard(),
       el('nav.home-tiles', { 'aria-label': 'Menu' }, [
         tile('📖', t('howToPlay'), 'tutorial'),
-        tile('😌', 'Calm Down', 'calm'),
         tile('🗺️', 'Adventure Map', 'journey'),
         tile('🏆', t('leaderboard'), 'leaderboard'),
         tile('🎖️', t('achievements'), 'achievements'),

@@ -106,6 +106,9 @@ async function renderCountdown(player) {
 }
 
 async function renderSpin({ player, segments, winnerIndex }) {
+  // If we re-mounted mid-spin (e.g. returning from pause), the live state has no
+  // segment payload — skip the animation and jump straight to the reveal.
+  if (!segments || !segments.length) { engine.afterSpin(); return; }
   clear(stageEl);
   const wrap = el('div.wheel-wrap');
   const mount = el('div.wheel-mount');

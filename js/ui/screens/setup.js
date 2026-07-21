@@ -5,6 +5,7 @@ import store from '../../core/store.js';
 import audio from '../../core/audio.js';
 import settings from '../../core/settings.js';
 import { MODE_LIST, getMode } from '../../game/modes/index.js';
+import poseLoader from '../../data/pose-loader.js';
 import engine from '../../game/engine.js';
 import { modal } from '../components/modal.js';
 import { toast } from '../components/toast.js';
@@ -32,7 +33,7 @@ export default {
       ]),
       el('section.setup-section', {}, [el('h2', {}, '1 · Choose an Adventure'), renderModes()]),
       el('section.setup-section', { id: 'players-section' }, [el('h2', {}, '2 · Who is playing?'), renderPlayers()]),
-      el('section.setup-section', { id: 'wheel-section' }, [el('h2', {}, '3 · Pick a Wheel'), renderWheels()]),
+      el('section.setup-section', { id: 'group-section' }, [el('h2', {}, '3 · Pick a Group (or a Wheel)'), el('p.section-hint', {}, 'Tap a group to practice just those poses, or pick a saved wheel below.'), renderGroups(), renderWheels()]),
       el('div.setup-start', {}, [
         el('button.btn.btn-primary.btn-xl', { id: 'start-btn', type: 'button', onClick: startGame }, '🎡 Start Playing!'),
       ]),
@@ -56,7 +57,34 @@ function renderModes() {
     if (m.id === chosenMode) btn.classList.add('is-selected');
     grid.append(btn);
   });
+  // Calm & Breathe — a relaxing activity, not a scored game.
+  grid.append(el('button.mode-card.glass.calm-card', { type: 'button', onClick: () => { audio.play('select'); router.go('calm'); } }, [
+    el('span.mode-icon', {}, '😌'),
+    el('span.mode-name', {}, 'Calm & Breathe'),
+    el('span.mode-blurb', {}, 'A cozy breathing break to relax — no scoring, just calm.'),
+  ]));
   return grid;
+}
+
+// Category quick-pick — tap a group to play only those poses.
+function renderGroups() {
+  const grid = el('div.group-grid');
+  poseLoader.getCategories().forEach((c) => {
+    const btn = el('button.group-card.glass', { type: 'button', dataset: { cat: c.id }, onClick: () => selectGroup(c, btn) }, [
+      el('span.group-emoji', {}, c.emoji),
+      el('span.group-name', {}, c.name),
+    ]);
+    grid.append(btn);
+  });
+  return grid;
+}
+
+function selectGroup(cat, btn) {
+  audio.play('select');
+  chosenWheel = { id: 'quick-' + cat.id, name: cat.name, emoji: cat.emoji, categories: [cat.id], difficulties: ['easy', 'medium', 'hard'], includeAdvanced: false };
+  document.querySelectorAll('.group-card').forEach((c) => c.classList.toggle('is-selected', c.dataset.cat === cat.id));
+  document.querySelectorAll('.wheel-card').forEach((c) => c.classList.remove('is-selected'));
+  toast(`${cat.emoji} ${cat.name} poses selected`, { icon: '🎯' });
 }
 
 async function selectMode(id, grid) {
@@ -68,7 +96,9 @@ async function selectMode(id, grid) {
     const stories = await storyMode.loadStories();
     pickStory(stories);
   }
-  document.getElementById('wheel-section').style.display = (id === 'daily' || id === 'story') ? 'none' : '';
+  // belt-test & daily use their own curated sets → group/wheel choice not needed
+  const gs = document.getElementById('group-section');
+  if (gs) gs.style.display = (id === 'daily' || id === 'story' || id === 'belt-test') ? 'none' : '';
 }
 
 function pickStory(stories) {
